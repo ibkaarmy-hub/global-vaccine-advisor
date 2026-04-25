@@ -1,0 +1,47 @@
+{
+  "$schema_version": "1.0",
+  "$generated": "2026-04-21",
+  "$source": "Country facts from stages/01-data/output/countries.json (CDC). Phrasing guided by _config/voice-rules.md.",
+  "content": {
+    "thailand": {
+      "intro": "Planning a trip to Thailand? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers, since food and water hygiene varies once you leave major hotels. Depending on your itinerary, your doctor may also discuss Japanese encephalitis, rabies, or chikungunya — mosquitoes and dog bites are the main risks behind those. See a travel doctor 4–6 weeks before departure so they can tailor the plan to your trip.",
+      "seasonal_note": "Malaria risk is limited to rural border provinces with Myanmar, Cambodia, and Malaysia. Bangkok, Chiang Mai, Phuket, and the main beach islands are not malaria zones."
+    },
+    "india": {
+      "intro": "Planning a trip to India? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is common outside controlled hotel kitchens. Depending on where you're going, your doctor may also discuss Japanese encephalitis, rabies, chikungunya, or cholera — dogs, mosquitoes, and contaminated water are the main risks behind those. Book a travel health appointment 4–6 weeks before you leave so they can match the plan to your itinerary.",
+      "seasonal_note": "Malaria is a risk across lowland India, including Mumbai and New Delhi. There's no malaria risk above about 2,000 m, which covers parts of the northern mountain states and higher areas of Kerala and Tamil Nadu."
+    },
+    "mexico": {
+      "intro": "Planning a trip to Mexico? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers to protect against food- and water-borne infections. Your doctor may also discuss rabies and chikungunya if your plans include animal contact or mosquito-heavy rural areas. See a travel doctor 4–6 weeks before departure to review your itinerary together.",
+      "seasonal_note": "Malaria is limited to parts of Campeche, Chiapas, and southern Chihuahua. Cancún, the Riviera Maya, and US border areas are not malaria zones."
+    },
+    "indonesia": {
+      "intro": "Planning a trip to Indonesia? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is the most common problem outside large resort hotels. Mosquito and dog-bite risks vary widely by island, so your doctor may also discuss Japanese encephalitis, rabies, or chikungunya depending on where you're heading. Book a travel health appointment 4–6 weeks before you go so they can match the plan to your islands and activities.",
+      "seasonal_note": "Malaria is a risk in Papua, West Papua, Maluku, East Nusa Tenggara (including Komodo and Labuan Bajo), and rural Kalimantan, Sulawesi, Sumatra, and Lombok. Bali, Jakarta, and Java resorts are not malaria zones."
+    },
+    "vietnam": {
+      "intro": "Planning a trip to Vietnam? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food and water hygiene varies once you leave your hotel. Japanese encephalitis and rabies are worth discussing with your doctor if you're heading to rural areas or staying a long time. See a travel doctor 4–6 weeks before departure to tailor the plan to your trip.",
+      "seasonal_note": "Malaria risk is limited to rural areas — Hanoi, Ho Chi Minh City, Da Nang, and Nha Trang are not malaria zones. Dengue is a year-round mosquito-bite risk across much of the country, even where a vaccine isn't advised."
+    },
+    "japan": {
+      "intro": "Planning a trip to Japan? Japan has the lowest infectious-disease risk of the destinations on this site, and CDC lists Hepatitis B as the main travel vaccine to have up to date. Hepatitis A, Japanese encephalitis, and rabies only come into the conversation for specific plans like street-food travel, rural stays, or farm and forest activities. See a travel doctor 4–6 weeks before you leave so they can decide what, if anything, you need.",
+      "seasonal_note": "There is no malaria in Japan. Dog rabies is not common, and tick-borne encephalitis is present but CDC does not currently recommend the vaccine for travel to Japan."
+    },
+    "kenya": {
+      "intro": "Planning a trip to Kenya? CDC recommends Hepatitis A, Hepatitis B, typhoid, and yellow fever vaccines for most travellers — food and water hygiene is the main concern, and yellow fever is advised across most of the country. Your doctor may also discuss rabies, cholera, meningococcal disease, and mpox depending on your itinerary and activities. Book a travel health appointment 4–6 weeks before you go so they can tailor the plan.",
+      "seasonal_note": "Malaria is a risk across Kenya below 2,500 m, including every safari park. Most travellers — including everyone doing a safari — should take malaria pills, and any fever during or within a year of travel needs medical attention."
+    },
+    "egypt": {
+      "intro": "Planning a trip to Egypt? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers, since food- and water-borne illness is the most common issue. Rabies may come up if you'll be around street dogs or doing a long stay, but it depends on your itinerary. See a travel doctor 4–6 weeks before departure so they can match the plan to your trip.",
+      "seasonal_note": "Egypt has no malaria. Schistosomiasis is a real risk in the Nile and other fresh water — swim only in chlorinated pools or the sea."
+    },
+    "peru": {
+      "intro": "Planning a trip to Peru? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is common outside controlled kitchens. Yellow fever, rabies, and chikungunya may also come up depending on whether you're heading to the Amazon lowlands or staying in the highlands and on the coast. Book a travel health appointment 4–6 weeks before you leave so your doctor can match the plan to where you're going.",
+      "seasonal_note": "Yellow fever and malaria are concerns in the Amazon regions below about 2,500 m, including Iquitos and Puerto Maldonado. They are not concerns for trips limited to Lima, Cusco, Machu Picchu, or the Pacific coast."
+    },
+    "philippines": {
+      "intro": "Planning a trip to the Philippines? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is common outside resort kitchens. Your doctor may also discuss Japanese encephalitis, rabies, chikungunya, or cholera depending on your islands, activities, and length of stay. See a travel doctor 4–6 weeks before departure so they can tailor the plan to your trip.",
+      "seasonal_note": "Malaria risk is limited to Palawan and the Mindanao island group. Manila, Cebu, and Bohol are not malaria zones."
+    }
+  }
+}

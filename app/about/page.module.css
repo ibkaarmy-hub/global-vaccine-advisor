@@ -1,0 +1,60 @@
+.main {
+  max-width: var(--max-reading);
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+@media (min-width: 768px) {
+  .main { padding: 4rem 3rem; }
+}
+
+.header { margin-bottom: 2.5rem; }
+
+.h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+}
+@media (min-width: 768px) {
+  .h1 { font-size: 2.75rem; }
+}
+
+.lead {
+  color: var(--on-surface-variant);
+  line-height: 1.6;
+  font-size: 1.125rem;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section > * + * { margin-top: 1rem; }
+
+.h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+@media (min-width: 768px) {
+  .h2 { font-size: 1.5rem; }
+}
+
+.section p {
+  line-height: 1.6;
+  color: var(--on-surface);
+}
+
+.link {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.steps {
+  padding-left: 1.5rem;
+  line-height: 1.7;
+  color: var(--on-surface);
+}
+.steps li { margin-bottom: 0.5rem; }

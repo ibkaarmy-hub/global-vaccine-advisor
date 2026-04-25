@@ -1,0 +1,501 @@
+{
+  "$schema_version": "1.0",
+  "$generated": "2026-04-22",
+  "$source": "Titles/descriptions per Stage 05 CONTEXT; country facts from stages/01-data/output/countries.json; country intros from stages/04-content/output/country-content.json; vaccine facts from stages/01-data/output/vaccines.json. Passport Health not referenced anywhere.",
+  "$audit": {
+    "max_title_chars": 60,
+    "max_description_chars": 155,
+    "every_country_has_faq_schema": true,
+    "duplicate_titles": 0,
+    "brand_names_other_than_cdc_mentioned": 0
+  },
+  "defaults": {
+    "site_name": "Travel Vaccine Advisor",
+    "base_url": "https://travelvaccineadvisor.com",
+    "og_image_default": "/assets/og-brand.png",
+    "og_image_home": "/assets/og-brand.png",
+    "og_image_alt": "Travel Vaccine Advisor — required and recommended travel vaccines by country",
+    "og_image_width": 1200,
+    "og_image_height": 630,
+    "og_image_type": "image/png",
+    "twitter_card": "summary_large_image",
+    "locale": "en_US",
+    "theme_color": "#006971",
+    "icons": {
+      "favicon_ico": "/assets/favicon.ico",
+      "favicon_16": "/assets/favicon-16.png",
+      "favicon_32": "/assets/favicon-32.png",
+      "favicon_48": "/assets/favicon-48.png",
+      "apple_touch_icon": "/assets/apple-touch-icon.png",
+      "icon_192": "/assets/icon-192.png",
+      "icon_512": "/assets/icon-512.png"
+    }
+  },
+  "pages": {
+    "home": {
+      "path": "/",
+      "title": "Travel Vaccine Advisor — Find Out Which Vaccines You Need",
+      "description": "Search any country and see which travel vaccines CDC recommends, what's required for entry, and when to book your travel clinic. Plain-English.",
+      "og_image": "/assets/og-brand.png"
+    },
+    "alerts": {
+      "path": "/alerts/",
+      "title": "Current Travel Health Alerts — Travel Vaccine Advisor",
+      "description": "Current CDC travel health notices, outbreaks, and regional alerts for destinations tracked on Travel Vaccine Advisor. Updated as CDC updates."
+    },
+    "about": {
+      "path": "/about/",
+      "title": "About Travel Vaccine Advisor",
+      "description": "Travel Vaccine Advisor is a free information site. All recommendations trace to CDC Travelers' Health. We are not a clinic and do not sell vaccines."
+    },
+    "disclaimer": {
+      "path": "/disclaimer/",
+      "title": "Medical Disclaimer — Travel Vaccine Advisor",
+      "description": "Travel Vaccine Advisor is informational only — not medical advice. Always confirm recommendations with a licensed travel health doctor before departure."
+    }
+  },
+  "countries": {
+    "thailand": {
+      "path": "/destination/thailand/",
+      "title": "Vaccines for Thailand — Required & Recommended",
+      "description": "Planning a trip to Thailand? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Thailand?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to Thailand. Depending on your itinerary, your doctor may also discuss Japanese encephalitis, rabies, or chikungunya."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Thailand?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you are arriving from a country with yellow fever transmission risk. Proof is required for travellers aged 9 months and older, including airport transits over 12 hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Thailand should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "india": {
+      "path": "/destination/india/",
+      "title": "Vaccines for India — Required & Recommended",
+      "description": "Planning a trip to India? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to India. Your doctor may also discuss Japanese encephalitis, rabies, chikungunya, or cholera depending on where you're going."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you're arriving from a country with yellow fever transmission risk. Proof is required for travellers aged 9 months and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to India should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "mexico": {
+      "path": "/destination/mexico/",
+      "title": "Vaccines for Mexico — Required & Recommended",
+      "description": "Planning a trip to Mexico? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Mexico?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to Mexico. Your doctor may also discuss rabies or chikungunya depending on your itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are any vaccines required for entry to Mexico?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No vaccines are required for general entry to Mexico. Travel vaccine decisions should be based on CDC recommendations and your itinerary, not entry rules."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Mexico should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "indonesia": {
+      "path": "/destination/indonesia/",
+      "title": "Vaccines for Indonesia — Required & Recommended",
+      "description": "Planning a trip to Indonesia? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Indonesia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to Indonesia. Depending on which islands you visit, your doctor may also discuss Japanese encephalitis, rabies, or chikungunya."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Indonesia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you are arriving from a country with yellow fever transmission risk. Proof is required for travellers aged 9 months and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Indonesia should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "vietnam": {
+      "path": "/destination/vietnam/",
+      "title": "Vaccines for Vietnam — Required & Recommended",
+      "description": "Planning a trip to Vietnam? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Vietnam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to Vietnam. Japanese encephalitis and rabies are worth discussing if you're heading to rural areas or staying long term."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are any vaccines required for entry to Vietnam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No vaccines are required for general entry to Vietnam. Travel vaccine decisions should be based on CDC recommendations and your itinerary, not entry rules."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Vietnam should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "japan": {
+      "path": "/destination/japan/",
+      "title": "Vaccines for Japan — Required & Recommended",
+      "description": "Planning a trip to Japan? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Japan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Japan has the lowest infectious-disease risk of our destinations. CDC lists Hepatitis B as the main travel vaccine. Hepatitis A, Japanese encephalitis, and rabies only come up for specific plans."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are any vaccines required for entry to Japan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No vaccines are required for general entry to Japan. Travel vaccine decisions should be based on CDC recommendations and your itinerary, not entry rules."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Japan should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "kenya": {
+      "path": "/destination/kenya/",
+      "title": "Vaccines for Kenya — Required & Recommended",
+      "description": "Planning a trip to Kenya? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Kenya?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, typhoid, and yellow fever for most travellers to Kenya. Your doctor may also discuss rabies, cholera, meningococcal disease, and mpox depending on your itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Kenya?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is recommended for most travellers to Kenya and is required for travellers arriving from a country with yellow fever transmission risk, for those aged 1 year and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Kenya should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Yellow fever must be given at least 10 days before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "egypt": {
+      "path": "/destination/egypt/",
+      "title": "Vaccines for Egypt — Required & Recommended",
+      "description": "Planning a trip to Egypt? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Egypt?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to Egypt. Rabies may come up if you'll be around street dogs or doing a long stay."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Egypt?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you are arriving from a country with yellow fever transmission risk. Proof is required for travellers aged 9 months and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Egypt should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "peru": {
+      "path": "/destination/peru/",
+      "title": "Vaccines for Peru — Required & Recommended",
+      "description": "Planning a trip to Peru? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Peru?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to Peru. Yellow fever, rabies, and chikungunya may also come up if you're heading to the Amazon lowlands."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Peru?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever is not required for entry to Peru, but CDC recommends it for travellers visiting Amazon regions below about 2,500 metres, including Iquitos and Puerto Maldonado."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Peru should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Yellow fever must be given at least 10 days before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "philippines": {
+      "path": "/destination/philippines/",
+      "title": "Vaccines for the Philippines — Required & Recommended",
+      "description": "Planning a trip to the Philippines? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for the Philippines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to the Philippines. Your doctor may also discuss Japanese encephalitis, rabies, chikungunya, or cholera depending on your islands and activities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for the Philippines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you are arriving from a country with yellow fever transmission risk. Proof is required for travellers aged 9 months and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to the Philippines should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "vaccines": {
+    "hepatitis-a": {
+      "path": "/vaccine/hepatitis-a/",
+      "title": "Hepatitis A Vaccine for Travel — Who Needs It",
+      "description": "Hepatitis A is a liver infection spread through contaminated food and water. CDC recommends the vaccine for most travellers to lower-income regions."
+    },
+    "hepatitis-b": {
+      "path": "/vaccine/hepatitis-b/",
+      "title": "Hepatitis B Vaccine for Travel — Who Needs It",
+      "description": "Hepatitis B is spread through blood, sex, and contaminated medical or cosmetic equipment. CDC recommends the vaccine for most travellers on longer trips."
+    },
+    "typhoid": {
+      "path": "/vaccine/typhoid/",
+      "title": "Typhoid Vaccine for Travel — Who Needs It",
+      "description": "Typhoid is a bacterial infection from contaminated food and water. CDC recommends the vaccine for travellers to most low- and middle-income countries."
+    },
+    "japanese-encephalitis": {
+      "path": "/vaccine/japanese-encephalitis/",
+      "title": "Japanese Encephalitis Vaccine for Travel — Who Needs It",
+      "description": "Japanese encephalitis is a mosquito-borne brain infection in rural Asia. CDC advises the vaccine for longer rural stays during rice-paddy season."
+    },
+    "yellow-fever": {
+      "path": "/vaccine/yellow-fever/",
+      "title": "Yellow Fever Vaccine for Travel — Who Needs It",
+      "description": "Yellow fever is a mosquito-borne virus in parts of Africa and South America. Proof of vaccination is required to enter many countries from a risk area."
+    },
+    "rabies": {
+      "path": "/vaccine/rabies/",
+      "title": "Rabies Vaccine for Travel — Who Needs It",
+      "description": "Rabies is a fatal viral disease from animal bites, mainly dogs, bats, and monkeys. Pre-travel vaccination simplifies treatment if you're bitten abroad."
+    },
+    "cholera": {
+      "path": "/vaccine/cholera/",
+      "title": "Cholera Vaccine for Travel — Who Needs It",
+      "description": "Cholera is a bacterial gut infection spread through contaminated water. CDC advises the vaccine for aid workers or travel to areas with an active outbreak."
+    },
+    "chikungunya": {
+      "path": "/vaccine/chikungunya/",
+      "title": "Chikungunya Vaccine for Travel — Who Needs It",
+      "description": "Chikungunya is a mosquito-borne virus causing fever and severe joint pain. CDC advises the vaccine during outbreaks or extended stays in risk areas."
+    },
+    "meningococcal": {
+      "path": "/vaccine/meningococcal/",
+      "title": "Meningococcal Vaccine for Travel — Who Needs It",
+      "description": "Meningococcal disease spreads through close contact and can cause meningitis. Required for Hajj or Umrah and advised for the African meningitis belt."
+    },
+    "mpox": {
+      "path": "/vaccine/mpox/",
+      "title": "Mpox Vaccine for Travel — Who Needs It",
+      "description": "Mpox is a viral illness spread through close skin-to-skin contact. CDC advises the vaccine for travellers anticipating new sexual partners in risk areas."
+    },
+    "tick-borne-encephalitis": {
+      "path": "/vaccine/tick-borne-encephalitis/",
+      "title": "Tick-borne Encephalitis Vaccine for Travel",
+      "description": "Tick-borne encephalitis is a brain infection from tick bites in parts of Europe and northern Asia. Worth considering for hikers and forest travellers."
+    },
+    "mmr": {
+      "path": "/vaccine/mmr/",
+      "title": "MMR Vaccine for Travel — Who Needs It",
+      "description": "MMR protects against measles, mumps, and rubella. CDC advises every international traveller to be fully vaccinated against measles before any trip."
+    },
+    "dtap-tdap": {
+      "path": "/vaccine/dtap-tdap/",
+      "title": "Tdap Vaccine for Travel — Who Needs It",
+      "description": "Tdap protects against tetanus, diphtheria, and pertussis. Diphtheria is now mainly seen in travellers, so a current booster is relevant before a trip."
+    },
+    "polio": {
+      "path": "/vaccine/polio/",
+      "title": "Polio Vaccine for Travel — Who Needs It",
+      "description": "Polio is a virus that can cause paralysis, spread through contaminated food and water. Adults travelling to at-risk countries may need an IPV booster."
+    },
+    "influenza": {
+      "path": "/vaccine/influenza/",
+      "title": "Flu (Influenza) Vaccine for Travel — Who Needs It",
+      "description": "Flu circulates year-round in the tropics and in opposite seasons in the southern hemisphere. A recent shot is advised for most international travellers."
+    },
+    "chickenpox": {
+      "path": "/vaccine/chickenpox/",
+      "title": "Chickenpox (Varicella) Vaccine for Travel",
+      "description": "Chickenpox is a highly contagious viral illness. CDC lists international travellers as a priority group for vaccination if not already immune."
+    },
+    "shingles": {
+      "path": "/vaccine/shingles/",
+      "title": "Shingles Vaccine for Travel — Who Needs It",
+      "description": "Shingles is a painful rash from reactivation of the chickenpox virus. Recommended for adults 50 and over as routine care, not specifically for travel."
+    },
+    "covid-19": {
+      "path": "/vaccine/covid-19/",
+      "title": "COVID-19 Vaccine for Travel — Who Needs It",
+      "description": "COVID-19 is a respiratory illness from SARS-CoV-2. CDC advises all eligible travellers to be up to date on COVID-19 vaccination before any trip."
+    }
+  }
+}

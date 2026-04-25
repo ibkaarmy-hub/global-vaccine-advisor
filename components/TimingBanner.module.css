@@ -1,0 +1,14 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-radius: var(--radius-lg);
+  background: var(--alert-amber-bg);
+  color: var(--alert-amber-ink);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+@media (min-width: 768px) {
+  .wrap { padding: 1.25rem; font-size: 1rem; }
+}

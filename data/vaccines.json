@@ -1,0 +1,172 @@
+{
+  "$schema_version": "1.1",
+  "$generated": "2026-04-21",
+  "$source": "CDC Yellow Book 2026 (primary) + CDC Travelers' Health destination pages. See stages/01-data/references/yellow-book-raw.md and cdc-raw.md.",
+  "$tag_set": ["Mosquito", "Food & Water", "Airborne", "Blood & Body Fluids", "Animal Contact"],
+  "$url_policy": "Yellow Book chapter URL used where one exists; canonical CDC disease/vaccine page used otherwise. All URLs verified 2026-04-21.",
+  "$safety_reference_url": "https://www.cdc.gov/vaccines/basics/possible-side-effects.html",
+  "vaccines": [
+    {
+      "id": "hepatitis-a",
+      "name": "Hepatitis A",
+      "transmission": "Food & Water",
+      "is_routine": false,
+      "brief_description": "A contagious liver infection spread through contaminated food and water. Most travellers to regions with less reliable sanitation should get this vaccine.",
+      "timing_note": "Two doses at 0 and 6–12 months. Over 90% of people develop protective antibodies within a month of the first dose, so one dose is usually enough for the trip itself. No booster needed after the full series.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html"
+    },
+    {
+      "id": "hepatitis-b",
+      "name": "Hepatitis B",
+      "transmission": "Blood & Body Fluids",
+      "is_routine": false,
+      "brief_description": "A liver infection spread through blood, sexual contact, and contaminated medical or cosmetic equipment. Recommended for most travellers, especially those with longer stays or possible medical exposure.",
+      "timing_note": "The full series is three doses over 6 months. An accelerated 4-dose schedule (0, 7, 21 days, 12 months) is available when combined with Hepatitis A. Partial protection starts after the first dose.",
+      "cdc_url": "https://www.cdc.gov/hepatitis-b/index.html"
+    },
+    {
+      "id": "typhoid",
+      "name": "Typhoid",
+      "transmission": "Food & Water",
+      "is_routine": false,
+      "brief_description": "A bacterial infection spread through food and water contaminated with the faeces of an infected person. Risk is higher in rural areas and when eating with locals.",
+      "timing_note": "The injected vaccine is a single dose at least 2 weeks before travel and lasts 2 years. The oral version is four capsules taken every other day, completed at least a week before travel, and lasts 5 years. Neither is 100% effective — safe food and water habits still matter.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html"
+    },
+    {
+      "id": "japanese-encephalitis",
+      "name": "Japanese Encephalitis",
+      "transmission": "Mosquito",
+      "is_routine": false,
+      "brief_description": "A mosquito-borne virus affecting the brain, found in rural parts of Asia. Risk is highest during rice-paddy season in rural areas.",
+      "timing_note": "Two doses 28 days apart. Adults 18–65 can use an accelerated 0 and 7 days schedule. Complete the second dose at least a week before travel.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html"
+    },
+    {
+      "id": "yellow-fever",
+      "name": "Yellow Fever",
+      "transmission": "Mosquito",
+      "is_routine": false,
+      "brief_description": "A serious mosquito-borne virus found in parts of Africa and South America. Proof of vaccination is required for entry to many countries if arriving from a risk area.",
+      "timing_note": "One dose at least 10 days before travel. A single dose provides lifelong protection and the International Certificate of Vaccination is valid for life.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+    },
+    {
+      "id": "rabies",
+      "name": "Rabies",
+      "transmission": "Animal Contact",
+      "is_routine": false,
+      "brief_description": "A fatal viral disease spread through the bite or scratch of an infected animal — most often dogs, bats, or monkeys. Pre-travel vaccination simplifies treatment after exposure.",
+      "timing_note": "Two pre-exposure doses 7 days apart. Immunity peaks 2–4 weeks after the second dose. After any animal exposure you still need further shots, but pre-travel vaccination removes the need for rabies immune globulin, which is hard to find in many countries.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rabies.html"
+    },
+    {
+      "id": "cholera",
+      "name": "Cholera",
+      "transmission": "Food & Water",
+      "is_routine": false,
+      "brief_description": "A bacterial infection spread through contaminated water, causing severe diarrhoea. Rare in travellers but worth considering for aid workers or travel to areas with active outbreaks.",
+      "timing_note": "A single oral dose at least 10 days before travel. Not routinely recommended for most US travellers — careful food, water, and handwashing habits are the main protection.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/cholera.html"
+    },
+    {
+      "id": "chikungunya",
+      "name": "Chikungunya",
+      "transmission": "Mosquito",
+      "is_routine": false,
+      "brief_description": "A mosquito-borne virus causing sudden fever and severe joint pain. Symptoms usually resolve in 7–10 days but can linger for months.",
+      "timing_note": "A single dose for people 12 and older. Recommended if travelling to an area with an active outbreak, or if planning an extended stay (6+ months) in a high-risk region.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/chikungunya.html"
+    },
+    {
+      "id": "meningococcal",
+      "name": "Meningococcal",
+      "transmission": "Airborne",
+      "is_routine": false,
+      "brief_description": "A bacterial infection spread through close contact that can cause meningitis. Required for pilgrims to Saudi Arabia for Hajj or Umrah, and advised for parts of the African meningitis belt during the dry season.",
+      "timing_note": "A single dose 7–10 days before travel. A booster is advised every 3–5 years for those who remain at risk.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/meningococcal-disease.html"
+    },
+    {
+      "id": "mpox",
+      "name": "Mpox",
+      "transmission": "Blood & Body Fluids",
+      "is_routine": false,
+      "brief_description": "A viral illness spread through close skin-to-skin contact, often during sex. CDC advises vaccination for travellers anticipating new sexual partners or exposure at large public events in at-risk regions.",
+      "timing_note": "Two doses 4 weeks apart (JYNNEOS). Best protection is about 2 weeks after the second dose — ideally start 6 weeks before travel. Evidence suggests protection lasts at least 7 years; no booster needed.",
+      "cdc_url": "https://www.cdc.gov/monkeypox/vaccines/"
+    },
+    {
+      "id": "tick-borne-encephalitis",
+      "name": "Tick-borne Encephalitis",
+      "transmission": "Animal Contact",
+      "is_routine": false,
+      "brief_description": "A viral brain infection spread by tick bites in parts of Europe and northern Asia. Worth considering for outdoor travellers planning hiking, camping, or forest activities in affected regions.",
+      "timing_note": "Three-dose series over 5–12 months. Protection lasts at least 10 years after the primary series with a booster. Not useful for last-minute travel.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tick-borne-encephalitis.html"
+    },
+    {
+      "id": "mmr",
+      "name": "Measles-Mumps-Rubella (MMR)",
+      "transmission": "Airborne",
+      "is_routine": true,
+      "brief_description": "A combined vaccine protecting against three contagious viral illnesses. CDC advises every international traveller to be fully vaccinated against measles before any trip.",
+      "timing_note": "Two doses at least 28 days apart, ideally completed at least 2 weeks before travel. Adults born before 1957 or with documented immunity are already considered protected.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html"
+    },
+    {
+      "id": "dtap-tdap",
+      "name": "Diphtheria-Tetanus-Pertussis",
+      "transmission": "Airborne",
+      "is_routine": true,
+      "brief_description": "A combined vaccine protecting against tetanus, diphtheria, and pertussis (whooping cough). Diphtheria is now mainly seen in international travellers, so a current Tdap booster is especially relevant before a trip.",
+      "timing_note": "A single Tdap or Td booster, effective within days. Adults should have a booster every 10 years — or after 5 years if you've had a dirty wound or burn. Pregnant travellers should receive Tdap during every pregnancy.",
+      "cdc_url": "https://www.cdc.gov/vaccines/hcp/current-vis/tdap.html"
+    },
+    {
+      "id": "polio",
+      "name": "Polio",
+      "transmission": "Food & Water",
+      "is_routine": true,
+      "brief_description": "A virus spread through contaminated food and water that can cause paralysis. Adults travelling to countries with ongoing polio risk may need a one-time booster.",
+      "timing_note": "A single lifetime adult IPV booster for travellers to at-risk countries. For some destinations, the booster must be received 4 weeks to 12 months before departure and documented on an International Certificate of Vaccination.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/poliomyelitis.html"
+    },
+    {
+      "id": "influenza",
+      "name": "Flu (Influenza)",
+      "transmission": "Airborne",
+      "is_routine": true,
+      "brief_description": "A seasonal respiratory virus. Flu circulates year-round in tropical regions and during opposite seasons in the southern hemisphere, so a recent shot is advised for most international travellers.",
+      "timing_note": "An annual dose at least 2 weeks before travel to areas with active flu circulation. A single current-season vaccine covers travel to either hemisphere.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/influenza.html"
+    },
+    {
+      "id": "chickenpox",
+      "name": "Chickenpox (Varicella)",
+      "transmission": "Airborne",
+      "is_routine": true,
+      "brief_description": "A highly contagious viral illness. CDC lists international travellers as a priority group for vaccination if not already immune. Most people vaccinated as children or who've had chickenpox are protected for life.",
+      "timing_note": "Two doses at least 28 days apart for adolescents and adults without immunity. Children get doses at 12–15 months and 4–6 years. Two documented doses protect most people for life.",
+      "cdc_url": "https://www.cdc.gov/chickenpox/vaccines/index.html"
+    },
+    {
+      "id": "shingles",
+      "name": "Shingles",
+      "transmission": "Airborne",
+      "is_routine": true,
+      "brief_description": "A painful rash caused by reactivation of the chickenpox virus. Recommended for adults 50 and over as part of routine care, not specifically for travel.",
+      "timing_note": "Two doses of Shingrix 2–6 months apart. Protection stays high for at least 7 years. Adults 19+ with weakened immune systems can use a faster schedule (2nd dose 1–2 months after).",
+      "cdc_url": "https://www.cdc.gov/shingles/vaccines/"
+    },
+    {
+      "id": "covid-19",
+      "name": "COVID-19",
+      "transmission": "Airborne",
+      "is_routine": true,
+      "brief_description": "A respiratory illness caused by the SARS-CoV-2 virus. CDC advises all eligible travellers to be up to date with their COVID-19 vaccinations.",
+      "timing_note": "Follow the current CDC schedule for your age and risk group. If you had COVID-19 recently, you may delay vaccination for up to 3 months from the onset of infection.",
+      "cdc_url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/covid-19.html"
+    }
+  ]
+}

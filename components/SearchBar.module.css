@@ -1,0 +1,107 @@
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.inputWrap {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+.icon {
+  color: #94a3b8;
+  margin-left: 0.5rem;
+}
+
+.input {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 1rem 0.75rem;
+  border: none;
+  background: transparent;
+  color: var(--on-background);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.input::placeholder { color: #cbd5e1; }
+.input:focus { outline: none; }
+
+@media (min-width: 768px) {
+  .input {
+    padding: 1.25rem 0.75rem;
+    font-size: 1.25rem;
+  }
+}
+
+.submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--primary-medium);
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+  font-weight: 700;
+  transition: opacity 200ms var(--ease-out-quart);
+}
+.submit:hover { opacity: 0.9; }
+
+@media (min-width: 768px) {
+  .submit { padding: 1rem 2rem; }
+}
+
+.submitLabel { display: none; }
+@media (min-width: 768px) {
+  .submitLabel { display: inline; }
+}
+
+.listbox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 0.5rem);
+  background: #ffffff;
+  color: var(--on-surface);
+  border-radius: var(--radius-lg);
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.35);
+  z-index: 40;
+  max-height: 320px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0.75rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  min-height: 44px;
+}
+.option:hover,
+.optionActive {
+  background: var(--surface-container-low);
+}
+
+.optionName { font-weight: 600; }
+.optionRegion {
+  color: var(--on-surface-variant);
+  font-size: 0.875rem;
+}
+
+/* Variant: compact (for in-page use) */
+.compact .inputWrap {
+  box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--outline-variant);
+}
