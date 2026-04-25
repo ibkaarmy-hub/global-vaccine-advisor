@@ -130,6 +130,13 @@ const COUNTRY_FLAG: Record<string, string> = {
   philippines: "🇵🇭",
   japan: "🇯🇵",
   turkey: "🇹🇷",
+  brazil: "🇧🇷",
+  morocco: "🇲🇦",
+  uae: "🇦🇪",
+  tanzania: "🇹🇿",
+  "south-africa": "🇿🇦",
+  "costa-rica": "🇨🇷",
+  "sri-lanka": "🇱🇰",
 };
 
 export function countryFlag(id: string): string {

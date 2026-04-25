@@ -370,6 +370,251 @@
         ]
       }
     },
+    "brazil": {
+      "path": "/destination/brazil/",
+      "title": "Vaccines for Brazil — Required & Recommended",
+      "description": "Planning a trip to Brazil? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Brazil?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, typhoid, and yellow fever for most travellers to Brazil. Your doctor may also discuss rabies and chikungunya depending on whether you're heading to the Amazon or staying on the coast."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Brazil?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is recommended by CDC for most travellers to Brazil and is required for entry from a country with yellow fever transmission risk for travellers aged 9 months and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Brazil should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Yellow fever must be given at least 10 days before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "morocco": {
+      "path": "/destination/morocco/",
+      "title": "Vaccines for Morocco — Required & Recommended",
+      "description": "Planning a trip to Morocco? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Morocco?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to Morocco. Rabies may come up if you'll be around stray dogs or doing rural travel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Morocco?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you are arriving from a country with yellow fever transmission risk. Proof is required for travellers aged 1 year and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Morocco should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "uae": {
+      "path": "/destination/uae/",
+      "title": "Vaccines for the UAE — Required & Recommended",
+      "description": "Planning a trip to the UAE? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for the UAE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A and Hepatitis B for most travellers to the UAE. Typhoid and rabies depend on your itinerary. Travellers continuing to Saudi Arabia for Hajj or Umrah should also discuss meningococcal."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for the UAE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you are arriving from a country with yellow fever transmission risk. Proof is required for travellers aged 1 year and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to the UAE should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "tanzania": {
+      "path": "/destination/tanzania/",
+      "title": "Vaccines for Tanzania — Required & Recommended",
+      "description": "Planning a trip to Tanzania? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Tanzania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, typhoid, and yellow fever for most travellers to Tanzania. Your doctor may also discuss rabies, cholera, and meningococcal depending on your itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Tanzania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever is recommended by CDC for most travellers to Tanzania and is required for entry from any country with yellow fever risk, including airport transits over 12 hours, for travellers aged 1 year and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Tanzania should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Yellow fever must be given at least 10 days before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "south-africa": {
+      "path": "/destination/south-africa/",
+      "title": "Vaccines for South Africa — Required & Recommended",
+      "description": "Planning a trip to South Africa? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for South Africa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to South Africa. Rabies may come up if you'll be around animals or doing rural travel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for South Africa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you are arriving from a country with yellow fever risk, including airport transits over 12 hours. Proof is required for travellers aged 1 year and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to South Africa should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "costa-rica": {
+      "path": "/destination/costa-rica/",
+      "title": "Vaccines for Costa Rica — Required & Recommended",
+      "description": "Planning a trip to Costa Rica? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Costa Rica?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to Costa Rica. Rabies may come up if you'll be doing rural or wildlife-heavy travel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Costa Rica?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you are arriving from a country with yellow fever transmission risk. Proof is required for travellers aged 9 months and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Costa Rica should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
+    "sri-lanka": {
+      "path": "/destination/sri-lanka/",
+      "title": "Vaccines for Sri Lanka — Required & Recommended",
+      "description": "Planning a trip to Sri Lanka? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Sri Lanka?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to Sri Lanka. Your doctor may also discuss Japanese encephalitis, rabies, or chikungunya depending on your itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Sri Lanka?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you are arriving from a country with yellow fever transmission risk. Proof is required for travellers aged 9 months and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Sri Lanka should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
     "turkey": {
       "path": "/destination/turkey/",
       "title": "Vaccines for Turkey — Required & Recommended",

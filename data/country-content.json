@@ -46,6 +46,34 @@
     "turkey": {
       "intro": "Planning a trip to Turkey? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food and water hygiene varies once you leave large hotels and resorts. Rabies may come up if you'll be around stray dogs or doing rural travel — Turkey has working populations of street dogs in many cities. See a travel doctor 4–6 weeks before departure so they can match the plan to your trip.",
       "seasonal_note": "Turkey has no malaria. West Nile virus and tick-borne diseases are present in summer in some regions; mosquito and tick precautions are sensible if you're spending time outdoors between May and October."
+    },
+    "brazil": {
+      "intro": "Planning a trip to Brazil? CDC recommends Hepatitis A, Hepatitis B, typhoid, and yellow fever vaccines for most travellers — yellow fever is present across much of the country, including some areas around Rio de Janeiro and São Paulo states. Your doctor may also discuss rabies and chikungunya depending on whether you're heading to the Amazon or staying on the eastern coast. Book a travel health appointment 4–6 weeks before you go so they can tailor the plan to your route.",
+      "seasonal_note": "Malaria is a concern in the Amazon Basin states, including Manaus and the rainforest tour destinations. Rio, São Paulo, the eastern beaches, and Iguaçu Falls are not malaria zones."
+    },
+    "morocco": {
+      "intro": "Planning a trip to Morocco? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is the main concern outside large hotels and riads. Rabies may come up if you'll be around stray dogs or doing rural travel. See a travel doctor 4–6 weeks before departure so they can match the plan to your trip.",
+      "seasonal_note": "Morocco has no malaria. Standard food, water, and animal-bite precautions are the main day-to-day concerns."
+    },
+    "uae": {
+      "intro": "Planning a trip to the UAE? CDC recommends Hepatitis A and Hepatitis B vaccines for most travellers, with typhoid and rabies depending on your itinerary, length of stay, and whether you'll spend time outside the major hotels. If you're continuing on to Saudi Arabia for Hajj or Umrah, your doctor will also discuss meningococcal vaccination. Book a travel health appointment 4–6 weeks before you leave.",
+      "seasonal_note": "The UAE has no malaria. Modern medical infrastructure is excellent, but standard food, water, and sun precautions still matter."
+    },
+    "tanzania": {
+      "intro": "Planning a trip to Tanzania? CDC recommends Hepatitis A, Hepatitis B, typhoid, and yellow fever vaccines for most travellers — yellow fever is recommended across the country and required for entry from yellow-fever risk areas. Your doctor may also discuss rabies, cholera, and meningococcal disease depending on your itinerary, especially for safari, Kilimanjaro, or extended stays. Book a travel health appointment 4–6 weeks before you go so they can tailor the plan.",
+      "seasonal_note": "Malaria is a risk throughout the country below 1,800 metres, including every major safari park and Zanzibar. Most travellers — including everyone doing a safari — should take malaria pills."
+    },
+    "south-africa": {
+      "intro": "Planning a trip to South Africa? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers, since food- and water-borne illness is the most common issue outside major hotels. Rabies may come up if you'll be around animals or doing rural travel. Book a travel health appointment 4–6 weeks before departure so your doctor can tailor the plan to your itinerary.",
+      "seasonal_note": "Malaria risk is limited to Kruger National Park and the lowveld of Limpopo, Mpumalanga, and northeastern KwaZulu-Natal — mainly October to May. Cape Town, the Garden Route, and Johannesburg are not malaria zones."
+    },
+    "costa-rica": {
+      "intro": "Planning a trip to Costa Rica? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is common outside major hotels. Rabies may come up if you'll be doing rural or wildlife-heavy travel. See a travel doctor 4–6 weeks before departure so they can match the plan to your itinerary.",
+      "seasonal_note": "Malaria risk is limited to a few remote eastern lowland areas. San José, Arenal, Manuel Antonio, Monteverde, and the Guanacaste beaches are not malaria zones. Dengue circulates year-round across most of the country."
+    },
+    "sri-lanka": {
+      "intro": "Planning a trip to Sri Lanka? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is common outside large hotels. Your doctor may also discuss Japanese encephalitis, rabies, or chikungunya depending on whether you're heading to rural areas, doing a long stay, or visiting during a known outbreak. Book a travel health appointment 4–6 weeks before you leave.",
+      "seasonal_note": "Sri Lanka has no malaria — WHO certified the country malaria-free in 2016. Dengue is significant year-round, especially during and after monsoon seasons."
     }
   }
 }

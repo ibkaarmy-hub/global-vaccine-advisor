@@ -327,6 +327,174 @@
       "health_notes": "Standard food and water precautions apply, especially outside large hotels. Stray dog populations are common in many cities, which is the main reason rabies may come up. West Nile virus and tick-borne diseases are present in summer; sensible mosquito and tick precautions matter if you spend time outdoors May to October.",
       "current_alerts": [],
       "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/turkey"
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "region": "South America",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older."
+        }
+      ],
+      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid", "yellow-fever"],
+      "recommended_some_vaccines": ["rabies", "chikungunya"],
+      "malaria_note": "Risk in the Amazon Basin states (Acre, Amapá, Amazonas, Maranhão, Mato Grosso, Pará, Rondônia, Roraima, and Tocantins). No risk in Rio de Janeiro, São Paulo, the eastern coastal beaches, or Iguaçu Falls.",
+      "entry_requirements": {
+        "passport_validity_months": 6,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Standard tropical travel precautions apply. Dengue, Zika, and chikungunya circulate year-round across much of Brazil; mosquito-bite prevention matters even where vaccines aren't advised.",
+      "current_alerts": [],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil"
+    },
+    {
+      "id": "morocco",
+      "name": "Morocco",
+      "region": "North Africa",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 1 year and older."
+        }
+      ],
+      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
+      "recommended_some_vaccines": ["rabies"],
+      "malaria_note": "No active malaria transmission in Morocco.",
+      "entry_requirements": {
+        "passport_validity_months": 6,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Standard food and water precautions apply, especially outside large hotels and riads. Stray dogs and animals are common in cities and rural areas, which is the main reason rabies may come up.",
+      "current_alerts": [],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/morocco"
+    },
+    {
+      "id": "uae",
+      "name": "United Arab Emirates",
+      "region": "Middle East",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 1 year and older."
+        }
+      ],
+      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b"],
+      "recommended_some_vaccines": ["typhoid", "rabies"],
+      "malaria_note": "No active malaria transmission in the UAE.",
+      "entry_requirements": {
+        "passport_validity_months": 6,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Modern medical infrastructure; standard food and water precautions are sensible outside major hotels. Travellers continuing on to Saudi Arabia for Hajj or Umrah should also discuss meningococcal vaccination with their doctor.",
+      "current_alerts": [],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-arab-emirates"
+    },
+    {
+      "id": "tanzania",
+      "name": "Tanzania",
+      "region": "East Africa",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission, including airport transits over 12 hours. Proof required for travellers aged 1 year and older."
+        }
+      ],
+      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid", "yellow-fever"],
+      "recommended_some_vaccines": ["rabies", "cholera", "meningococcal"],
+      "malaria_note": "Risk throughout the country below 1,800 metres, including all major safari parks (Serengeti, Ngorongoro, Tarangire, Lake Manyara) and Zanzibar. Most travellers should take malaria pills, and any fever during or within a year of travel needs medical attention.",
+      "entry_requirements": {
+        "passport_validity_months": 6,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Standard food and water precautions apply. Schistosomiasis is a risk in fresh water — avoid swimming in lakes and rivers including Lake Victoria.",
+      "current_alerts": [],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania"
+    },
+    {
+      "id": "south-africa",
+      "name": "South Africa",
+      "region": "Southern Africa",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission, including airport transits over 12 hours. Proof required for travellers aged 1 year and older."
+        }
+      ],
+      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
+      "recommended_some_vaccines": ["rabies"],
+      "malaria_note": "Risk in low-altitude areas of Limpopo and Mpumalanga (including Kruger National Park) and northeastern KwaZulu-Natal, mainly from October to May. No risk in Cape Town, the Garden Route, the Western Cape, or Johannesburg.",
+      "entry_requirements": {
+        "passport_validity_months": 6,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Standard food and water precautions apply. Tuberculosis and HIV are common in the general population — relevant context if you may need medical or dental care during your stay.",
+      "current_alerts": [],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa"
+    },
+    {
+      "id": "costa-rica",
+      "name": "Costa Rica",
+      "region": "Central America",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older."
+        }
+      ],
+      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
+      "recommended_some_vaccines": ["rabies"],
+      "malaria_note": "Limited risk in some remote eastern lowland areas; most tourist itineraries (San José, Arenal, Manuel Antonio, Monteverde, Guanacaste beaches) do not need malaria pills.",
+      "entry_requirements": {
+        "passport_validity_months": 6,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Standard tropical travel precautions apply. Dengue circulates year-round across most of the country; mosquito-bite prevention is the main protection against the risks that aren't vaccine-preventable.",
+      "current_alerts": [],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica"
+    },
+    {
+      "id": "sri-lanka",
+      "name": "Sri Lanka",
+      "region": "South Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older."
+        }
+      ],
+      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
+      "recommended_some_vaccines": ["japanese-encephalitis", "rabies", "chikungunya"],
+      "malaria_note": "No active malaria transmission in Sri Lanka. WHO certified the country malaria-free in 2016.",
+      "entry_requirements": {
+        "passport_validity_months": 6,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Standard food and water precautions apply outside large hotels. Dengue is significant year-round, particularly during and after monsoon seasons; mosquito-bite prevention matters.",
+      "current_alerts": [],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sri-lanka"
     }
   ]
 }
