@@ -74,6 +74,7 @@ export default function SearchBar({
         </span>
         <input
           type="text"
+          role="combobox"
           className={styles.input}
           placeholder={placeholder}
           aria-label="Destination country"
@@ -93,7 +94,7 @@ export default function SearchBar({
           aria-expanded={showList}
           aria-controls="search-listbox"
         />
-        <button type="submit" className={styles.submit}>
+        <button type="submit" className={styles.submit} aria-label="Search">
           <span className={styles.submitLabel}>Search</span>
           <span aria-hidden="true" className="material-symbols-outlined">
             arrow_forward
