@@ -139,10 +139,11 @@ export default function HomePage() {
               A monthly email: new outbreak alerts, one featured destination, one
               myth-busting tip. No spam.
             </p>
-            <form className={styles.form}>
+            <form className={styles.form} aria-label="Subscribe to travel health updates">
               <input
                 type="email"
                 placeholder="you@email.com"
+                aria-label="Email address"
                 className={styles.formInput}
                 required
               />

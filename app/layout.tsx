@@ -42,13 +42,19 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        {/* Public Sans — only the weights we actually use (400/600/700/800).
+            Was 7 weights → 4. Cuts the body-font payload roughly in half. */}
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&display=swap"
         />
+        {/* Material Symbols — explicit icon_names list keeps the icon-font
+            payload to a small subset (~10KB) instead of the full variable
+            font (~200KB+). When adding new icons in components, append the
+            name here too. */}
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back,arrow_forward,bloodtype,campaign,check_circle,chevron_right,gavel,groups,health_and_safety,info,local_hospital,location_on,mark_email_unread,masks,menu_book,open_in_new,pest_control,pets,public,restaurant,schedule,verified,warning&display=swap"
         />
       </head>
       <body>{children}</body>

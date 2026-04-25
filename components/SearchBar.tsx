@@ -76,6 +76,7 @@ export default function SearchBar({
           type="text"
           className={styles.input}
           placeholder={placeholder}
+          aria-label="Destination country"
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
