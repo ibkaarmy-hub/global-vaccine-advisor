@@ -129,6 +129,7 @@ const COUNTRY_FLAG: Record<string, string> = {
   peru: "🇵🇪",
   philippines: "🇵🇭",
   japan: "🇯🇵",
+  turkey: "🇹🇷",
 };
 
 export function countryFlag(id: string): string {

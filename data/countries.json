@@ -303,6 +303,30 @@
       "health_notes": "Dog rabies is common across the country. The Philippines FDA has warned of counterfeit Speeda rabies vaccine and Equirab antiserum in circulation — get rabies shots only at reputable hospitals if exposed. Cholera is presumed present; stick to safe food and water.",
       "current_alerts": [],
       "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/philippines"
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "region": "Western Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 1 year and older."
+        }
+      ],
+      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
+      "recommended_some_vaccines": ["rabies"],
+      "malaria_note": "No active malaria transmission in Turkey. Historic risk in southeastern provinces is no longer considered significant by CDC.",
+      "entry_requirements": {
+        "passport_validity_months": 6,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Standard food and water precautions apply, especially outside large hotels. Stray dog populations are common in many cities, which is the main reason rabies may come up. West Nile virus and tick-borne diseases are present in summer; sensible mosquito and tick precautions matter if you spend time outdoors May to October.",
+      "current_alerts": [],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/turkey"
     }
   ]
 }

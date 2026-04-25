@@ -42,6 +42,10 @@
     "philippines": {
       "intro": "Planning a trip to the Philippines? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is common outside resort kitchens. Your doctor may also discuss Japanese encephalitis, rabies, chikungunya, or cholera depending on your islands, activities, and length of stay. See a travel doctor 4–6 weeks before departure so they can tailor the plan to your trip.",
       "seasonal_note": "Malaria risk is limited to Palawan and the Mindanao island group. Manila, Cebu, and Bohol are not malaria zones."
+    },
+    "turkey": {
+      "intro": "Planning a trip to Turkey? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food and water hygiene varies once you leave large hotels and resorts. Rabies may come up if you'll be around stray dogs or doing rural travel — Turkey has working populations of street dogs in many cities. See a travel doctor 4–6 weeks before departure so they can match the plan to your trip.",
+      "seasonal_note": "Turkey has no malaria. West Nile virus and tick-borne diseases are present in summer in some regions; mosquito and tick precautions are sensible if you're spending time outdoors between May and October."
     }
   }
 }

@@ -370,6 +370,41 @@
         ]
       }
     },
+    "turkey": {
+      "path": "/destination/turkey/",
+      "title": "Vaccines for Turkey — Required & Recommended",
+      "description": "Planning a trip to Turkey? See which vaccines CDC recommends for most travellers, what's required for entry, and when to book your travel clinic.",
+      "faq_schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What vaccines do I need for Turkey?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CDC recommends Hepatitis A, Hepatitis B, and typhoid for most travellers to Turkey. Your doctor may also discuss rabies if you'll be around stray dogs or doing rural travel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is yellow fever required for Turkey?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yellow fever vaccination is only required if you are arriving from a country with yellow fever transmission risk. Proof is required for travellers aged 1 year and older."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before travel to Turkey should I get vaccines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a travel health appointment 4–6 weeks before departure. Some vaccines need multiple doses or a minimum interval before travel, so earlier is better."
+            }
+          }
+        ]
+      }
+    },
     "philippines": {
       "path": "/destination/philippines/",
       "title": "Vaccines for the Philippines — Required & Recommended",
