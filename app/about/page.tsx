@@ -42,10 +42,6 @@ export default function AboutPage() {
             links back to CDC&apos;s source notice. Alerts are reviewed at least
             quarterly and removed or refreshed if no longer current.
           </p>
-          <p>
-            We never fabricate recommendations. If CDC does not advise a vaccine for
-            a destination, we do not list it.
-          </p>
         </section>
 
         <section className={styles.section}>

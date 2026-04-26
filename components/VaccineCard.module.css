@@ -17,26 +17,14 @@
   .card { padding: 1.5rem; }
 }
 
-.cardHead {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 1rem;
-}
-
-.cardIcon {
-  padding: 0.5rem;
-  border-radius: var(--radius);
-  background: var(--primary-medium);
-  color: #ffffff;
-}
-
 .tag {
-  font-size: 0.625rem;
+  display: inline-block;
+  font-size: 0.6875rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-weight: 700;
   color: var(--primary);
+  margin-bottom: 0.5rem;
 }
 
 .cardTitle {

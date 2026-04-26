@@ -71,7 +71,7 @@ export default function HomePage() {
               <strong>Current CDC alerts:</strong> {alertTitles.join(" · ")}
             </p>
             <Link href="/alerts" className={styles.alertLink}>
-              View all alerts
+              <span className={styles.alertLinkLabel}>View all alerts</span>
               <span aria-hidden="true" className="material-symbols-outlined">
                 arrow_forward
               </span>

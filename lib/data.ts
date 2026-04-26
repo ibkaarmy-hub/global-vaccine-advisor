@@ -106,18 +106,6 @@ export function countryTier(country: Country, vaccineId: string):
   return null;
 }
 
-const TRANSMISSION_ICON: Record<TransmissionTag, string> = {
-  "Mosquito": "pest_control",
-  "Food & Water": "restaurant",
-  "Airborne": "masks",
-  "Blood & Body Fluids": "bloodtype",
-  "Animal Contact": "pets",
-};
-
-export function transmissionIcon(tag: TransmissionTag): string {
-  return TRANSMISSION_ICON[tag];
-}
-
 const COUNTRY_FLAG: Record<string, string> = {
   thailand: "🇹🇭",
   india: "🇮🇳",

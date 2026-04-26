@@ -57,8 +57,9 @@
   gap: 0.75rem;
   padding: 1rem;
   border-radius: var(--radius-lg);
-  background: #d2e4ff;
-  color: #1c4875;
+  background: var(--alert-amber-bg);
+  color: var(--alert-amber-ink);
+  border: 1px solid var(--alert-amber-border);
 }
 @media (min-width: 768px) {
   .alert { padding: 1.25rem; }

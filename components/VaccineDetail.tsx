@@ -3,7 +3,6 @@ import {
   countriesRecommending,
   countryFlag,
   countryTier,
-  transmissionIcon,
   type Vaccine,
 } from "@/lib/data";
 import DisclaimerBanner from "./DisclaimerBanner";
@@ -31,15 +30,7 @@ export default function VaccineDetail({ vaccine }: Props) {
 
       <header className={styles.header}>
         <div className={styles.tags}>
-          <span className={styles.transmissionPill}>
-            <span
-              aria-hidden="true"
-              className={`material-symbols-outlined ${styles.pillIcon}`}
-            >
-              {transmissionIcon(vaccine.transmission)}
-            </span>
-            {vaccine.transmission}
-          </span>
+          <span className={styles.transmissionPill}>{vaccine.transmission}</span>
           <span className={styles.typePill}>
             {vaccine.is_routine ? "Routine vaccine" : "Travel vaccine"}
           </span>
