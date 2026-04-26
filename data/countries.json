@@ -27,8 +27,16 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older; includes airport transits over 12 hours."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["japanese-encephalitis", "rabies", "chikungunya"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis",
+        "rabies",
+        "chikungunya"
+      ],
       "malaria_note": "Risk in rural border provinces with Myanmar, Cambodia (except Buri Ram), and Malaysia. No risk in Bangkok, Chiang Mai, Chiang Rai, Phuket, Koh Samui, Koh Pha Ngan, or Krabi islands. Most city and resort travellers don't need malaria pills.",
       "entry_requirements": {
         "passport_validity_months": 6,
@@ -59,8 +67,17 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Travellers aged 9 months and older without a valid certificate can be detained for up to 6 days."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["japanese-encephalitis", "rabies", "chikungunya", "cholera"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis",
+        "rabies",
+        "chikungunya",
+        "cholera"
+      ],
       "malaria_note": "Risk throughout the country, including Mumbai and New Delhi. No risk above 2,000 m, which covers parts of Arunachal Pradesh, Himachal Pradesh, Jammu and Kashmir, Ladakh, Sikkim, and higher areas of Kerala and Tamil Nadu. Most travellers to lowland India should take malaria pills.",
       "entry_requirements": {
         "passport_validity_months": 6,
@@ -78,8 +95,15 @@
       "region": "North America",
       "required_vaccines": [],
       "conditional_requirements": [],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["rabies", "chikungunya"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "rabies",
+        "chikungunya"
+      ],
       "malaria_note": "Risk in parts of Campeche, Chiapas, and southern Chihuahua. Rare cases in Oaxaca, Sinaloa, Sonora, and Tabasco. No risk along the US border or in resort areas of the Yucatán coast.",
       "entry_requirements": {
         "passport_validity_months": null,
@@ -124,8 +148,16 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["japanese-encephalitis", "rabies", "chikungunya"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis",
+        "rabies",
+        "chikungunya"
+      ],
       "malaria_note": "Risk across eastern Indonesia (Maluku, North Maluku, East Nusa Tenggara, Papua, West Papua — including Labuan Bajo and Komodo) and rural Kalimantan, Sulawesi, Sumatra, Lombok. No malaria risk in Jakarta, Bali resorts, Ubud, Gili Islands, or Java resort areas.",
       "entry_requirements": {
         "passport_validity_months": null,
@@ -158,8 +190,15 @@
       "region": "Southeast Asia",
       "required_vaccines": [],
       "conditional_requirements": [],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["japanese-encephalitis", "rabies"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis",
+        "rabies"
+      ],
       "malaria_note": "Rural areas only, with rare cases in the Mekong and Red River deltas. No malaria risk in Hanoi, Ho Chi Minh City, Da Nang, Hai Phong, Nha Trang, or Quy Nhon. Most tourist itineraries do not need malaria pills.",
       "entry_requirements": {
         "passport_validity_months": null,
@@ -177,8 +216,14 @@
       "region": "East Asia",
       "required_vaccines": [],
       "conditional_requirements": [],
-      "recommended_most_vaccines": ["hepatitis-b"],
-      "recommended_some_vaccines": ["hepatitis-a", "japanese-encephalitis", "rabies"],
+      "recommended_most_vaccines": [
+        "hepatitis-b"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-a",
+        "japanese-encephalitis",
+        "rabies"
+      ],
       "malaria_note": null,
       "entry_requirements": {
         "passport_validity_months": null,
@@ -201,8 +246,18 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 1 year and older."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid", "yellow-fever"],
-      "recommended_some_vaccines": ["rabies", "cholera", "meningococcal", "mpox"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid",
+        "yellow-fever"
+      ],
+      "recommended_some_vaccines": [
+        "rabies",
+        "cholera",
+        "meningococcal",
+        "mpox"
+      ],
       "malaria_note": "Risk across the country below 2,500 m, including all safari parks. Rare cases in central urban Nairobi. Most travellers — including everyone on a safari itinerary — should take malaria pills. Seek medical attention for any fever during or within a year of travel.",
       "entry_requirements": {
         "passport_validity_months": 3,
@@ -233,8 +288,14 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older; includes airport transits over 12 hours."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["rabies"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "rabies"
+      ],
       "malaria_note": null,
       "entry_requirements": {
         "passport_validity_months": null,
@@ -252,8 +313,16 @@
       "region": "South America",
       "required_vaccines": [],
       "conditional_requirements": [],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["yellow-fever", "rabies", "chikungunya"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "yellow-fever",
+        "rabies",
+        "chikungunya"
+      ],
       "malaria_note": "Risk across the country below 2,500 m east of the Andes, including Iquitos and Puerto Maldonado. Rare cases in Tumbes and Piura. No malaria risk in Lima, Arequipa, Cusco, Machu Picchu, Lake Titicaca, or the Pacific coast.",
       "entry_requirements": {
         "passport_validity_months": null,
@@ -291,8 +360,17 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older; includes airport transits over 12 hours."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["japanese-encephalitis", "rabies", "chikungunya", "cholera"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis",
+        "rabies",
+        "chikungunya",
+        "cholera"
+      ],
       "malaria_note": "Risk in Palawan and the Mindanao island group. No risk in metropolitan Manila or other urban areas. Most tourist itineraries focused on Cebu, Bohol, or Metro Manila do not need malaria pills.",
       "entry_requirements": {
         "passport_validity_months": null,
@@ -315,8 +393,14 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 1 year and older."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["rabies"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "rabies"
+      ],
       "malaria_note": "No active malaria transmission in Turkey. Historic risk in southeastern provinces is no longer considered significant by CDC.",
       "entry_requirements": {
         "passport_validity_months": 6,
@@ -339,8 +423,16 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid", "yellow-fever"],
-      "recommended_some_vaccines": ["rabies", "chikungunya"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid",
+        "yellow-fever"
+      ],
+      "recommended_some_vaccines": [
+        "rabies",
+        "chikungunya"
+      ],
       "malaria_note": "Risk in the Amazon Basin states (Acre, Amapá, Amazonas, Maranhão, Mato Grosso, Pará, Rondônia, Roraima, and Tocantins). No risk in Rio de Janeiro, São Paulo, the eastern coastal beaches, or Iguaçu Falls.",
       "entry_requirements": {
         "passport_validity_months": 6,
@@ -363,8 +455,14 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 1 year and older."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["rabies"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "rabies"
+      ],
       "malaria_note": "No active malaria transmission in Morocco.",
       "entry_requirements": {
         "passport_validity_months": 6,
@@ -387,8 +485,14 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 1 year and older."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b"],
-      "recommended_some_vaccines": ["typhoid", "rabies"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b"
+      ],
+      "recommended_some_vaccines": [
+        "typhoid",
+        "rabies"
+      ],
       "malaria_note": "No active malaria transmission in the UAE.",
       "entry_requirements": {
         "passport_validity_months": 6,
@@ -411,8 +515,17 @@
           "condition": "If arriving from a country with risk of yellow fever transmission, including airport transits over 12 hours. Proof required for travellers aged 1 year and older."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid", "yellow-fever"],
-      "recommended_some_vaccines": ["rabies", "cholera", "meningococcal"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid",
+        "yellow-fever"
+      ],
+      "recommended_some_vaccines": [
+        "rabies",
+        "cholera",
+        "meningococcal"
+      ],
       "malaria_note": "Risk throughout the country below 1,800 metres, including all major safari parks (Serengeti, Ngorongoro, Tarangire, Lake Manyara) and Zanzibar. Most travellers should take malaria pills, and any fever during or within a year of travel needs medical attention.",
       "entry_requirements": {
         "passport_validity_months": 6,
@@ -435,8 +548,14 @@
           "condition": "If arriving from a country with risk of yellow fever transmission, including airport transits over 12 hours. Proof required for travellers aged 1 year and older."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["rabies"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "rabies"
+      ],
       "malaria_note": "Risk in low-altitude areas of Limpopo and Mpumalanga (including Kruger National Park) and northeastern KwaZulu-Natal, mainly from October to May. No risk in Cape Town, the Garden Route, the Western Cape, or Johannesburg.",
       "entry_requirements": {
         "passport_validity_months": 6,
@@ -459,8 +578,14 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["rabies"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "rabies"
+      ],
       "malaria_note": "Limited risk in some remote eastern lowland areas; most tourist itineraries (San José, Arenal, Manuel Antonio, Monteverde, Guanacaste beaches) do not need malaria pills.",
       "entry_requirements": {
         "passport_validity_months": 6,
@@ -483,8 +608,16 @@
           "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older."
         }
       ],
-      "recommended_most_vaccines": ["hepatitis-a", "hepatitis-b", "typhoid"],
-      "recommended_some_vaccines": ["japanese-encephalitis", "rabies", "chikungunya"],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis",
+        "rabies",
+        "chikungunya"
+      ],
       "malaria_note": "No active malaria transmission in Sri Lanka. WHO certified the country malaria-free in 2016.",
       "entry_requirements": {
         "passport_validity_months": 6,
@@ -495,6 +628,1236 @@
       "health_notes": "Standard food and water precautions apply outside large hotels. Dengue is significant year-round, particularly during and after monsoon seasons; mosquito-bite prevention matters.",
       "current_alerts": [],
       "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sri-lanka"
+    },
+    {
+      "id": "cambodia",
+      "name": "Cambodia",
+      "region": "Southeast Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 1 year and older."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis",
+        "rabies",
+        "chikungunya"
+      ],
+      "malaria_note": "Risk in rural and forested areas, especially near borders. No risk in Phnom Penh, Siem Reap, or the Angkor Wat temple complex. Most city and temple-focused itineraries don't need malaria pills.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Dog rabies is common in Cambodia. Dengue and Zika circulate; mosquito-bite prevention matters. Schistosomiasis, leptospirosis, and melioidosis are present in fresh water and floodwater.",
+      "current_alerts": [
+        {
+          "id": "cambodia-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia"
+    },
+    {
+      "id": "laos",
+      "name": "Laos",
+      "region": "Southeast Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis",
+        "rabies",
+        "chikungunya"
+      ],
+      "malaria_note": "Risk in southern provinces (Attapeu, Champasak, Khammouane, Salavan, Savannakhet, Sekong). Rare in the north, and no risk in Luang Prabang or Vientiane.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Dog rabies is common across Laos. Dengue, Zika, and chikungunya circulate; mosquito-bite prevention matters. Schistosomiasis, melioidosis, and leptospirosis are present in fresh water.",
+      "current_alerts": [
+        {
+          "id": "laos-global-polio",
+          "title": "Global Polio",
+          "detail": "CDC has a Level 2 notice for global polio. Adults previously vaccinated should consider a one-time booster before travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 2"
+        },
+        {
+          "id": "laos-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos"
+    },
+    {
+      "id": "myanmar",
+      "name": "Myanmar",
+      "region": "Southeast Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis",
+        "rabies",
+        "chikungunya",
+        "cholera"
+      ],
+      "malaria_note": "Risk in all areas, with chloroquine and mefloquine resistance documented. Most travellers outside major cities should take malaria pills.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Dog rabies is common in Myanmar. Dengue, Zika, leptospirosis, melioidosis, and tuberculosis are present. Standard food, water, and bug-bite precautions matter.",
+      "current_alerts": [
+        {
+          "id": "myanmar-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/burma"
+    },
+    {
+      "id": "nepal",
+      "name": "Nepal",
+      "region": "South Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "japanese-encephalitis",
+        "cholera",
+        "rabies"
+      ],
+      "malaria_note": "Active transmission in Sudurpashchim and Karnali provinces below 2,000 m. No risk in Kathmandu, Pokhara, or on typical Himalayan treks.",
+      "health_notes": "Dog rabies is common in Nepal. Dengue, leptospirosis, leishmaniasis, and tuberculosis are present. Standard food, water, and bug-bite precautions matter.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "current_alerts": [
+        {
+          "id": "nepal-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nepal"
+    },
+    {
+      "id": "bangladesh",
+      "name": "Bangladesh",
+      "region": "South Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "cholera",
+        "japanese-encephalitis",
+        "rabies"
+      ],
+      "malaria_note": "Risk in the Chittagong Hill Tract districts (Bandarban, Khagrachari, Rangamati), parts of Chattogram, Cox's Bazar, Mymensingh, Kurigram, and Sylhet divisions. No risk in Dhaka.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Dog rabies is common in Bangladesh. Dengue is a year-round risk. Leptospirosis and melioidosis are concerns after heavy rain and flooding.",
+      "current_alerts": [
+        {
+          "id": "bangladesh-global-dengue",
+          "title": "Global Dengue",
+          "detail": "CDC has a Level 1 notice for global dengue. Use mosquito-bite prevention day and night while in Bangladesh.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        },
+        {
+          "id": "bangladesh-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bangladesh"
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "region": "Southeast Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "rabies"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Singapore has modern medical infrastructure and very low travel-illness risk. Dengue circulates year-round, so mosquito-bite prevention still matters. Leptospirosis, melioidosis, and tuberculosis are present.",
+      "current_alerts": [
+        {
+          "id": "singapore-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/singapore"
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "region": "Southeast Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "japanese-encephalitis",
+        "rabies",
+        "chikungunya"
+      ],
+      "malaria_note": "Risk in rural and forested areas, primarily Plasmodium knowlesi. No risk in Kuala Lumpur, Penang State, or George Town.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Increased rabies cases reported in Sarawak. Dengue, Zika, leptospirosis, and tuberculosis are present. Standard food, water, animal-contact, and mosquito-bite precautions matter.",
+      "current_alerts": [
+        {
+          "id": "malaysia-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/malaysia"
+    },
+    {
+      "id": "maldives",
+      "name": "Maldives",
+      "region": "South Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "rabies"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Dengue and Zika are year-round mosquito-borne risks. Standard food and water precautions apply outside resort kitchens.",
+      "current_alerts": [
+        {
+          "id": "maldives-global-dengue",
+          "title": "Global Dengue",
+          "detail": "CDC has a Level 1 notice for global dengue. Use mosquito-bite prevention day and night while in the Maldives.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        },
+        {
+          "id": "maldives-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/maldives"
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "region": "East Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis",
+        "rabies",
+        "tick-borne-encephalitis"
+      ],
+      "malaria_note": "Limited risk in some parts of China. Most city itineraries do not need malaria pills; check with a travel doctor if you plan rural travel.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Tap water is not drinkable in China, even in major cities. Dog rabies is common. Schistosomiasis is present in some freshwater areas.",
+      "current_alerts": [
+        {
+          "id": "china-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/china"
+    },
+    {
+      "id": "south-korea",
+      "name": "South Korea",
+      "region": "East Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "japanese-encephalitis",
+        "rabies"
+      ],
+      "malaria_note": "Limited March to December in rural northern parts of Incheon, Gangwon, and Gyeonggi provinces, including the demilitarized zone (DMZ). Only Plasmodium vivax. No risk in Seoul, Busan, or Jeju.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "South Korea has modern medical infrastructure. Tick-borne encephalitis is present in some forested areas; tick precautions matter for hikers.",
+      "current_alerts": [
+        {
+          "id": "south-korea-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-korea"
+    },
+    {
+      "id": "taiwan",
+      "name": "Taiwan",
+      "region": "East Asia",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b"
+      ],
+      "recommended_some_vaccines": [
+        "japanese-encephalitis"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Dengue circulates seasonally; mosquito-bite prevention matters. Leptospirosis, melioidosis, and tuberculosis are present. Rabies is found in some wildlife, but infected dogs are uncommon.",
+      "current_alerts": [
+        {
+          "id": "taiwan-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/taiwan"
+    },
+    {
+      "id": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "region": "Middle East",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "meningococcal",
+          "condition": "Required for travellers performing Hajj or Umrah. Quadrivalent (ACWY) vaccine within 3–5 years and at least 10 days before arrival."
+        },
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "rabies"
+      ],
+      "malaria_note": "Risk limited to the Asir and Jazan regions near the Yemen border. No risk in Riyadh, Jeddah, Mecca, or Medina.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "MERS can spread from camels and through respiratory droplets — avoid camel contact and unpasteurised camel products. Standard food and water precautions apply.",
+      "current_alerts": [
+        {
+          "id": "saudi-arabia-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saudi-arabia"
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "region": "Middle East",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "rabies"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Leishmaniasis spreads through sand fly bites. Leptospirosis, tuberculosis, and MERS are present. Standard food, water, and bug-bite precautions matter.",
+      "current_alerts": [
+        {
+          "id": "jordan-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/jordan"
+    },
+    {
+      "id": "israel",
+      "name": "Israel",
+      "region": "Middle East",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "polio",
+        "rabies",
+        "typhoid"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Poliovirus has been detected in environmental samples; adults previously vaccinated should consider a one-time booster. Rabies is present in dogs and wildlife. Leishmaniasis spreads through sand fly bites.",
+      "current_alerts": [
+        {
+          "id": "israel-global-polio",
+          "title": "Global Polio",
+          "detail": "CDC has a Level 2 notice for global polio. Adults previously vaccinated should consider a one-time polio booster before travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 2"
+        },
+        {
+          "id": "israel-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/israel"
+    },
+    {
+      "id": "oman",
+      "name": "Oman",
+      "region": "Middle East",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "rabies"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Mosquitoes, ticks, and fleas can spread dengue, leishmaniasis, and Crimean-Congo hemorrhagic fever. Schistosomiasis is a risk in fresh water — avoid swimming in unchlorinated freshwater.",
+      "current_alerts": [
+        {
+          "id": "oman-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/oman"
+    },
+    {
+      "id": "qatar",
+      "name": "Qatar",
+      "region": "Middle East",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "rabies"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Qatar has modern medical infrastructure. Standard food and water precautions are sensible outside major hotels.",
+      "current_alerts": [
+        {
+          "id": "qatar-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/qatar"
+    },
+    {
+      "id": "united-states",
+      "name": "United States",
+      "region": "North America",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [],
+      "recommended_some_vaccines": [],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "CDC's destination page directs travellers to the US Health Alert Network for current public health issues. Make sure routine vaccines, including measles and flu, are up to date before travel.",
+      "current_alerts": [],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-states"
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "region": "North America",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "rabies"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Rabies is present in terrestrial wildlife and bats. Tick and mosquito precautions are sensible for outdoor activities. Motor vehicle crashes are a leading cause of death for travellers — drive carefully.",
+      "current_alerts": [
+        {
+          "id": "canada-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/canada"
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "region": "South America",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "rabies",
+        "yellow-fever"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Yellow fever vaccine is recommended for travellers aged 9 months and older going to Corrientes and Misiones provinces (including Iguazú Falls). Dengue, Chagas disease, leptospirosis, and Zika are present.",
+      "current_alerts": [
+        {
+          "id": "argentina-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina"
+    },
+    {
+      "id": "chile",
+      "name": "Chile",
+      "region": "South America",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "rabies"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Leptospirosis, Chagas disease, hantavirus, and tuberculosis are present. Use a repellent containing 20% or more DEET for outdoor travel.",
+      "current_alerts": [
+        {
+          "id": "chile-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chile"
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia",
+      "region": "South America",
+      "required_vaccines": [
+        "yellow-fever"
+      ],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "yellow-fever",
+        "hepatitis-b",
+        "chikungunya"
+      ],
+      "malaria_note": "Risk in areas below 1,700 m. No transmission in Bogotá, Cartagena, or Medellín.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": true,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Yellow fever vaccine is required for all arriving travellers aged 1 year and older, and CDC also recommends it for travellers aged 9 months and older going to most areas. Rabies is present in dogs and bats. Dengue, Zika, and chikungunya circulate year-round.",
+      "current_alerts": [
+        {
+          "id": "colombia-yellow-fever",
+          "title": "Yellow Fever cases increased in Colombia",
+          "detail": "CDC has a Level 2 notice for increased yellow fever cases. Make sure you have a current yellow fever vaccination at least 10 days before arrival.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 2"
+        },
+        {
+          "id": "colombia-global-dengue",
+          "title": "Global Dengue",
+          "detail": "CDC has a Level 1 notice for global dengue. Use mosquito-bite prevention day and night while in Colombia.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        },
+        {
+          "id": "colombia-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia"
+    },
+    {
+      "id": "dominican-republic",
+      "name": "Dominican Republic",
+      "region": "Caribbean",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "Required for travellers arriving from specific Brazilian states with yellow fever transmission risk (Espírito Santo, Minas Gerais, Rio de Janeiro, São Paulo)."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "rabies"
+      ],
+      "malaria_note": "Risk in Azua, Elías Piña, La Altagracia, San Juan, and Santo Domingo provinces, plus parts of the capital. Punta Cana resort area is in La Altagracia — discuss with a travel doctor if visiting.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Dengue, Zika, and leishmaniasis are insect-borne risks. Schistosomiasis and leptospirosis are present in fresh water; avoid floodwater after hurricanes.",
+      "current_alerts": [
+        {
+          "id": "dominican-republic-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic"
+    },
+    {
+      "id": "jamaica",
+      "name": "Jamaica",
+      "region": "Caribbean",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "typhoid",
+        "rabies"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Dengue, Zika, and leptospirosis are concerns, especially after hurricane flooding. Avoid contact with floodwater and use mosquito-bite prevention.",
+      "current_alerts": [
+        {
+          "id": "jamaica-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/jamaica"
+    },
+    {
+      "id": "ecuador",
+      "name": "Ecuador",
+      "region": "South America",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "Required for travellers arriving from countries with risk of yellow fever transmission."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "yellow-fever",
+        "hepatitis-b",
+        "rabies"
+      ],
+      "malaria_note": "Risk in lowland provinces below 1,500 m, including Cotopaxi, Esmeraldas, Morona-Santiago, Orellana, Pastaza, and Sucumbíos. No risk in Quito, Guayaquil, or the Galápagos Islands.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Yellow fever vaccine is recommended for travellers aged 9 months and older going to areas below 2,300 m east of the Andes. Dengue, Zika, Chagas disease, and leptospirosis are present. Rabies is in dogs and bats.",
+      "current_alerts": [
+        {
+          "id": "ecuador-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ecuador"
+    },
+    {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "region": "Africa",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 9 months and older."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "chikungunya",
+        "cholera"
+      ],
+      "malaria_note": "Risk throughout Nigeria. CDC recommends prescription antimalarial medication for all travellers.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Lassa fever and mpox are present — avoid rodents and sick people. A diphtheria outbreak is active in several states; make sure your DTaP/Tdap is up to date.",
+      "current_alerts": [
+        {
+          "id": "nigeria-polio-diphtheria",
+          "title": "Polio and Diphtheria in Nigeria",
+          "detail": "CDC has a Level 2 notice for polio and diphtheria in Nigeria. Make sure your routine polio and DTaP/Tdap vaccinations are up to date.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 2"
+        },
+        {
+          "id": "nigeria-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nigeria"
+    },
+    {
+      "id": "ethiopia",
+      "name": "Ethiopia",
+      "region": "Africa",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "Required for travellers arriving from countries with risk of yellow fever transmission."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid",
+        "yellow-fever",
+        "meningococcal"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "cholera",
+        "rabies",
+        "mpox"
+      ],
+      "malaria_note": "Risk in all areas below 2,500 m. Chloroquine resistance documented; CDC recommends prescription antimalarial medication for all areas with risk.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Yellow fever is recommended for most travellers aged 9 months and older, except for travel limited to Afar or Somali regions. Schistosomiasis is a risk in fresh water. Rabies is present in dogs and bats.",
+      "current_alerts": [
+        {
+          "id": "ethiopia-global-polio",
+          "title": "Global Polio",
+          "detail": "CDC has a Level 2 notice for global polio. Adults previously vaccinated should consider a one-time polio booster before travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 2"
+        },
+        {
+          "id": "ethiopia-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        },
+        {
+          "id": "ethiopia-malaria-outbreak",
+          "title": "Malaria outbreak in Ethiopia",
+          "detail": "CDC reports a malaria outbreak across all 14 regions of Ethiopia. Take prescription antimalarial medication and use bite precautions.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ethiopia"
+    },
+    {
+      "id": "ghana",
+      "name": "Ghana",
+      "region": "Africa",
+      "required_vaccines": [
+        "yellow-fever"
+      ],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "cholera",
+        "rabies",
+        "meningococcal",
+        "mpox"
+      ],
+      "malaria_note": "Risk throughout Ghana, primarily Plasmodium falciparum and chloroquine-resistant. CDC recommends prescription antimalarial medication for all travellers.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": true,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Yellow fever vaccine is required for all arriving travellers aged 9 months and older. Mpox (Clade II) is in active outbreak. Meningococcal disease may apply in the meningitis belt during the December–June dry season.",
+      "current_alerts": [
+        {
+          "id": "ghana-mpox-clade-ii",
+          "title": "Clade II Mpox in Ghana and Liberia",
+          "detail": "CDC has a Level 2 notice for Clade II mpox in Ghana and Liberia. Vaccination is recommended for travellers anticipating certain higher-risk activities.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 2"
+        },
+        {
+          "id": "ghana-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ghana"
+    },
+    {
+      "id": "uganda",
+      "name": "Uganda",
+      "region": "Africa",
+      "required_vaccines": [
+        "yellow-fever"
+      ],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "meningococcal",
+        "cholera",
+        "rabies"
+      ],
+      "malaria_note": "Risk throughout Uganda. CDC recommends prescription antimalarial medication for all travellers.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": true,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Yellow fever vaccine is required for all arriving travellers aged 1 year and older. Ebola and Marburg viruses are intermittent risks — avoid contact with sick people and infected animals. Schistosomiasis is a risk in fresh water.",
+      "current_alerts": [
+        {
+          "id": "uganda-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uganda"
+    },
+    {
+      "id": "rwanda",
+      "name": "Rwanda",
+      "region": "Africa",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission. Proof required for travellers aged 1 year and older."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "cholera",
+        "rabies"
+      ],
+      "malaria_note": "Risk throughout Rwanda, primarily Plasmodium falciparum and chloroquine-resistant. CDC recommends prescription antimalarial medication for all travellers.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Dog rabies is common, and rabies vaccine for post-exposure care may only be available in larger urban hospitals. Standard food, water, and bug-bite precautions matter.",
+      "current_alerts": [
+        {
+          "id": "rwanda-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/rwanda"
+    },
+    {
+      "id": "zambia",
+      "name": "Zambia",
+      "region": "Africa",
+      "required_vaccines": [],
+      "conditional_requirements": [
+        {
+          "vaccine_id": "yellow-fever",
+          "condition": "If arriving from a country with risk of yellow fever transmission."
+        }
+      ],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "rabies",
+        "cholera",
+        "mpox"
+      ],
+      "malaria_note": "Risk throughout Zambia, primarily Plasmodium falciparum. CDC strongly recommends prescription antimalarial medication for all travellers.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": true
+      },
+      "health_notes": "Schistosomiasis is a risk in fresh water — avoid swimming in lakes and rivers. African sleeping sickness has been reported in some safari areas. Dengue and dog rabies are present.",
+      "current_alerts": [
+        {
+          "id": "zambia-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        },
+        {
+          "id": "zambia-sleeping-sickness",
+          "title": "East African Sleeping Sickness",
+          "detail": "CDC reports cases of African sleeping sickness among safari travellers. Use insect repellent and wear long sleeves and trousers in safari areas.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/zambia"
+    },
+    {
+      "id": "madagascar",
+      "name": "Madagascar",
+      "region": "Africa",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [
+        "hepatitis-a",
+        "hepatitis-b",
+        "typhoid"
+      ],
+      "recommended_some_vaccines": [
+        "rabies",
+        "mpox",
+        "chikungunya"
+      ],
+      "malaria_note": "Risk in all areas except Antananarivo. Chloroquine resistance documented; primarily Plasmodium falciparum. CDC recommends prescription antimalarial medication for travel outside the capital.",
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Plague is present and can spread through flea bites and contact with infected animals or people. Avoid sick animals and people, and use bug-bite prevention.",
+      "current_alerts": [
+        {
+          "id": "madagascar-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/madagascar"
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "region": "Oceania",
+      "required_vaccines": [],
+      "conditional_requirements": [],
+      "recommended_most_vaccines": [],
+      "recommended_some_vaccines": [
+        "hepatitis-b",
+        "japanese-encephalitis"
+      ],
+      "malaria_note": null,
+      "entry_requirements": {
+        "passport_validity_months": null,
+        "visa_note": null,
+        "yellow_card_required": false,
+        "yellow_card_conditional": false
+      },
+      "health_notes": "Australia has modern medical infrastructure and very low travel-vaccine needs. Dengue and Ross River virus are mosquito-borne risks, primarily in Queensland. Leptospirosis and melioidosis are present from water and soil contact. Tuberculosis is present.",
+      "current_alerts": [
+        {
+          "id": "australia-global-measles",
+          "title": "Global Measles",
+          "detail": "CDC has a Level 1 notice for global measles. Make sure you are fully vaccinated against measles before international travel.",
+          "date_added": "2026-04-27",
+          "source": "CDC Travel Health Notice, Level 1"
+        }
+      ],
+      "cdc_page_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/australia"
     }
+  ],
+  "$last_extended": "2026-04-27",
+  "$batches_merged": [
+    2
   ]
 }

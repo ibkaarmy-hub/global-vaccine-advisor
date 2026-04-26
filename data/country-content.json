@@ -74,6 +74,135 @@
     "sri-lanka": {
       "intro": "Planning a trip to Sri Lanka? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is common outside large hotels. Your doctor may also discuss Japanese encephalitis, rabies, or chikungunya depending on whether you're heading to rural areas, doing a long stay, or visiting during a known outbreak. Book a travel health appointment 4–6 weeks before you leave.",
       "seasonal_note": "Sri Lanka has no malaria — WHO certified the country malaria-free in 2016. Dengue is significant year-round, especially during and after monsoon seasons."
+    },
+    "cambodia": {
+      "intro": "Planning a trip to Cambodia? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food and water hygiene varies once you leave hotels. Your doctor may also discuss Japanese encephalitis, rabies, or chikungunya depending on whether you're heading to rural areas or staying long. Book a travel health appointment 4–6 weeks before departure to tailor the plan to your trip.",
+      "seasonal_note": "Malaria risk is limited to rural and forested areas. Phnom Penh, Siem Reap, and the Angkor Wat temple complex are not malaria zones."
+    },
+    "laos": {
+      "intro": "Planning a trip to Laos? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is common outside controlled kitchens. Your doctor may also discuss Japanese encephalitis, rabies, or chikungunya depending on rural travel and length of stay. See a travel doctor 4–6 weeks before departure to match the plan to your itinerary.",
+      "seasonal_note": "Malaria risk is mainly in southern provinces. Luang Prabang and Vientiane are not malaria zones."
+    },
+    "myanmar": {
+      "intro": "Planning a trip to Myanmar? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food and water hygiene varies widely outside major hotels. Your doctor may also discuss Japanese encephalitis, rabies, chikungunya, or cholera depending on your route and activities. Book a travel health appointment 4–6 weeks before you go to tailor the plan.",
+      "seasonal_note": "Malaria is a risk across rural Myanmar, with drug-resistant strains documented. Most travellers outside major cities should take malaria pills."
+    },
+    "nepal": {
+      "intro": "Planning a trip to Nepal? CDC recommends Hepatitis A and typhoid vaccines for most travellers because food- and water-borne illness is the main concern outside large hotels. Your doctor may also discuss Hepatitis B, Japanese encephalitis, cholera, or rabies depending on your itinerary and activities. See a travel doctor 4–6 weeks before departure so they can match the plan to your trip.",
+      "seasonal_note": "Malaria risk is limited to lowland Sudurpashchim and Karnali provinces. Kathmandu, Pokhara, and Himalayan trekking routes are not malaria zones."
+    },
+    "bangladesh": {
+      "intro": "Planning a trip to Bangladesh? CDC recommends Hepatitis A and typhoid vaccines for most travellers because food- and water-borne illness is the main concern. Your doctor may also discuss Hepatitis B, cholera, Japanese encephalitis, or rabies depending on your route. Book a travel health appointment 4–6 weeks before you leave to tailor the plan.",
+      "seasonal_note": "Malaria risk is mainly in the Chittagong Hill Tracts and parts of Sylhet. Dhaka is not a malaria zone, but dengue is a year-round risk across the country."
+    },
+    "singapore": {
+      "intro": "Planning a trip to Singapore? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers, even though Singapore has very low overall travel-illness risk. Rabies may come up for long stays or specific activities, but most short trips don't need it. See a travel doctor 4–6 weeks before departure for a quick review of your routine vaccines.",
+      "seasonal_note": "Singapore has no malaria. Dengue circulates year-round, so mosquito-bite prevention still matters even on short city trips."
+    },
+    "malaysia": {
+      "intro": "Planning a trip to Malaysia? CDC recommends Hepatitis A and typhoid vaccines for most travellers because food and water hygiene varies once you leave large hotels. Your doctor may also discuss Hepatitis B, Japanese encephalitis, rabies, or chikungunya depending on whether you're heading to rural areas or Borneo. Book a travel health appointment 4–6 weeks before you go.",
+      "seasonal_note": "Malaria risk is limited to rural and forested areas. Kuala Lumpur, Penang, and George Town are not malaria zones."
+    },
+    "maldives": {
+      "intro": "Planning a trip to the Maldives? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food and water hygiene varies once you leave resort kitchens. Rabies may come up for longer stays or specific activities, but most resort trips don't need it. See a travel doctor 4–6 weeks before departure for a quick review.",
+      "seasonal_note": "The Maldives has no malaria. Dengue is a year-round mosquito-borne risk, so use bite prevention on resort islands too."
+    },
+    "china": {
+      "intro": "Planning a trip to China? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is common outside hotel kitchens — tap water is not drinkable anywhere in China. Your doctor may also discuss Japanese encephalitis, rabies, or tick-borne encephalitis depending on your route. Book a travel health appointment 4–6 weeks before you leave.",
+      "seasonal_note": "Malaria risk exists in some parts of China but most city itineraries don't need pills. Major cities like Beijing, Shanghai, and Hong Kong are not malaria zones."
+    },
+    "south-korea": {
+      "intro": "Planning a trip to South Korea? CDC lists typhoid for most travellers, with Hepatitis A and Hepatitis B as conversations to have with your doctor based on your itinerary. Japanese encephalitis and rabies only come up for specific plans like rural stays, hiking, or long visits. See a travel doctor 4–6 weeks before departure so they can decide what, if anything, you need.",
+      "seasonal_note": "Malaria risk is limited March to December in rural northern parts of Incheon, Gangwon, and Gyeonggi provinces, including the DMZ. Seoul, Busan, and Jeju are not malaria zones."
+    },
+    "taiwan": {
+      "intro": "Planning a trip to Taiwan? CDC recommends Hepatitis A and Hepatitis B vaccines for most travellers, even though Taiwan has good medical infrastructure. Japanese encephalitis may come up if you're heading to rural areas or staying long. Book a travel health appointment 4–6 weeks before you go for a quick review of your routine vaccines.",
+      "seasonal_note": "Taiwan has no malaria. Dengue circulates seasonally in the south; mosquito-bite prevention matters during summer and after typhoons."
+    },
+    "saudi-arabia": {
+      "intro": "Planning a trip to Saudi Arabia? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers. If you're going for Hajj or Umrah, meningococcal (ACWY) vaccine is required for entry. Rabies may come up for specific activities. Book a travel health appointment 4–6 weeks before departure — Hajj and Umrah travellers should book even earlier to meet the 10-day rule.",
+      "seasonal_note": "Malaria risk is limited to the Asir and Jazan regions near the Yemen border. Riyadh, Jeddah, Mecca, and Medina are not malaria zones."
+    },
+    "jordan": {
+      "intro": "Planning a trip to Jordan? CDC recommends Hepatitis A and typhoid vaccines for most travellers because food- and water-borne illness is the main concern outside large hotels. Your doctor may also discuss Hepatitis B and rabies depending on your itinerary. See a travel doctor 4–6 weeks before departure to match the plan to your trip.",
+      "seasonal_note": "Jordan has no malaria. Leishmaniasis spreads through sand fly bites in some rural areas, so use bug-bite prevention if you'll be outdoors at dusk."
+    },
+    "israel": {
+      "intro": "Planning a trip to Israel? CDC recommends Hepatitis A for most travellers because food- and water-borne illness is the main concern. Your doctor may also discuss Hepatitis B, a polio booster, rabies, or typhoid depending on your itinerary — typhoid is suggested for travel to the West Bank and Gaza. Book a travel health appointment 4–6 weeks before departure.",
+      "seasonal_note": "Israel has no malaria. Poliovirus has been detected in environmental samples; adults should consider a one-time polio booster before travel."
+    },
+    "oman": {
+      "intro": "Planning a trip to Oman? CDC recommends Hepatitis A and typhoid vaccines for most travellers because food and water hygiene varies once you leave large hotels. Your doctor may also discuss Hepatitis B and rabies depending on your itinerary. See a travel doctor 4–6 weeks before departure to match the plan to your trip.",
+      "seasonal_note": "Oman has no malaria. Schistosomiasis is a risk in fresh water — avoid swimming in unchlorinated freshwater pools and wadis."
+    },
+    "qatar": {
+      "intro": "Planning a trip to Qatar? CDC recommends Hepatitis A and typhoid vaccines for most travellers, even though Qatar has modern medical infrastructure. Your doctor may also discuss Hepatitis B and rabies depending on your itinerary. Book a travel health appointment 4–6 weeks before departure for a quick review.",
+      "seasonal_note": "Qatar has no malaria. Standard food, water, and sun precautions are the main day-to-day concerns."
+    },
+    "united-states": {
+      "intro": "Planning a trip to the United States? CDC's destination page focuses on routine vaccines — make sure measles, flu, COVID-19, and Tdap are up to date before you arrive. There are no specific travel vaccines recommended for most visitors. See a travel doctor 4–6 weeks before departure if you'd like a quick review.",
+      "seasonal_note": "The US has no malaria. Tick-borne diseases like Lyme are a concern in wooded areas of the northeast and Midwest from spring to autumn."
+    },
+    "canada": {
+      "intro": "Planning a trip to Canada? CDC suggests Hepatitis A for most travellers, especially if you'll be visiting smaller cities or rural areas. Your doctor may also discuss Hepatitis B and rabies depending on your itinerary and outdoor plans. Book a travel health appointment 4–6 weeks before departure for a quick review.",
+      "seasonal_note": "Canada has no malaria. Rabies is present in wildlife and bats, and tick-borne diseases are a summer concern in some regions."
+    },
+    "argentina": {
+      "intro": "Planning a trip to Argentina? CDC recommends Hepatitis A and typhoid vaccines for most travellers because food- and water-borne illness is the main concern outside major hotels. Your doctor may also discuss Hepatitis B, rabies, or yellow fever — yellow fever is recommended for travel to Iguazú Falls and the northeast. Book a travel health appointment 4–6 weeks before departure.",
+      "seasonal_note": "Argentina has no general malaria risk. Yellow fever is a concern in Corrientes and Misiones provinces, including Iguazú Falls."
+    },
+    "chile": {
+      "intro": "Planning a trip to Chile? CDC recommends Hepatitis A and typhoid vaccines for most travellers because food- and water-borne illness is the main concern outside major hotels. Your doctor may also discuss Hepatitis B and rabies depending on your itinerary. Book a travel health appointment 4–6 weeks before departure for a quick review.",
+      "seasonal_note": "Chile has no malaria. Hantavirus is a rodent-borne risk in some rural areas; avoid contact with rodent droppings in cabins and barns."
+    },
+    "colombia": {
+      "intro": "Planning a trip to Colombia? Yellow fever vaccine is required for all travellers aged 1 year and older. CDC also recommends Hepatitis A and typhoid for most travellers. Your doctor may also discuss Hepatitis B and chikungunya depending on your route and length of stay. Book a travel health appointment 4–6 weeks before departure — yellow fever needs at least 10 days to take effect.",
+      "seasonal_note": "Malaria risk is in lowland areas below 1,700 m. Bogotá, Cartagena, and Medellín are not malaria zones."
+    },
+    "dominican-republic": {
+      "intro": "Planning a trip to the Dominican Republic? CDC recommends Hepatitis A and typhoid vaccines for most travellers because food- and water-borne illness is common outside resort kitchens. Your doctor may also discuss Hepatitis B and rabies depending on your itinerary. See a travel doctor 4–6 weeks before departure to match the plan to your trip.",
+      "seasonal_note": "Malaria risk is in some provinces including parts of La Altagracia (Punta Cana area). Dengue and Zika circulate; use mosquito-bite prevention."
+    },
+    "jamaica": {
+      "intro": "Planning a trip to Jamaica? CDC recommends Hepatitis A for most travellers because food- and water-borne illness is the main concern outside resort kitchens. Your doctor may also discuss Hepatitis B, typhoid, or rabies depending on your itinerary. Book a travel health appointment 4–6 weeks before departure for a quick review.",
+      "seasonal_note": "Jamaica has no malaria. Dengue and Zika circulate, and leptospirosis risk rises after hurricane flooding — avoid contact with floodwater."
+    },
+    "ecuador": {
+      "intro": "Planning a trip to Ecuador? CDC recommends Hepatitis A and typhoid vaccines for most travellers because food- and water-borne illness is common outside controlled kitchens. Your doctor may also discuss yellow fever, Hepatitis B, or rabies — yellow fever is recommended for Amazon-region travel. Book a travel health appointment 4–6 weeks before departure.",
+      "seasonal_note": "Malaria and yellow fever are concerns in lowland Amazon provinces. Quito, Guayaquil, and the Galápagos Islands are not malaria zones."
+    },
+    "nigeria": {
+      "intro": "Planning a trip to Nigeria? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers, plus prescription antimalarial medication for everyone. Your doctor may also discuss chikungunya or cholera based on your itinerary. Book a travel health appointment 4–6 weeks before you go — yellow fever may also be needed depending on your travel history.",
+      "seasonal_note": "Malaria is a risk throughout Nigeria year-round. A diphtheria outbreak is active in several states; make sure your DTaP/Tdap is up to date."
+    },
+    "ethiopia": {
+      "intro": "Planning a trip to Ethiopia? CDC recommends Hepatitis A, typhoid, yellow fever, and meningococcal vaccines for most travellers, plus prescription antimalarial medication for areas below 2,500 m. Your doctor may also discuss Hepatitis B, cholera, rabies, or mpox depending on your route. Book a travel health appointment 4–6 weeks before departure.",
+      "seasonal_note": "Malaria risk is below 2,500 m and an outbreak is currently active across all 14 regions. Yellow fever is recommended for most areas, except trips limited to Afar or Somali."
+    },
+    "ghana": {
+      "intro": "Planning a trip to Ghana? Yellow fever vaccine is required for all travellers aged 9 months and older. CDC also recommends Hepatitis A and typhoid for most travellers, plus prescription antimalarial medication for everyone. Your doctor may also discuss cholera, rabies, meningococcal, or mpox depending on your itinerary. Book a travel health appointment 4–6 weeks before departure.",
+      "seasonal_note": "Malaria is a risk throughout Ghana year-round. Mpox (Clade II) is in active outbreak; CDC advises vaccination for travellers anticipating higher-risk activities."
+    },
+    "uganda": {
+      "intro": "Planning a trip to Uganda? Yellow fever vaccine is required for all travellers aged 1 year and older. CDC also recommends Hepatitis A and typhoid for most travellers, plus prescription antimalarial medication for everyone. Your doctor may also discuss Hepatitis B, meningococcal, cholera, or rabies depending on your route. Book a travel health appointment 4–6 weeks before departure.",
+      "seasonal_note": "Malaria is a risk throughout Uganda year-round. Schistosomiasis is a risk in fresh water — avoid swimming in lakes and rivers, including Lake Victoria."
+    },
+    "rwanda": {
+      "intro": "Planning a trip to Rwanda? CDC recommends typhoid vaccine for most travellers, plus prescription antimalarial medication for the entire country. Your doctor may also discuss cholera or rabies depending on your itinerary. Yellow fever may be required if you've recently travelled through a yellow fever risk country. Book a travel health appointment 4–6 weeks before departure.",
+      "seasonal_note": "Malaria is a risk throughout Rwanda year-round. Dog rabies is common, and post-exposure care may only be available in larger urban hospitals."
+    },
+    "zambia": {
+      "intro": "Planning a trip to Zambia? CDC recommends Hepatitis A and typhoid vaccines for most travellers, plus prescription antimalarial medication for the entire country. Your doctor may also discuss Hepatitis B, rabies, cholera, or mpox depending on your itinerary. Book a travel health appointment 4–6 weeks before departure to tailor the plan.",
+      "seasonal_note": "Malaria is a risk throughout Zambia year-round, including all major safari parks. African sleeping sickness has been reported among safari travellers."
+    },
+    "madagascar": {
+      "intro": "Planning a trip to Madagascar? CDC recommends Hepatitis A, Hepatitis B, and typhoid vaccines for most travellers because food- and water-borne illness is common outside controlled kitchens. Your doctor may also discuss rabies, mpox, or chikungunya, plus antimalarial medication for travel outside Antananarivo. Book a travel health appointment 4–6 weeks before departure.",
+      "seasonal_note": "Malaria is a risk in all areas except Antananarivo. Plague is present and can spread through flea bites — avoid sick animals and people."
+    },
+    "australia": {
+      "intro": "Planning a trip to Australia? Australia has very low travel-vaccine needs and modern medical infrastructure. Make sure routine vaccines including measles are up to date. Your doctor may also discuss Hepatitis B or Japanese encephalitis if you're staying long or heading to rural areas. See a travel doctor 4–6 weeks before departure for a quick review.",
+      "seasonal_note": "Australia has no malaria. Dengue and Ross River virus are mosquito-borne risks, mainly in Queensland; mosquito-bite prevention matters in tropical areas."
     }
-  }
+  },
+  "$last_extended": "2026-04-27"
 }
