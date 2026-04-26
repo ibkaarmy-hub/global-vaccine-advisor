@@ -1,0 +1,369 @@
+{
+  "$schema_version": "1.0",
+  "$generated": "2026-04-26",
+  "$purpose": "Per-country links to authoritative travel-health pages from the primary co-references in references.json. Used by country pages to render a 'Cross-references' section so readers can verify CDC-derived recommendations against UK/Canada/Australia/WHO guidance.",
+  "$conventions": {
+    "deep_url": "Country-specific URL on the source site. Verified to exist.",
+    "search_url": "Stable search/landing URL on the source site, used as a fallback when no reliable deep-link pattern exists.",
+    "verified_at": "ISO date the deep_url was last machine-checked. The fortnightly health-alerts workflow re-verifies these and flips the field if a URL 404s."
+  },
+  "$url_patterns": {
+    "cdc": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/{slug}",
+    "phac": "https://travel.gc.ca/destinations/{slug}",
+    "smartraveller": "https://www.smartraveller.gov.au/destinations/{region}/{slug}",
+    "nathnac_search": "https://travelhealthpro.org.uk/countries",
+    "who_country": "https://www.who.int/countries/{iso-name-slug}"
+  },
+  "destinations": {
+    "thailand": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/thailand", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/thailand", "verified_at": "2026-04-26" },
+      "nathnac":      { "deep_url": "https://travelhealthpro.org.uk/country/221/thailand", "verified_at": "2026-04-26" },
+      "who":          { "search_url": "https://www.who.int/countries/tha" }
+    },
+    "india": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/india", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/india", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=i" },
+      "who":          { "search_url": "https://www.who.int/countries/ind" }
+    },
+    "mexico": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/mexico", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/mexico", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=m" },
+      "who":          { "search_url": "https://www.who.int/countries/mex" }
+    },
+    "indonesia": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/indonesia", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/indonesia", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=i" },
+      "who":          { "search_url": "https://www.who.int/countries/idn" }
+    },
+    "vietnam": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/vietnam", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/vietnam", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=v" },
+      "who":          { "search_url": "https://www.who.int/countries/vnm" }
+    },
+    "japan": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/japan", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/japan", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/japan", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=j" },
+      "who":          { "search_url": "https://www.who.int/countries/jpn" }
+    },
+    "kenya": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/kenya", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/kenya", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=k" },
+      "who":          { "search_url": "https://www.who.int/countries/ken" }
+    },
+    "egypt": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/egypt", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/egypt", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/egypt", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=e" },
+      "who":          { "search_url": "https://www.who.int/countries/egy" }
+    },
+    "peru": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/peru", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/peru", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=p" },
+      "who":          { "search_url": "https://www.who.int/countries/per" }
+    },
+    "philippines": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/philippines", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/philippines", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/philippines", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=p" },
+      "who":          { "search_url": "https://www.who.int/countries/phl" }
+    },
+    "turkey": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/turkey", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/turkey", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/europe/turkiye", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=t" },
+      "who":          { "search_url": "https://www.who.int/countries/tur" }
+    },
+    "brazil": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/brazil", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/brazil", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=b" },
+      "who":          { "search_url": "https://www.who.int/countries/bra" }
+    },
+    "morocco": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/morocco", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/morocco", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/morocco", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=m" },
+      "who":          { "search_url": "https://www.who.int/countries/mar" }
+    },
+    "uae": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-arab-emirates", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/united-arab-emirates", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=u" },
+      "who":          { "search_url": "https://www.who.int/countries/are" }
+    },
+    "tanzania": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/tanzania", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/tanzania", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=t" },
+      "who":          { "search_url": "https://www.who.int/countries/tza" }
+    },
+    "south-africa": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/south-africa", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/south-africa", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=s" },
+      "who":          { "search_url": "https://www.who.int/countries/zaf" }
+    },
+    "costa-rica": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/costa-rica", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=c" },
+      "who":          { "search_url": "https://www.who.int/countries/cri" }
+    },
+    "sri-lanka": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sri-lanka", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/sri-lanka", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=s" },
+      "who":          { "search_url": "https://www.who.int/countries/lka" }
+    },
+    "cambodia": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/cambodia", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/cambodia", "verified_at": "2026-04-26" },
+      "nathnac":      { "deep_url": "https://travelhealthpro.org.uk/country/39/cambodia", "verified_at": "2026-04-26" },
+      "who":          { "search_url": "https://www.who.int/countries/khm" }
+    },
+    "laos": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/laos", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/laos", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=l" },
+      "who":          { "search_url": "https://www.who.int/countries/lao" }
+    },
+    "myanmar": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/burma-myanmar", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/myanmar", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/myanmar", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=m" },
+      "who":          { "search_url": "https://www.who.int/countries/mmr" }
+    },
+    "nepal": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nepal", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/nepal", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/nepal", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=n" },
+      "who":          { "search_url": "https://www.who.int/countries/npl" }
+    },
+    "bangladesh": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bangladesh", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/bangladesh", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/bangladesh", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=b" },
+      "who":          { "search_url": "https://www.who.int/countries/bgd" }
+    },
+    "singapore": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/singapore", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/singapore", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/singapore", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=s" },
+      "who":          { "search_url": "https://www.who.int/countries/sgp" }
+    },
+    "malaysia": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/malaysia", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/malaysia", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/malaysia", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=m" },
+      "who":          { "search_url": "https://www.who.int/countries/mys" }
+    },
+    "maldives": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/maldives", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/maldives", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/maldives", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=m" },
+      "who":          { "search_url": "https://www.who.int/countries/mdv" }
+    },
+    "china": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/china", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/china", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/china", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=c" },
+      "who":          { "search_url": "https://www.who.int/countries/chn" }
+    },
+    "south-korea": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-korea", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/south-korea", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/republic-korea", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=s" },
+      "who":          { "search_url": "https://www.who.int/countries/kor" }
+    },
+    "taiwan": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/taiwan", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/taiwan", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/asia/taiwan", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=t" },
+      "who":          { "search_url": "https://www.who.int/countries/twn" }
+    },
+    "saudi-arabia": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saudi-arabia", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/saudi-arabia", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/middle-east/saudi-arabia", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=s" },
+      "who":          { "search_url": "https://www.who.int/countries/sau" }
+    },
+    "jordan": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/jordan", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/jordan", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/middle-east/jordan", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=j" },
+      "who":          { "search_url": "https://www.who.int/countries/jor" }
+    },
+    "israel": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/israel", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/israel", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/middle-east/israel", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=i" },
+      "who":          { "search_url": "https://www.who.int/countries/isr" }
+    },
+    "oman": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/oman", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/oman", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/middle-east/oman", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=o" },
+      "who":          { "search_url": "https://www.who.int/countries/omn" }
+    },
+    "qatar": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/qatar", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/qatar", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/middle-east/qatar", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=q" },
+      "who":          { "search_url": "https://www.who.int/countries/qat" }
+    },
+    "united-states": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-states", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/united-states", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/united-states-america", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=u" },
+      "who":          { "search_url": "https://www.who.int/countries/usa" }
+    },
+    "canada": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/canada", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/canada", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=c" },
+      "who":          { "search_url": "https://www.who.int/countries/can" }
+    },
+    "argentina": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/argentina", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/argentina", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=a" },
+      "who":          { "search_url": "https://www.who.int/countries/arg" }
+    },
+    "chile": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chile", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/chile", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/chile", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=c" },
+      "who":          { "search_url": "https://www.who.int/countries/chl" }
+    },
+    "colombia": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/colombia", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/colombia", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=c" },
+      "who":          { "search_url": "https://www.who.int/countries/col" }
+    },
+    "dominican-republic": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/dominican-republic", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=d" },
+      "who":          { "search_url": "https://www.who.int/countries/dom" }
+    },
+    "jamaica": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/jamaica", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/jamaica", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/jamaica", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=j" },
+      "who":          { "search_url": "https://www.who.int/countries/jam" }
+    },
+    "ecuador": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ecuador", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/ecuador", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/americas/ecuador", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=e" },
+      "who":          { "search_url": "https://www.who.int/countries/ecu" }
+    },
+    "nigeria": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nigeria", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/nigeria", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/nigeria", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=n" },
+      "who":          { "search_url": "https://www.who.int/countries/nga" }
+    },
+    "ethiopia": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ethiopia", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/ethiopia", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/ethiopia", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=e" },
+      "who":          { "search_url": "https://www.who.int/countries/eth" }
+    },
+    "ghana": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ghana", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/ghana", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/ghana", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=g" },
+      "who":          { "search_url": "https://www.who.int/countries/gha" }
+    },
+    "uganda": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uganda", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/uganda", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/uganda", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=u" },
+      "who":          { "search_url": "https://www.who.int/countries/uga" }
+    },
+    "rwanda": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/rwanda", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/rwanda", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/rwanda", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=r" },
+      "who":          { "search_url": "https://www.who.int/countries/rwa" }
+    },
+    "zambia": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/zambia", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/zambia", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/zambia", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=z" },
+      "who":          { "search_url": "https://www.who.int/countries/zmb" }
+    },
+    "madagascar": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/madagascar", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/madagascar", "verified_at": "2026-04-26" },
+      "smartraveller":{ "deep_url": "https://www.smartraveller.gov.au/destinations/africa/madagascar", "verified_at": "2026-04-26" },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=m" },
+      "who":          { "search_url": "https://www.who.int/countries/mdg" }
+    },
+    "australia": {
+      "cdc":          { "deep_url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/australia", "verified_at": "2026-04-26" },
+      "phac":         { "deep_url": "https://travel.gc.ca/destinations/australia", "verified_at": "2026-04-26" },
+      "smartraveller":{ "search_url": "https://www.smartraveller.gov.au/", "note": "Smartraveller is the Australian Government's outbound advisory service; it has no Australia destination page." },
+      "nathnac":      { "search_url": "https://travelhealthpro.org.uk/countries?cntrysrch=a" },
+      "who":          { "search_url": "https://www.who.int/countries/aus" }
+    }
+  }
+}

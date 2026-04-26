@@ -1,0 +1,8 @@
+{
+  "$schema_version": "1.0",
+  "$generated": null,
+  "$source": "Auto-managed by scripts/update-health-alerts.mjs (runs fortnightly via .github/workflows/update-health-alerts.yml). DO NOT EDIT BY HAND — manual edits will be overwritten.",
+  "$retention_days": 60,
+  "$errors": [],
+  "alerts": []
+}
