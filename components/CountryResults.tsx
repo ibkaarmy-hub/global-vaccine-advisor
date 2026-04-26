@@ -86,7 +86,7 @@ export default function CountryResults({ country }: Props) {
                   aria-hidden="true"
                   className={`material-symbols-outlined ${styles.seasonalIcon}`}
                 >
-                  map
+                  info
                 </span>
                 <span>{content.seasonal_note}</span>
               </p>
