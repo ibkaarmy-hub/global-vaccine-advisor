@@ -1,0 +1,457 @@
+{
+  "$schema_version": "1.0",
+  "$last_reviewed": "2026-04-27",
+  "$source_policy": "Every entry traces to CDC Yellow Book 2026 or CDC vaccine information pages. Re-validate quarterly. Never cite Passport Health or any commercial clinic chain on the live site.",
+  "$voice_rules": "Second person. Active voice. Plain English. No clinical jargon. No percentages. No alarming stats. End with a 4-6 weeks consult reminder where relevant.",
+  "vaccines": {
+    "hepatitis-a": {
+      "id": "hepatitis-a",
+      "what_it_is": "Hepatitis A is a contagious liver infection caused by a virus. Most people recover fully, but it can knock you out for weeks.",
+      "how_it_spreads": "You catch it by eating food or drinking water contaminated with tiny amounts of stool from an infected person. Shellfish, salads, ice cubes, and street food are common culprits.",
+      "who_needs_it": "CDC recommends the vaccine for anyone travelling to a country where hepatitis A is common, regardless of trip length or purpose. If you are over 40, immunocompromised, or have liver disease, get protected as soon as travel is on the table.",
+      "schedule": {
+        "primary_series": "Two shots in your arm. The second dose comes 6 to 12 months after the first.",
+        "boosters": "No boosters needed once you complete the series.",
+        "timing_before_travel": "Most people develop protection about a month after the first dose. If you are leaving in less than 2 weeks, your doctor may add an immune globulin shot for extra cover."
+      },
+      "side_effects": {
+        "common": ["Soreness or redness where the shot was given", "Mild headache", "Feeling tired for a day or two"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose or any vaccine ingredient. Babies under 6 months are not eligible.",
+      "faq": [
+        { "q": "How long does the hepatitis A vaccine protect me?", "a": "Once you complete both doses, protection is long-lasting and no booster is needed." },
+        { "q": "I leave next week — is it too late to get vaccinated?", "a": "No. One dose still gives strong protection for the trip itself. Your doctor can add an immune globulin shot if you are higher-risk." },
+        { "q": "Do I still need to be careful with food and water if I'm vaccinated?", "a": "Yes. The vaccine does not protect against other food and water bugs like typhoid or traveller's diarrhoea." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure to plan your hepatitis A doses around your trip.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Hepatitis A", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/hepatitis-a.html" }
+      ]
+    },
+    "hepatitis-b": {
+      "id": "hepatitis-b",
+      "what_it_is": "Hepatitis B is a serious liver infection caused by a virus. Some people clear it; others develop a long-term infection that can damage the liver over years.",
+      "how_it_spreads": "It spreads through blood and body fluids — sex, shared needles, unsterile medical or dental equipment, tattoos, and piercings. It can also pass from mother to baby at birth.",
+      "who_needs_it": "CDC recommends hepatitis B vaccination for nearly everyone, with screening at least once in adulthood. For travel, it is especially relevant if you might have new sexual partners, get medical or dental care abroad, or get a tattoo or piercing.",
+      "schedule": {
+        "primary_series": "Two or three shots in your arm depending on the brand. The 3-dose series runs over 6 months. A 2-dose series runs about a month apart.",
+        "boosters": "Boosters are usually not needed for healthy adults once the series is complete.",
+        "timing_before_travel": "Partial protection starts after the first dose. If you have time, complete the series before you leave. An accelerated schedule (over a few weeks) is available if combined with hepatitis A."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Mild fever", "Feeling tired"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose or to baker's yeast.",
+      "faq": [
+        { "q": "Do I really need hepatitis B if I'm only going for a holiday?", "a": "If you are not planning new sexual partners, medical procedures, tattoos, or piercings, your risk is low. Most adults are protected from childhood vaccination anyway." },
+        { "q": "How long does hepatitis B protection last?", "a": "After the full series, protection is long-term for most healthy adults. Boosters are usually not needed." },
+        { "q": "Can I get hepatitis A and B in one vaccine?", "a": "Yes — a combined hepatitis A and B vaccine is available, sometimes on a faster schedule. Ask your doctor." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure so you can fit in as many doses as possible before you leave.",
+      "sources": [
+        { "label": "CDC Hepatitis B Vaccination", "url": "https://www.cdc.gov/hepatitis-b/vaccination/" }
+      ]
+    },
+    "typhoid": {
+      "id": "typhoid",
+      "what_it_is": "Typhoid is a bacterial infection that causes high fever, headache, weakness, and stomach pain. Without treatment it can become serious.",
+      "how_it_spreads": "You get it by eating food or drinking water contaminated with the stool of an infected person. It is most common in places where sanitation is patchy.",
+      "who_needs_it": "CDC recommends typhoid vaccination for travellers aged 2 and older going to areas where typhoid is a known risk — especially South Asia, parts of Southeast Asia, Africa, and Latin America. It matters more if you will eat with locals, stay in rural areas, or visit friends and family abroad.",
+      "schedule": {
+        "primary_series": "Two options. The injected version is a single shot. The oral version is four capsules taken every other day on an empty stomach.",
+        "boosters": "Injected: booster every 2 years. Oral: booster every 5 years."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given (injected)", "Mild fever or headache", "Upset stomach (oral version)"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip the injected version if you have had a severe reaction to a previous dose. The oral version is a live vaccine — not for pregnant travellers or anyone with a weakened immune system.",
+      "faq": [
+        { "q": "If I'm vaccinated, can I eat anything I want?", "a": "No. Typhoid vaccines are not 100% effective. Stick to safe food and water habits — peel it, cook it, or skip it." },
+        { "q": "Should I pick the shot or the capsules?", "a": "The shot is one visit and works for 2 years. The capsules last 5 years and avoid a needle, but you have to remember to take all four on schedule." },
+        { "q": "Is typhoid still a real risk in 2026?", "a": "Yes — especially in South Asia. Drug-resistant strains have made treatment harder, so prevention matters more than ever." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure to choose the right typhoid option for your trip.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Typhoid and Paratyphoid Fever", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html" }
+      ]
+    },
+    "japanese-encephalitis": {
+      "id": "japanese-encephalitis",
+      "what_it_is": "Japanese encephalitis is a virus that can cause serious swelling of the brain. Most infections are mild or symptomless, but the rare severe cases can be life-changing.",
+      "how_it_spreads": "Mosquitoes pick it up from pigs and water birds in rural farming areas, especially around rice paddies, and pass it to humans. It is found across much of Asia and parts of the western Pacific.",
+      "who_needs_it": "CDC recommends the vaccine if you are moving to a country where the virus circulates, planning a long stay (a month or more) in rural Asia, or travelling often to those areas. Consider it for shorter trips too if you will spend significant time outdoors in rural areas during transmission season.",
+      "schedule": {
+        "primary_series": "Two shots in your arm, 28 days apart. Adults aged 18 to 65 can use a faster schedule with doses 7 days apart.",
+        "boosters": "If you remain at risk, a booster after about a year keeps protection going for several years.",
+        "timing_before_travel": "Finish the second dose at least a week before you leave."
+      },
+      "side_effects": {
+        "common": ["Soreness or redness where the shot was given", "Headache", "Muscle aches"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose or any ingredient.",
+      "faq": [
+        { "q": "Do I need this vaccine for a city break in Tokyo or Bangkok?", "a": "Probably not. The risk is mainly in rural farming areas during the wet season. Short urban trips usually do not need it." },
+        { "q": "Is the accelerated schedule as good as the standard one?", "a": "Yes. For adults aged 18 to 65, the 7-day schedule gives strong protection and is useful when time is tight." },
+        { "q": "How long does protection last?", "a": "Several years after a booster. If you keep travelling to risk areas, your doctor will check whether you need another." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure — this vaccine needs at least 8 days even on the fast schedule.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Japanese Encephalitis", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html" }
+      ]
+    },
+    "yellow-fever": {
+      "id": "yellow-fever",
+      "what_it_is": "Yellow fever is a serious mosquito-borne virus. Many cases are mild, but severe cases cause jaundice, bleeding, and organ damage.",
+      "how_it_spreads": "It is spread by mosquitoes in parts of Africa and South America. Humans pick it up in jungle, savannah, or urban settings depending on the local cycle.",
+      "who_needs_it": "CDC recommends the vaccine if you are 9 months or older and travelling to or living in an area where yellow fever circulates. Many countries also require proof of vaccination on an International Certificate of Vaccination if you are arriving from a risk area.",
+      "schedule": {
+        "primary_series": "A single shot.",
+        "boosters": "No boosters needed — one dose protects you for life.",
+        "timing_before_travel": "Get vaccinated at least 10 days before travel. Your certificate becomes valid 10 days after the shot."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Mild fever", "Headache or muscle aches a few days after"],
+        "serious_rare": ["Severe illness affecting organs (very rare, more likely in older adults and those with weakened immunity)"]
+      },
+      "contraindications": "Skip it if you are under 6 months old, allergic to a vaccine component, have a weakened immune system, are on immunosuppressive treatment, or have a thymus disorder. Pregnancy, breastfeeding, and being aged 60 or over are precautions — talk to your doctor about the trade-offs.",
+      "faq": [
+        { "q": "Can I be turned away at the border without a yellow fever certificate?", "a": "Yes. Some countries deny entry, require quarantine, or vaccinate you on the spot if you arrive from a risk area without proof." },
+        { "q": "Is one shot really enough for life?", "a": "Yes. CDC and the International Health Regulations now consider a single dose valid for the lifetime of the traveller." },
+        { "q": "I'm over 60 — should I still get it?", "a": "Talk to your doctor. The rare serious side effects are slightly more likely after age 60, so the decision balances your travel plans against your health." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure. Yellow fever vaccine is only given at designated centres and your certificate must be issued correctly.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Yellow Fever", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html" }
+      ]
+    },
+    "rabies": {
+      "id": "rabies",
+      "what_it_is": "Rabies is a virus that attacks the brain. Once symptoms appear it is almost always fatal, but quick treatment after exposure prevents that.",
+      "how_it_spreads": "Through the saliva of an infected animal — usually via a bite or scratch. Dogs cause most human cases worldwide. Bats and monkeys are also common sources.",
+      "who_needs_it": "CDC recommends pre-travel rabies vaccination for animal handlers, field biologists, cavers, veterinarians, and anyone spending extended time in remote areas where rabies is common and medical care is hard to reach. It is also worth considering for cyclists, runners, and long-stay travellers in rabies-endemic countries.",
+      "schedule": {
+        "primary_series": "Two shots in your arm, 7 days apart.",
+        "boosters": "Strong protection for at least 3 years. Boosters depend on ongoing exposure risk.",
+        "timing_before_travel": "Protection peaks 2 to 4 weeks after the second dose."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Headache", "Mild stomach upset"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it only if you have had a severe allergic reaction to a previous dose. For pre-travel use, there are very few people who cannot have it.",
+      "faq": [
+        { "q": "If I get vaccinated, do I still need shots after a bite?", "a": "Yes — but fewer. Pre-travel vaccination means you only need two follow-up doses after exposure, and you do not need rabies immune globulin, which is hard to find in many countries." },
+        { "q": "Do I need rabies shots if I'm staying in cities?", "a": "Risk is lower in cities, but stray dogs and bats exist everywhere. If you are travelling somewhere with little access to medical care, the vaccine is still worth considering." },
+        { "q": "What do I do if an animal bites me abroad?", "a": "Wash the wound with soap and running water for at least 15 minutes, then get to a clinic for follow-up shots as soon as possible — even if you were vaccinated before the trip." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure to fit in both pre-travel doses.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Rabies", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rabies.html" }
+      ]
+    },
+    "cholera": {
+      "id": "cholera",
+      "what_it_is": "Cholera is a bacterial infection that can cause sudden, severe watery diarrhoea. Without treatment it can lead to dangerous dehydration quickly.",
+      "how_it_spreads": "Through water or food contaminated with the stool of an infected person. Outbreaks happen most often in places with damaged water systems — after disasters, in refugee camps, or in areas with poor sanitation.",
+      "who_needs_it": "CDC recommends the vaccine for travellers aged 2 to 64 going to an area with active cholera transmission. It is not routinely advised for most travellers — careful food, water, and hand hygiene is the main protection.",
+      "schedule": {
+        "primary_series": "A single oral dose, taken at least 10 days before travel.",
+        "boosters": "Long-term protection beyond a few months is uncertain. If you remain at risk, talk to your doctor about another dose.",
+        "timing_before_travel": "At least 10 days before potential exposure."
+      },
+      "side_effects": {
+        "common": ["Tiredness", "Headache", "Mild stomach upset or nausea"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose or any ingredient.",
+      "faq": [
+        { "q": "Should every traveller to a developing country get a cholera vaccine?", "a": "No. Cholera is rare in regular travellers. The vaccine is mainly for aid workers or people heading into active outbreak zones." },
+        { "q": "How do I avoid cholera without the vaccine?", "a": "Drink only sealed bottled or boiled water, eat freshly cooked hot food, peel your own fruit, and wash your hands often." },
+        { "q": "Is treatment available if I catch it?", "a": "Yes. Rapid rehydration with oral rehydration salts saves most people. Antibiotics help in severe cases." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure if you are heading to a known outbreak area or doing aid work.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Cholera", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/cholera.html" }
+      ]
+    },
+    "chikungunya": {
+      "id": "chikungunya",
+      "what_it_is": "Chikungunya is a mosquito-borne virus that causes sudden high fever and severe joint pain. Most people recover in a week or two, but joint pain can linger for months.",
+      "how_it_spreads": "Through the bite of infected Aedes mosquitoes — the same daytime biters that spread dengue and Zika. It is found in tropical and subtropical regions worldwide.",
+      "who_needs_it": "CDC recommends the vaccine for travellers aged 12 and older going to a country or territory with an active chikungunya outbreak. Consider it for extended stays of 6 months or more in areas with elevated risk, even without an active outbreak.",
+      "schedule": {
+        "primary_series": "A single shot in your arm.",
+        "boosters": "No booster recommendation yet — long-term protection is still being studied.",
+        "timing_before_travel": "Get the dose at least 2 weeks before travel where possible."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Headache", "Muscle or joint aches", "Tiredness"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a vaccine component. People with weakened immune systems may not respond as well. Pregnant travellers should discuss timing with their doctor — at minimum, vaccinate at least 2 weeks before the expected delivery date.",
+      "faq": [
+        { "q": "Is chikungunya the same as dengue?", "a": "No, but they spread the same way and the early symptoms look similar. The lingering joint pain is what sets chikungunya apart." },
+        { "q": "If I'm vaccinated, can I stop using mosquito repellent?", "a": "No. Mosquito bite avoidance still protects you against dengue, Zika, and other illnesses the same mosquitoes carry." },
+        { "q": "Who should not get this vaccine?", "a": "Anyone with a known severe allergy to a vaccine component. Pregnant travellers and those with weakened immune systems should talk to their doctor." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure to confirm whether your destination has an active outbreak.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Chikungunya", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/chikungunya.html" }
+      ]
+    },
+    "meningococcal": {
+      "id": "meningococcal",
+      "what_it_is": "Meningococcal disease is a bacterial infection that can cause meningitis (swelling around the brain) or a severe blood infection. It can become life-threatening within hours.",
+      "how_it_spreads": "Through close contact — coughing, kissing, sharing drinks, or living in crowded conditions. Outbreaks happen in dorms, military barracks, and large gatherings.",
+      "who_needs_it": "CDC recommends meningococcal vaccination for travellers to the African meningitis belt during the dry season (December to June), and for anyone making the Hajj or Umrah pilgrimage to Saudi Arabia, which requires proof of vaccination.",
+      "schedule": {
+        "primary_series": "A single shot in your arm.",
+        "boosters": "Every 5 years if you remain at risk.",
+        "timing_before_travel": "Get the shot 7 to 10 days before travel so your body has time to build protection."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Mild fever", "Headache or feeling tired"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose or vaccine ingredient.",
+      "faq": [
+        { "q": "Is the Hajj certificate the same as the standard vaccine?", "a": "Saudi Arabia requires a quadrivalent vaccine, given at least 10 days before arrival. Most travel clinics use a vaccine that meets that requirement — confirm with your provider." },
+        { "q": "Do I need this for safari travel in Africa?", "a": "Only if you are going to or through the meningitis belt — a strip across Sub-Saharan Africa from Senegal to Ethiopia — during the December to June dry season." },
+        { "q": "How long does the booster last?", "a": "About 5 years in adults. If you keep travelling to risk areas or making pilgrimages, plan a repeat." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure, especially for Hajj or Umrah where documentation rules apply.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Meningococcal Disease", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/meningococcal-disease.html" }
+      ]
+    },
+    "mpox": {
+      "id": "mpox",
+      "what_it_is": "Mpox is a viral illness that causes a painful rash, fever, and swollen glands. Most people recover in 2 to 4 weeks, but it can be more serious in some.",
+      "how_it_spreads": "Mostly through close skin-to-skin contact, often during sex. It can also spread through respiratory droplets in close contact and from contaminated bedding or clothing.",
+      "who_needs_it": "CDC recommends the vaccine for people with known or suspected exposure, recent sexual partners of someone diagnosed, gay or bisexual men and transgender or nonbinary people with multiple recent partners or a recent STI, and travellers heading to countries with a clade I outbreak who anticipate sex with new partners or attending events where that is likely.",
+      "schedule": {
+        "primary_series": "Two shots, 4 weeks apart.",
+        "boosters": "No booster needed — protection appears to last at least 7 years.",
+        "timing_before_travel": "Best protection comes about 2 weeks after the second dose, so start the series at least 6 weeks before travel."
+      },
+      "side_effects": {
+        "common": ["Soreness, redness, or itching where the shot was given", "Headache", "Tiredness", "Muscle aches"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose or any ingredient.",
+      "faq": [
+        { "q": "Do I need mpox vaccination for a regular holiday?", "a": "Most travellers do not. CDC recommends it mainly when sexual exposure or close-contact events are part of your plans in an outbreak area." },
+        { "q": "How long does protection last?", "a": "Evidence suggests protection lasts at least 7 years and a booster is not needed." },
+        { "q": "Can I still catch mpox after vaccination?", "a": "It is still possible, but cases are usually milder. Avoid close contact with anyone who has a new rash or skin lesions." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure — ideally 6 weeks or more so you can complete both doses.",
+      "sources": [
+        { "label": "CDC Mpox Vaccines", "url": "https://www.cdc.gov/monkeypox/vaccines/" }
+      ]
+    },
+    "tick-borne-encephalitis": {
+      "id": "tick-borne-encephalitis",
+      "what_it_is": "Tick-borne encephalitis (TBE) is a virus that can cause swelling of the brain. Most cases are mild, but severe cases can leave lasting neurological effects.",
+      "how_it_spreads": "Through the bite of an infected tick, found in forested and grassy areas of central and northern Europe, the Baltic states, and parts of northern Asia. Rarely, it spreads through unpasteurised dairy.",
+      "who_needs_it": "CDC recommends the vaccine for travellers planning extensive outdoor activities — hiking, camping, foraging, working in forests — in areas where TBE is common. Highest-incidence regions include the Baltic states, the Czech Republic, and Slovenia.",
+      "schedule": {
+        "primary_series": "Three shots in your arm. The first two are weeks to months apart, and the third is 5 to 12 months after that.",
+        "boosters": "A booster about 3 years after the primary series keeps protection going for at least a decade.",
+        "timing_before_travel": "Start at least several weeks before travel. This vaccine is not useful for last-minute trips."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Mild fever", "Headache or muscle aches"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose or any ingredient, including egg.",
+      "faq": [
+        { "q": "Do I need this for a city trip to Prague or Stockholm?", "a": "Probably not. Risk is mainly in forested rural areas. Short urban stays usually do not warrant the full series." },
+        { "q": "What if I can't fit in all three doses before travel?", "a": "Two doses give strong short-term protection. The third dose extends it. Combine with tick-bite prevention regardless." },
+        { "q": "How do I avoid tick bites in the meantime?", "a": "Wear long sleeves and trousers tucked into socks, use insect repellent, stick to marked paths, and check your skin and clothing after time outdoors." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure, or earlier — the full series takes months.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Tick-borne Encephalitis", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tick-borne-encephalitis.html" }
+      ]
+    },
+    "mmr": {
+      "id": "mmr",
+      "what_it_is": "MMR is a combined vaccine that protects against three contagious viral illnesses: measles, mumps, and rubella. Measles in particular is highly contagious and can cause serious complications.",
+      "how_it_spreads": "All three spread through coughs, sneezes, and contact with droplets in the air. Measles can hang in the air of a room for up to two hours after an infected person leaves.",
+      "who_needs_it": "CDC strongly advises every international traveller to be fully vaccinated against measles before any trip. Most adults are protected from childhood. If you do not have records, talk to a travel doctor about whether you need a dose before you leave. Adults born before 1957 are generally considered already protected.",
+      "schedule": {
+        "primary_series": "Two doses, at least 28 days apart.",
+        "boosters": "Two documented doses protect most people for life — no boosters needed.",
+        "timing_before_travel": "Ideally complete vaccination at least 2 weeks before travel, but a dose closer to departure is still better than none."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Mild fever", "Mild rash a week or two after"],
+        "serious_rare": ["Brief seizures linked to fever (very rare)", "Temporary low platelet count that can cause bruising (very rare)"]
+      },
+      "contraindications": "Skip it if you have a severely weakened immune system, are pregnant, or have had a severe allergic reaction to a previous dose. Talk to your doctor if you are unsure.",
+      "faq": [
+        { "q": "I had measles as a kid — do I still need MMR?", "a": "If you have lab confirmation of past infection or immunity, no. Otherwise your doctor may suggest a dose to be safe." },
+        { "q": "I don't have my childhood vaccination records. What now?", "a": "A blood test can check immunity, or your doctor may simply give you a dose. There is no harm in an extra dose if you are already protected." },
+        { "q": "Is measles really still a problem?", "a": "Yes. Most measles cases imported into the US come back with travellers who were not fully vaccinated." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure if you are unsure about your measles immunity.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Measles (Rubeola)", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/measles-rubeola.html" }
+      ]
+    },
+    "dtap-tdap": {
+      "id": "dtap-tdap",
+      "what_it_is": "Tdap is a combined vaccine that protects against three bacterial illnesses: tetanus (lockjaw), diphtheria, and pertussis (whooping cough). All three can be serious or fatal.",
+      "how_it_spreads": "Tetanus comes from soil and dirty wounds. Diphtheria and pertussis spread through coughs and sneezes in close contact.",
+      "who_needs_it": "Most adults are protected from childhood. CDC advises a Tdap booster every 10 years for all adults. Diphtheria is now mainly seen in international travellers, so making sure your booster is current matters before a trip. Pregnant travellers should get a Tdap dose during every pregnancy.",
+      "schedule": {
+        "primary_series": "Most people complete the primary series in childhood. Adults who never had Tdap should get a single dose.",
+        "boosters": "Every 10 years — or after 5 years if you have a dirty wound or burn.",
+        "timing_before_travel": "Protection kicks in within days, so this is not a major timing concern."
+      },
+      "side_effects": {
+        "common": ["Soreness, redness, or swelling where the shot was given", "Mild fever", "Headache or feeling tired"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose, or a serious neurological reaction within a week of a previous pertussis-containing dose.",
+      "faq": [
+        { "q": "How do I know when my last tetanus shot was?", "a": "Check your medical records. If you are not sure, your doctor will usually give you a dose to be safe — and update your records." },
+        { "q": "Is diphtheria really a travel risk?", "a": "Yes. Diphtheria is rare in countries with strong vaccine programmes but still circulates elsewhere, so a current booster is sensible before an international trip." },
+        { "q": "I'm pregnant — should I get Tdap?", "a": "Yes. CDC recommends Tdap during every pregnancy, ideally early in the third trimester, to protect the newborn from whooping cough." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure to check whether your booster is due.",
+      "sources": [
+        { "label": "CDC Tdap Vaccine Information Statement", "url": "https://www.cdc.gov/vaccines/hcp/current-vis/tdap.html" }
+      ]
+    },
+    "polio": {
+      "id": "polio",
+      "what_it_is": "Polio is a virus that can cause paralysis, sometimes permanent. Most infections are mild, but a small number lead to lasting damage.",
+      "how_it_spreads": "Through food, water, or hands contaminated with the stool of an infected person. It can also spread through coughs and sneezes.",
+      "who_needs_it": "Most adults are protected from childhood. CDC recommends a one-time adult booster for travellers heading to countries where polio is still circulating — currently a small number of countries in Africa and Asia, with Afghanistan and Pakistan as the only places where wild polio is still endemic.",
+      "schedule": {
+        "primary_series": "Most adults completed this in childhood.",
+        "boosters": "A single lifetime adult booster for travellers to at-risk countries.",
+        "timing_before_travel": "For some destinations, the booster must be received between 4 weeks and 12 months before departure and recorded on an International Certificate of Vaccination."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Mild fever"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose or any vaccine ingredient.",
+      "faq": [
+        { "q": "Do I really need a polio booster as an adult?", "a": "Only if you are travelling to a country with active polio risk. Your doctor can check the current list before your trip." },
+        { "q": "Why do I need a certificate?", "a": "Some countries require travellers to show proof of recent polio vaccination on arrival or departure to stop the virus crossing borders." },
+        { "q": "Is polio still a real risk?", "a": "Cases are rare, but ongoing outbreaks in a few countries mean travellers heading there should be protected." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure to check whether your destination requires a polio booster and certificate.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Poliomyelitis", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/poliomyelitis.html" }
+      ]
+    },
+    "influenza": {
+      "id": "influenza",
+      "what_it_is": "Influenza, or flu, is a respiratory virus that causes fever, body aches, sore throat, and cough. It can be serious for older adults, young children, pregnant people, and anyone with chronic conditions.",
+      "how_it_spreads": "Through coughs, sneezes, and droplets in close contact. It also spreads from contaminated surfaces.",
+      "who_needs_it": "CDC recommends an annual flu shot for nearly everyone aged 6 months and older. For travellers, it matters because flu circulates year-round in tropical regions and during opposite seasons in the southern hemisphere — so even a summer trip can mean exposure.",
+      "schedule": {
+        "primary_series": "One dose each flu season.",
+        "boosters": "Get a fresh dose each year — the strains in the vaccine are updated annually.",
+        "timing_before_travel": "Ideally at least 2 weeks before travel to areas with active flu circulation."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Mild fever", "Muscle aches", "Feeling tired"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous flu vaccine. Tell your provider about any egg allergy — most flu vaccines are safe even for those with egg allergy, but your doctor may pick a specific brand.",
+      "faq": [
+        { "q": "I had my flu shot at home — do I need another for the southern hemisphere?", "a": "Usually no. A current-season shot covers travel to either hemisphere." },
+        { "q": "Can the flu shot give me the flu?", "a": "No. The injected vaccine does not contain live virus. You may feel mildly off for a day, but that is your immune system responding, not flu." },
+        { "q": "When is flu season in the tropics?", "a": "There is no strict season — flu circulates year-round in tropical regions, so a current-season shot is a good idea any time of year." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure to time your flu shot with your trip.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — Influenza", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/influenza.html" }
+      ]
+    },
+    "chickenpox": {
+      "id": "chickenpox",
+      "what_it_is": "Chickenpox is a highly contagious virus that causes an itchy rash with blisters, plus fever and tiredness. It is usually mild in children but can be more serious in adults.",
+      "how_it_spreads": "Through the air from coughs and sneezes, and through direct contact with the blisters.",
+      "who_needs_it": "Most adults are protected from childhood vaccination or from having had chickenpox. CDC lists international travellers as a priority group for vaccination if you do not have evidence of immunity. If you have no records and never had chickenpox, talk to a travel doctor about getting protected.",
+      "schedule": {
+        "primary_series": "Two doses, at least 28 days apart for adolescents and adults. Children get doses at 12 to 15 months and again at 4 to 6 years.",
+        "boosters": "Two documented doses protect most people for life.",
+        "timing_before_travel": "Ideally complete both doses before travel, but partial protection starts after the first dose."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Mild fever", "Mild rash near the injection site"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have a severely weakened immune system, are pregnant, or have had a severe allergic reaction to a previous dose. This is a live vaccine, so timing matters around pregnancy and immune-suppressing treatments.",
+      "faq": [
+        { "q": "I had chickenpox as a child — do I need the vaccine?", "a": "No. A clear history of chickenpox counts as immunity. Most adults are already protected." },
+        { "q": "What if I'm not sure whether I had it?", "a": "A blood test can check for immunity, or your doctor may simply give you the vaccine. There is no harm in vaccinating someone who is already immune." },
+        { "q": "Why does CDC list travellers as a priority group?", "a": "Vaccination rates vary by country, so you may meet more unvaccinated people abroad. International travel is a common context for adult chickenpox cases." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure if you are unsure about your chickenpox immunity.",
+      "sources": [
+        { "label": "CDC Chickenpox Vaccines", "url": "https://www.cdc.gov/chickenpox/vaccines/" }
+      ]
+    },
+    "shingles": {
+      "id": "shingles",
+      "what_it_is": "Shingles is a painful rash caused by the same virus that causes chickenpox. After a chickenpox infection, the virus stays dormant in nerves and can wake up years later, usually as you age.",
+      "how_it_spreads": "Shingles itself is not spread person-to-person, but the fluid in shingles blisters can cause chickenpox in someone who has never had it or been vaccinated.",
+      "who_needs_it": "This is a routine adult vaccine, not a travel one. CDC recommends Shingrix for adults aged 50 and over, and for adults aged 19 and over with weakened immune systems. Most travellers in this age group should already be on the schedule regardless of trip plans.",
+      "schedule": {
+        "primary_series": "Two doses of Shingrix, 2 to 6 months apart.",
+        "boosters": "No boosters needed — protection stays high for at least 7 years.",
+        "timing_before_travel": "Not travel-dependent. Adults 19 and over with weakened immune systems can use a faster schedule with the second dose 1 to 2 months after the first."
+      },
+      "side_effects": {
+        "common": ["Soreness or redness where the shot was given", "Muscle aches", "Tiredness", "Headache or mild fever for a day or two"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose or any ingredient. Talk to your doctor if you currently have shingles or are pregnant.",
+      "faq": [
+        { "q": "I had the older shingles vaccine years ago — do I need Shingrix?", "a": "Yes. CDC recommends Shingrix even if you had the older vaccine, because it offers stronger and longer protection." },
+        { "q": "Can I get shingles if I never had chickenpox?", "a": "Almost never. Shingles only occurs in people who carry the chickenpox virus from a previous infection or older live vaccine." },
+        { "q": "Does travel increase my shingles risk?", "a": "Not directly, but stress and being run down can trigger an episode. If you are due for the vaccine, getting it before a long trip is sensible." }
+      ],
+      "consult_note": "Talk to your usual doctor about Shingrix as part of routine adult care — it is not specifically a travel vaccine.",
+      "sources": [
+        { "label": "CDC Shingles Vaccines", "url": "https://www.cdc.gov/shingles/vaccines/" }
+      ]
+    },
+    "covid-19": {
+      "id": "covid-19",
+      "what_it_is": "COVID-19 is a respiratory illness caused by the SARS-CoV-2 virus. Most cases are mild to moderate, but it can cause serious illness, especially in older adults and those with chronic conditions.",
+      "how_it_spreads": "Through respiratory droplets and small airborne particles when an infected person breathes, talks, coughs, or sneezes. Crowded indoor settings increase risk.",
+      "who_needs_it": "CDC recommends all eligible travellers stay up to date with their COVID-19 vaccinations. Travel — especially long flights and crowded events — increases your chances of exposure.",
+      "schedule": {
+        "primary_series": "Follow the current CDC schedule for your age and risk group. Several vaccines are available, including mRNA and protein-subunit options.",
+        "boosters": "Updated annually to match circulating strains. Stay up to date.",
+        "timing_before_travel": "If you had COVID-19 recently, you may delay vaccination for up to 3 months from the start of infection. Otherwise, get vaccinated as soon as you are due."
+      },
+      "side_effects": {
+        "common": ["Soreness where the shot was given", "Tiredness", "Headache", "Muscle aches", "Mild fever"],
+        "serious_rare": ["Severe allergic reaction (very rare)"]
+      },
+      "contraindications": "Skip it if you have had a severe allergic reaction to a previous dose or any ingredient. Talk to your doctor if you have had a serious vaccine reaction in the past.",
+      "faq": [
+        { "q": "Do I still need a COVID-19 booster for travel?", "a": "CDC advises staying up to date with the latest recommended doses. Whether you need one before a specific trip depends on when you last had a dose." },
+        { "q": "What should I pack in case I catch COVID-19 abroad?", "a": "Rapid antigen tests, a well-fitting mask, and basic over-the-counter medicines. Have a plan for where you would isolate if you tested positive." },
+        { "q": "Are masks still useful during travel?", "a": "Yes. A well-fitting mask or respirator that covers your nose and mouth lowers your risk of catching or spreading respiratory viruses, especially on planes and in crowded indoor spaces." }
+      ],
+      "consult_note": "Talk to a travel health doctor 4 to 6 weeks before departure to confirm your COVID-19 vaccinations are up to date.",
+      "sources": [
+        { "label": "CDC Yellow Book 2026 — COVID-19", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/covid-19.html" }
+      ]
+    }
+  }
+}

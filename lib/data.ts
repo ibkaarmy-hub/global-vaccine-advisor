@@ -1,6 +1,7 @@
 import countriesJson from "@/data/countries.json";
 import vaccinesJson from "@/data/vaccines.json";
 import countryContentJson from "@/data/country-content.json";
+import vaccinesContentJson from "@/data/vaccines-content.json";
 
 export type ConditionalRequirement = {
   vaccine_id: string;
@@ -59,15 +60,41 @@ export type CountryContent = {
   seasonal_note?: string;
 };
 
+export type VaccineFaq = { q: string; a: string };
+
+export type VaccineContent = {
+  id: string;
+  what_it_is: string;
+  how_it_spreads: string;
+  who_needs_it: string;
+  schedule: {
+    primary_series: string;
+    boosters?: string;
+    timing_before_travel?: string;
+  };
+  side_effects: {
+    common: string[];
+    serious_rare: string[];
+  };
+  contraindications: string;
+  faq: VaccineFaq[];
+  consult_note: string;
+  sources: { label: string; url: string }[];
+};
+
 type CountriesFile = { countries: Country[] };
 type VaccinesFile = { vaccines: Vaccine[] };
 type CountryContentFile = { content: Record<string, CountryContent> };
+type VaccinesContentFile = { vaccines: Record<string, VaccineContent> };
 
 export const countries: Country[] = (countriesJson as CountriesFile).countries;
 export const vaccines: Vaccine[] = (vaccinesJson as VaccinesFile).vaccines;
 const countryContent: Record<string, CountryContent> = (
   countryContentJson as CountryContentFile
 ).content;
+const vaccineContent: Record<string, VaccineContent> = (
+  vaccinesContentJson as unknown as VaccinesContentFile
+).vaccines;
 
 export function getCountry(id: string): Country | undefined {
   return countries.find((c) => c.id === id);
@@ -79,6 +106,10 @@ export function getVaccine(id: string): Vaccine | undefined {
 
 export function getCountryContent(id: string): CountryContent | undefined {
   return countryContent[id];
+}
+
+export function getVaccineContent(id: string): VaccineContent | undefined {
+  return vaccineContent[id];
 }
 
 export const travelVaccines: Vaccine[] = vaccines.filter((v) => !v.is_routine);
@@ -106,7 +137,13 @@ export function countryTier(country: Country, vaccineId: string):
   return null;
 }
 
+// Single source of truth for the country emoji flag rendered alongside names.
+// Keep keys aligned with country.id slugs in countries.json.
+// When adding a new country, add the flag here too — the UI silently falls
+// back to no flag if missing, but the bento and pill components look better
+// with one.
 const COUNTRY_FLAG: Record<string, string> = {
+  // Launch 10 (2026-04-21)
   thailand: "🇹🇭",
   india: "🇮🇳",
   mexico: "🇲🇽",
@@ -117,6 +154,7 @@ const COUNTRY_FLAG: Record<string, string> = {
   peru: "🇵🇪",
   philippines: "🇵🇭",
   japan: "🇯🇵",
+  // Post-launch batch 1 (2026-04-25): 11–18
   turkey: "🇹🇷",
   brazil: "🇧🇷",
   morocco: "🇲🇦",
@@ -125,6 +163,39 @@ const COUNTRY_FLAG: Record<string, string> = {
   "south-africa": "🇿🇦",
   "costa-rica": "🇨🇷",
   "sri-lanka": "🇱🇰",
+  // Post-launch batch 2 (2026-04-27): 19–50
+  cambodia: "🇰🇭",
+  laos: "🇱🇦",
+  myanmar: "🇲🇲",
+  nepal: "🇳🇵",
+  bangladesh: "🇧🇩",
+  singapore: "🇸🇬",
+  malaysia: "🇲🇾",
+  maldives: "🇲🇻",
+  china: "🇨🇳",
+  "south-korea": "🇰🇷",
+  taiwan: "🇹🇼",
+  "saudi-arabia": "🇸🇦",
+  jordan: "🇯🇴",
+  israel: "🇮🇱",
+  oman: "🇴🇲",
+  qatar: "🇶🇦",
+  "united-states": "🇺🇸",
+  canada: "🇨🇦",
+  argentina: "🇦🇷",
+  chile: "🇨🇱",
+  colombia: "🇨🇴",
+  "dominican-republic": "🇩🇴",
+  jamaica: "🇯🇲",
+  ecuador: "🇪🇨",
+  nigeria: "🇳🇬",
+  ethiopia: "🇪🇹",
+  ghana: "🇬🇭",
+  uganda: "🇺🇬",
+  rwanda: "🇷🇼",
+  zambia: "🇿🇲",
+  madagascar: "🇲🇬",
+  australia: "🇦🇺",
 };
 
 export function countryFlag(id: string): string {

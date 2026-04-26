@@ -3,6 +3,7 @@ import {
   countriesRecommending,
   countryFlag,
   countryTier,
+  getVaccineContent,
   type Vaccine,
 } from "@/lib/data";
 import DisclaimerBanner from "./DisclaimerBanner";
@@ -11,6 +12,7 @@ import styles from "./VaccineDetail.module.css";
 type Props = { vaccine: Vaccine };
 
 export default function VaccineDetail({ vaccine }: Props) {
+  const content = getVaccineContent(vaccine.id);
   const countries = countriesRecommending(vaccine.id);
   const mostCountries = countries.filter(
     (c) => countryTier(c, vaccine.id) === "most"
@@ -39,6 +41,19 @@ export default function VaccineDetail({ vaccine }: Props) {
         <p className={styles.lead}>{vaccine.brief_description}</p>
       </header>
 
+      {content && (
+        <div className={styles.prose}>
+          <section className={styles.proseSection}>
+            <h2 className={styles.proseH2}>What it is</h2>
+            <p>{content.what_it_is}</p>
+          </section>
+          <section className={styles.proseSection}>
+            <h2 className={styles.proseH2}>How it spreads</h2>
+            <p>{content.how_it_spreads}</p>
+          </section>
+        </div>
+      )}
+
       <div className={styles.bento}>
         <section className={`${styles.tile} ${styles.tile7}`}>
           <div className={styles.tileHead}>
@@ -47,7 +62,28 @@ export default function VaccineDetail({ vaccine }: Props) {
             </span>
             <h2 className={styles.tileH}>Dosing &amp; timing</h2>
           </div>
-          <p className={styles.tileP}>{vaccine.timing_note}</p>
+          {content ? (
+            <dl className={styles.scheduleList}>
+              <div className={styles.scheduleRow}>
+                <dt>Primary series</dt>
+                <dd>{content.schedule.primary_series}</dd>
+              </div>
+              {content.schedule.boosters && (
+                <div className={styles.scheduleRow}>
+                  <dt>Boosters</dt>
+                  <dd>{content.schedule.boosters}</dd>
+                </div>
+              )}
+              {content.schedule.timing_before_travel && (
+                <div className={styles.scheduleRow}>
+                  <dt>Before you travel</dt>
+                  <dd>{content.schedule.timing_before_travel}</dd>
+                </div>
+              )}
+            </dl>
+          ) : (
+            <p className={styles.tileP}>{vaccine.timing_note}</p>
+          )}
         </section>
 
         <section className={`${styles.tile} ${styles.tile5} ${styles.tilePrimary}`}>
@@ -58,10 +94,14 @@ export default function VaccineDetail({ vaccine }: Props) {
             <h2 className={styles.tileH}>Who should consider it</h2>
           </div>
           <p className={styles.tileP}>
-            Travellers to destinations where CDC lists {vaccine.name} under
-            &ldquo;recommended for most&rdquo; or &ldquo;recommended for some&rdquo;.
-            See the country list below for destinations on this site. Your travel
-            doctor will tailor the decision to your itinerary, duration, and health.
+            {content?.who_needs_it ?? (
+              <>
+                Travellers to destinations where CDC lists {vaccine.name} under
+                &ldquo;recommended for most&rdquo; or &ldquo;recommended for some&rdquo;.
+                See the country list below for destinations on this site. Your travel
+                doctor will tailor the decision to your itinerary, duration, and health.
+              </>
+            )}
           </p>
         </section>
 
@@ -124,21 +164,93 @@ export default function VaccineDetail({ vaccine }: Props) {
             </span>
             <h2 className={styles.tileH}>Side effects and safety</h2>
           </div>
-          <p className={styles.tileP}>
-            Most travel vaccine reactions are mild — soreness at the injection site,
-            low-grade fever, headache, or tiredness for a day or two. Serious
-            reactions are rare.{" "}
-            <a
-              className={styles.link}
-              href="https://www.cdc.gov/vaccines/basics/possible-side-effects.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn more about vaccine safety on CDC
-            </a>
-            .
-          </p>
+          {content ? (
+            <div className={styles.sideEffects}>
+              <div>
+                <p className={styles.groupLabel}>Common (most resolve in a day or two)</p>
+                <ul className={styles.bulletList}>
+                  {content.side_effects.common.map((s, i) => (
+                    <li key={i}>{s}</li>
+                  ))}
+                </ul>
+              </div>
+              {content.side_effects.serious_rare.length > 0 && (
+                <div>
+                  <p className={styles.groupLabel}>Serious but rare</p>
+                  <ul className={styles.bulletList}>
+                    {content.side_effects.serious_rare.map((s, i) => (
+                      <li key={i}>{s}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              <p className={styles.tileNoteFooter}>
+                <a
+                  className={styles.link}
+                  href="https://www.cdc.gov/vaccines/basics/possible-side-effects.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Learn more about vaccine safety on CDC
+                </a>
+              </p>
+            </div>
+          ) : (
+            <p className={styles.tileP}>
+              Most travel vaccine reactions are mild — soreness at the injection site,
+              low-grade fever, headache, or tiredness for a day or two. Serious
+              reactions are rare.{" "}
+              <a
+                className={styles.link}
+                href="https://www.cdc.gov/vaccines/basics/possible-side-effects.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Learn more about vaccine safety on CDC
+              </a>
+              .
+            </p>
+          )}
         </section>
+
+        {content?.contraindications && (
+          <section className={`${styles.tile} ${styles.tile12}`}>
+            <div className={styles.tileHead}>
+              <span aria-hidden="true" className={`material-symbols-outlined ${styles.tileIcon}`}>
+                warning
+              </span>
+              <h2 className={styles.tileH}>Who should not get it</h2>
+            </div>
+            <p className={styles.tileP}>{content.contraindications}</p>
+          </section>
+        )}
+
+        {content?.faq && content.faq.length > 0 && (
+          <section className={`${styles.tile} ${styles.tile12}`}>
+            <div className={styles.tileHead}>
+              <span aria-hidden="true" className={`material-symbols-outlined ${styles.tileIcon}`}>
+                info
+              </span>
+              <h2 className={styles.tileH}>Common questions</h2>
+            </div>
+            <dl className={styles.faqList}>
+              {content.faq.map((qa, i) => (
+                <details key={i} className={styles.faqItem}>
+                  <summary className={styles.faqQ}>{qa.q}</summary>
+                  <p className={styles.faqA}>{qa.a}</p>
+                </details>
+              ))}
+            </dl>
+          </section>
+        )}
+
+        {content?.consult_note && (
+          <section className={`${styles.tile} ${styles.tile12} ${styles.tileMuted}`}>
+            <p className={styles.tileP}>
+              <strong>Plan ahead:</strong> {content.consult_note}
+            </p>
+          </section>
+        )}
       </div>
 
       <DisclaimerBanner
