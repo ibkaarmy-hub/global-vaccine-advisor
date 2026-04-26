@@ -54,7 +54,7 @@ export default function RootLayout({
             name here too. */}
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back,arrow_forward,campaign,check_circle,chevron_right,gavel,groups,health_and_safety,info,local_hospital,location_on,mark_email_unread,menu_book,open_in_new,pest_control,public,schedule,verified,warning&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back,arrow_forward,campaign,check_circle,chevron_right,expand_more,gavel,groups,health_and_safety,info,local_hospital,location_on,mark_email_unread,menu_book,open_in_new,pest_control,public,schedule,verified,warning&display=swap"
         />
       </head>
       <body>{children}</body>
