@@ -2,6 +2,9 @@ import countriesJson from "@/data/countries.json";
 import vaccinesJson from "@/data/vaccines.json";
 import countryContentJson from "@/data/country-content.json";
 import vaccinesContentJson from "@/data/vaccines-content.json";
+import referencesJson from "@/data/references.json";
+import destinationReferencesJson from "@/data/destination-references.json";
+import healthAlertsJson from "@/data/health-alerts.json";
 
 export type ConditionalRequirement = {
   vaccine_id: string;
@@ -87,6 +90,55 @@ type VaccinesFile = { vaccines: Vaccine[] };
 type CountryContentFile = { content: Record<string, CountryContent> };
 type VaccinesContentFile = { vaccines: Record<string, VaccineContent> };
 
+export type Reference = {
+  id: string;
+  name: string;
+  short_name: string;
+  tier: "primary" | "regional" | "professional";
+  country_of_origin: string;
+  scope: string;
+  homepage_url: string;
+  alerts_feed_url: string | null;
+  alerts_feed_kind: "rss" | "atom" | null;
+  license_note: string;
+  last_verified: string;
+  [extra: string]: unknown;
+};
+
+export type DestinationReferenceLink = {
+  deep_url?: string;
+  search_url?: string;
+  verified_at?: string;
+  note?: string;
+};
+
+export type DestinationReferences = {
+  cdc?: DestinationReferenceLink;
+  phac?: DestinationReferenceLink;
+  smartraveller?: DestinationReferenceLink;
+  nathnac?: DestinationReferenceLink;
+  who?: DestinationReferenceLink;
+};
+
+export type GlobalAlert = {
+  id: string;
+  source_id: string;
+  source_name: string;
+  title: string;
+  summary: string;
+  url: string;
+  published_at: string | null;
+};
+
+type ReferencesFile = { references: Reference[] };
+type DestinationReferencesFile = {
+  destinations: Record<string, DestinationReferences>;
+};
+type HealthAlertsFile = {
+  $generated: string | null;
+  alerts: GlobalAlert[];
+};
+
 export const countries: Country[] = (countriesJson as CountriesFile).countries;
 export const vaccines: Vaccine[] = (vaccinesJson as VaccinesFile).vaccines;
 const countryContent: Record<string, CountryContent> = (
@@ -95,6 +147,24 @@ const countryContent: Record<string, CountryContent> = (
 const vaccineContent: Record<string, VaccineContent> = (
   vaccinesContentJson as unknown as VaccinesContentFile
 ).vaccines;
+export const references: Reference[] = (referencesJson as unknown as ReferencesFile).references;
+const destinationReferences: Record<string, DestinationReferences> = (
+  destinationReferencesJson as unknown as DestinationReferencesFile
+).destinations;
+const healthAlertsFile = healthAlertsJson as unknown as HealthAlertsFile;
+export const globalAlerts: GlobalAlert[] = healthAlertsFile.alerts ?? [];
+export const globalAlertsGeneratedAt: string | null =
+  healthAlertsFile.$generated ?? null;
+
+export function getReference(id: string): Reference | undefined {
+  return references.find((r) => r.id === id);
+}
+
+export function getDestinationReferences(
+  countryId: string
+): DestinationReferences | undefined {
+  return destinationReferences[countryId];
+}
 
 export function getCountry(id: string): Country | undefined {
   return countries.find((c) => c.id === id);

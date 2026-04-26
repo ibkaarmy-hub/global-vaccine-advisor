@@ -2,9 +2,11 @@ import Link from "next/link";
 import {
   countryFlag,
   getCountryContent,
+  getDestinationReferences,
   getVaccine,
   routineVaccines,
   type Country,
+  type DestinationReferenceLink,
 } from "@/lib/data";
 import VaccineCard from "./VaccineCard";
 import TimingBanner from "./TimingBanner";
@@ -37,6 +39,19 @@ export default function CountryResults({ country }: Props) {
   const flag = countryFlag(country.id);
   const content = getCountryContent(country.id);
   const er = country.entry_requirements;
+  const refs = getDestinationReferences(country.id);
+  const refLinks: { label: string; href: string }[] = [];
+  const pushRef = (label: string, link?: DestinationReferenceLink) => {
+    if (!link) return;
+    const href = link.deep_url ?? link.search_url;
+    if (href) refLinks.push({ label, href });
+  };
+  if (refs) {
+    pushRef(`PHAC (Canada) — ${country.name}`, refs.phac);
+    pushRef(`Smartraveller (Australia) — ${country.name}`, refs.smartraveller);
+    pushRef(`NaTHNaC (UK) — ${country.name}`, refs.nathnac);
+    pushRef(`WHO — ${country.name}`, refs.who);
+  }
 
   return (
     <main className={styles.main}>
@@ -315,6 +330,23 @@ export default function CountryResults({ country }: Props) {
               </li>
             </ul>
           </div>
+          {refLinks.length > 0 && (
+            <div className={styles.links}>
+              <h4 className={styles.linksH}>Cross-references</h4>
+              <ul>
+                {refLinks.map((r) => (
+                  <li key={r.href}>
+                    <a href={r.href} target="_blank" rel="noopener noreferrer">
+                      <span aria-hidden="true" className="material-symbols-outlined">
+                        open_in_new
+                      </span>
+                      {r.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </aside>
     </main>
