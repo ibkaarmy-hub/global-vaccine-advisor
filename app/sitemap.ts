@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/alerts/`, lastModified: today, changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/about/`, lastModified: today, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/disclaimer/`, lastModified: today, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${base}/privacy/`, lastModified: today, changeFrequency: "yearly", priority: 0.3 },
   ];
 
   const countryPages: MetadataRoute.Sitemap = countries.map((c) => ({
