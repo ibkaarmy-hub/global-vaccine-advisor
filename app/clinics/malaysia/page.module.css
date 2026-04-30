@@ -1,0 +1,118 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.breadcrumb {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #111;
+  margin: 0 0 0.5rem;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.cityGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.cityCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-decoration: none;
+  background: #fff;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  position: relative;
+}
+
+.cityCard:hover {
+  border-color: #2563eb;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.1);
+  transform: translateY(-2px);
+}
+
+.cityName {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.cityMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.clinicCount {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.yfBadge {
+  font-size: 0.75rem;
+  background: #fefce8;
+  color: #713f12;
+  border-radius: 4px;
+  padding: 0.15rem 0.4rem;
+}
+
+.arrow {
+  position: absolute;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.1rem;
+  color: #d1d5db;
+  transition: color 0.15s, right 0.15s;
+}
+
+.cityCard:hover .arrow {
+  color: #2563eb;
+  right: 1rem;
+}
+
+.note {
+  margin-top: 2.5rem;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 8px;
+  font-size: 0.83rem;
+  color: #6b7280;
+}
+
+.note a {
+  color: #2563eb;
+}
+
+@media (max-width: 480px) {
+  .cityGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

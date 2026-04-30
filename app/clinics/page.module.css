@@ -1,0 +1,144 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 5rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.heading {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #111;
+  margin: 0 0 0.6rem;
+  letter-spacing: -0.02em;
+}
+
+.sub {
+  font-size: 1.05rem;
+  color: #555;
+  margin: 0;
+}
+
+/* ── Country cards ─────────────────────────────────────────── */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+}
+
+/* Photo background with dark overlay */
+.cardBg {
+  position: absolute;
+  inset: 0;
+  background-image: var(--bg-photo);
+  background-size: cover;
+  background-position: center 40%;
+  z-index: 0;
+}
+
+/* Dark overlay so text stays readable */
+.cardBg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.05) 100%);
+}
+
+.cardContent {
+  position: relative;
+  z-index: 1;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.country {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  letter-spacing: -0.02em;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.4);
+  line-height: 1.2;
+}
+
+.stat {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.7);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 6px;
+  padding: 0.35rem 0.9rem;
+  width: fit-content;
+  transition: background 0.15s ease;
+}
+
+.card:hover .cta {
+  background: rgba(255,255,255,0.28);
+}
+
+/* ── Coming soon strip ─────────────────────────────────────── */
+
+.moreComingSoon {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.88rem;
+  color: #9ca3af;
+}
+
+/* ── Responsive ────────────────────────────────────────────── */
+
+@media (max-width: 640px) {
+  .heading {
+    font-size: 1.75rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: 160px;
+  }
+
+  .country {
+    font-size: 1.3rem;
+  }
+}
