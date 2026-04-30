@@ -1,0 +1,2775 @@
+{
+  "clinics": [
+    {
+      "clinic_id": "my-ttmc-klcc",
+      "clinic_name": "Twin Towers Medical Clinic KLCC",
+      "parent_chain": "TTMC",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Lot LC-402-404, 4th Floor, Suria KLCC, Jalan Ampang",
+      "postal_code": "50088",
+      "latitude": 3.1579,
+      "longitude": 101.7116,
+      "phone": "+60 3-2382 3509",
+      "website_url": "https://ttmc.com.my/services/travel-medicine/",
+      "booking_url": null,
+      "email": "hsp@ttmc-klcc.com",
+      "nearest_transit": "KLCC LRT Station",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:30-17:30, Sat 8:30-13:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "MOH-licensed YF centre. Booking 3-5 days advance"
+        }
+      ],
+      "photo_path": "/images/clinics/my-ttmc-klcc.jpg",
+      "content": {
+        "services_summary": "Twin Towers Medical Clinic KLCC offers comprehensive travel medicine vaccinations including anti-malaria tablets, yellow fever, hepatitis A/B, Japanese encephalitis, meningitis, rabies, typhoid, and other routine immunizations. Their specialty focuses on preventing health problems in foreign environments through an extensive range of travel-specific vaccinations and procedures.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [],
+        "consult_note": null,
+        "highlight": "Wide-range travel vaccinations including yellow fever"
+      }
+    },
+    {
+      "clinic_id": "my-sunway-subang",
+      "clinic_name": "Sunway Medical Centre",
+      "parent_chain": "Sunway Health",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Subang Jaya",
+      "address": "No. 5, Jalan Lagoon Selatan, Bandar Sunway",
+      "postal_code": "47500",
+      "latitude": 3.0713,
+      "longitude": 101.603,
+      "phone": "+60 3-5566 8888",
+      "website_url": "https://www.sunwaymedical.com/en/yellow-fever-vaccine-1",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Sunway Lagoon BRT Stop",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Approved yellow fever centre"
+        }
+      ],
+      "photo_path": "/images/clinics/my-sunway-subang.jpg",
+      "content": {
+        "services_summary": "Sunway Medical Centre offers yellow fever vaccination services as an approved yellow fever vaccinating centre in Malaysia. They provide pre-travel health advice and yellow fever immunization for travellers to South America and Africa, with single-dose vaccination providing lifetime immunity and valid certificates.",
+        "travel_specialist": false,
+        "yf_licensed": true,
+        "certifications": [
+          "Approved yellow fever vaccinating centre in Malaysia"
+        ],
+        "consult_note": "Appointment recommended 6-8 weeks prior to departure; vaccination should be given at least 10 days before entry to countries with legal requirements.",
+        "highlight": "MOH-approved yellow fever vaccination centre"
+      }
+    },
+    {
+      "clinic_id": "my-gleneagles-kl",
+      "clinic_name": "Gleneagles Hospital Kuala Lumpur",
+      "parent_chain": "Gleneagles",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "286 & 288, Jalan Ampang",
+      "postal_code": "50450",
+      "latitude": 3.1618,
+      "longitude": 101.7271,
+      "phone": "+60 3-4141 3000",
+      "website_url": "https://www.gleneagles.com.my",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Ampang Park LRT",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-gleneagles-kl.jpg",
+      "content": {
+        "services_summary": "Gleneagles Hospital Kuala Lumpur is a JCI-accredited tertiary hospital with a dedicated Infectious Diseases department, staffed by specialists holding the Diploma in Tropical Medicine & Hygiene (DTM&H, Liverpool). Yellow fever vaccination (Stamaril) is available via the Health Screening Centre at approximately RM450 including consultation. While not a standalone travel clinic, the infectious disease expertise makes it a trusted option for travellers needing specialist-level advice alongside vaccination.",
+        "travel_specialist": false,
+        "yf_licensed": true,
+        "certifications": [
+          "JCI Accredited",
+          "Infectious Diseases Department",
+          "DTM&H trained specialists"
+        ],
+        "consult_note": "Book via WhatsApp +60 16-339 3000; YF ~RM450 incl. consultation",
+        "highlight": "JCI-accredited hospital, yellow fever & infectious disease specialists"
+      }
+    },
+    {
+      "clinic_id": "my-berkat-klsentral",
+      "clinic_name": "Klinik Berkat KL Sentral",
+      "parent_chain": "Klinik Berkat",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "KL Sentral (exact unit TBC)",
+      "postal_code": "50470",
+      "latitude": 3.1343,
+      "longitude": 101.6865,
+      "phone": "+60 3-2272 2272",
+      "website_url": "https://kberkat.com.my/travel-health/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "KL Sentral (all lines)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 9:00-18:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-berkat-klsentral.jpg",
+      "content": {
+        "services_summary": "Klinik Berkat at KL Sentral is a dedicated travel health clinic registered with the CDC as a Global Travel Clinic since January 2010. The clinic's doctors are trained in travel medicine and actively monitor CDC, WHO, and ISTM recommendations to provide up-to-date destination-specific advice. It is a fully MOH-licensed yellow fever vaccination centre issuing ICVP certificates. Patient reviews highlight comprehensive A-to-Z travel health guidance, short wait times, and a genuinely travel-medicine-focused team — rare in Malaysia.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "CDC Global Travel Clinic (registered since 2010)",
+          "MOH Yellow Fever Vaccination Centre",
+          "ISO 9001:2008"
+        ],
+        "consult_note": "Dedicated travel medicine consultation — covers full pre-travel risk assessment",
+        "highlight": "CDC-registered travel clinic since 2010, MOH yellow fever licensed"
+      }
+    },
+    {
+      "clinic_id": "my-pulse-kl",
+      "clinic_name": "PULSE Clinic Kuala Lumpur",
+      "parent_chain": "PULSE Clinic",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Address TBC",
+      "postal_code": "50000",
+      "latitude": 3.149,
+      "longitude": 101.7068,
+      "phone": "+60 3-2110 3397",
+      "website_url": "https://www.pulse-clinic.com.my/vaccination",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 9:00-19:00, Sat 9:00-14:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-pulse-kl.jpg",
+      "content": {
+        "services_summary": "PULSE Clinic is Southeast Asia's leading sexual health and HIV/STI prevention clinic network, operating since 2015 across 5+ countries. While the clinic offers some general vaccines (shingles, dengue, hepatitis, HPV, RSV, influenza), travel medicine is not its focus. PULSE is the go-to clinic in KL for PrEP (HIV pre-exposure prophylaxis), STI screening, and sexual health consultations — not pre-travel vaccination planning.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "Pioneer HIV PrEP Provider (since 2015)"
+        ],
+        "consult_note": null,
+        "highlight": "Sexual health & STI specialist; limited travel vaccine scope"
+      }
+    },
+    {
+      "clinic_id": "my-drprevents-kl",
+      "clinic_name": "Dr Prevents KL",
+      "parent_chain": "Dr Prevents",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Address TBC",
+      "postal_code": "50000",
+      "latitude": 3.148,
+      "longitude": 101.705,
+      "phone": "TBC",
+      "website_url": "https://drprevents.com/services/vaccination/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 9:00-17:00",
+      "languages": [
+        "English",
+        "Malay"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-drprevents-kl.jpg",
+      "content": {
+        "services_summary": "Dr Prevents is Malaysia's dedicated travel medicine clinic brand, operating 24 hours across 8 branches in KL and Selangor. The KL flagship clinic offers a full travel vaccination menu including yellow fever, dengue (Qdenga), typhoid, Japanese encephalitis, hepatitis A/B, meningococcal, rabies, and anti-malarial prophylaxis. Pre-travel consultations are a core service, not an add-on. The 24/7 availability makes Dr Prevents the most accessible dedicated travel clinic in Malaysia.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [],
+        "consult_note": "Pre-travel consultation included; walk-in 24 hours",
+        "highlight": "Malaysia's dedicated 24/7 travel medicine clinic chain"
+      }
+    },
+    {
+      "clinic_id": "my-wecare-kl",
+      "clinic_name": "WeCare Clinic KL",
+      "parent_chain": "WeCare Clinic",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Address TBC",
+      "postal_code": "50000",
+      "latitude": 3.15,
+      "longitude": 101.71,
+      "phone": "TBC",
+      "website_url": "https://wecareclinic.my/vaccination-clinics-kuala-lumpur/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 9:00-17:00",
+      "languages": [
+        "English",
+        "Malay"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-wecare-kl.jpg",
+      "content": {
+        "services_summary": "WeCare Clinic at Ukay Boulevard, Kuala Lumpur, offers travel health assessments and personalised pre-travel vaccination plans alongside general GP services. Vaccines available include Japanese encephalitis, typhoid, hepatitis, and yellow fever. While not a certified travel medicine specialist clinic, WeCare provides a practical vaccination service with same-day appointments for travellers who need common travel jabs.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": "Pre-travel assessment available — confirm yellow fever availability before visiting",
+        "highlight": "Pre-travel vaccination assessments, Ukay Boulevard KL"
+      }
+    },
+    {
+      "clinic_id": "my-pantai-kl",
+      "clinic_name": "Pantai Hospital Kuala Lumpur",
+      "parent_chain": "Pantai Hospitals",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "8 Jalan Bukit Pantai, Bangsar",
+      "postal_code": "59100",
+      "latitude": 3.1167,
+      "longitude": 101.6764,
+      "phone": "+60 3-2296 0888",
+      "website_url": "https://www.pantai.com.my",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Bangsar LRT",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-pantai-kl.jpg",
+      "content": {
+        "services_summary": "Pantai Hospital Kuala Lumpur is a large private hospital with an Infectious Diseases department staffed by specialist consultants. While not a dedicated travel clinic, the hospital offers general vaccination services and infectious disease consultations relevant to travellers. Those seeking complex travel medicine advice — such as post-exposure rabies management or tropical fever work-up — can access specialist ID consultation.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "Infectious Diseases Department"
+        ],
+        "consult_note": "Infectious disease specialist consultation available — contact hospital for travel vaccine availability",
+        "highlight": "Private hospital with infectious disease specialists, KL"
+      }
+    },
+    {
+      "clinic_id": "my-drwee-taman-century",
+      "clinic_name": "Dr Wee Clinic Taman Century",
+      "parent_chain": "Dr Wee Clinic",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "87 Jalan Harimau Tarum, Taman Century, 80250 Johor Bahru",
+      "postal_code": "80250",
+      "latitude": 1.4897,
+      "longitude": 103.7536,
+      "phone": "+60 12-759 0663",
+      "website_url": "https://drweeclinic.com",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Daily 10:00-19:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": 480.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: whatclinic.com"
+        },
+        {
+          "vaccine_slug": "hpv",
+          "vaccine_name": "HPV",
+          "available": true,
+          "price_local": 1200.0,
+          "price_note": "1200–1700",
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Price range. Source: whatclinic.com"
+        },
+        {
+          "vaccine_slug": "hepatitis-b",
+          "vaccine_name": "Hepatitis B",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        },
+        {
+          "vaccine_slug": "flu",
+          "vaccine_name": "Influenza",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        },
+        {
+          "vaccine_slug": "japanese-encephalitis",
+          "vaccine_name": "Japanese Encephalitis",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        },
+        {
+          "vaccine_slug": "typhoid",
+          "vaccine_name": "Typhoid",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        }
+      ],
+      "photo_path": "/images/clinics/my-drwee-taman-century.jpg",
+      "content": {
+        "services_summary": "No travel medicine or vaccination services are mentioned on this clinic's website. Dr Wee Clinic specializes exclusively in medical aesthetics, anti-aging treatments, dermatology, and skin conditions.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "LCP Certified Aesthetic Practitioner",
+          "LCP Certified Medical Aesthetics and Skin Specialist",
+          "Certificate in Aesthetic Medicine (AAAM)",
+          "Master of Science in Healthy Aging, Medical Aesthetic and Regenerative Medicine (UCSI)",
+          "Licensed by Malaysia Ministry of Health"
+        ],
+        "consult_note": null,
+        "highlight": "Aesthetic and dermatology clinic only, no travel medicine"
+      }
+    },
+    {
+      "clinic_id": "my-drwee-mount-austin",
+      "clinic_name": "Dr Wee Clinic Mount Austin",
+      "parent_chain": "Dr Wee Clinic",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "95 Jalan Mutiara Emas 2A, Taman Mount Austin, 81100 Johor Bahru",
+      "postal_code": "81100",
+      "latitude": 1.5345,
+      "longitude": 103.7731,
+      "phone": "+60 12-759 0663",
+      "website_url": "https://drweeclinic.com",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Daily 10:00-19:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": 480.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: whatclinic.com"
+        },
+        {
+          "vaccine_slug": "hepatitis-b",
+          "vaccine_name": "Hepatitis B",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        },
+        {
+          "vaccine_slug": "flu",
+          "vaccine_name": "Influenza",
+          "available": true,
+          "price_local": 95.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: whatclinic.com"
+        },
+        {
+          "vaccine_slug": "japanese-encephalitis",
+          "vaccine_name": "Japanese Encephalitis",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        },
+        {
+          "vaccine_slug": "typhoid",
+          "vaccine_name": "Typhoid",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        }
+      ],
+      "photo_path": "/images/clinics/my-drwee-mount-austin.jpg",
+      "content": {
+        "services_summary": "No travel medicine or vaccination services are mentioned on this clinic's website. Dr Wee Clinic specializes exclusively in medical aesthetics, anti-aging treatments, dermatology, and skin conditions.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "LCP Certified Aesthetic Practice",
+          "LCP Certified Consultant Aesthetic Physician",
+          "Licensed by Malaysia Ministry of Health",
+          "Certificate in Aesthetic Medicine (AAAM)",
+          "Master of Science in Healthy Aging, Medical Aesthetic and Regenerative Medicine (UCSI University)",
+          "Certificate in Andrology (Singapore)"
+        ],
+        "consult_note": null,
+        "highlight": "Aesthetic and dermatology clinic, no travel medicine"
+      }
+    },
+    {
+      "clinic_id": "my-kpj-johor",
+      "clinic_name": "KPJ Johor Specialist Hospital",
+      "parent_chain": "KPJ Healthcare",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "39-B Jalan Abdul Samad, 80100 Johor Bahru",
+      "postal_code": "80100",
+      "latitude": 1.4634,
+      "longitude": 103.7569,
+      "phone": "+60 7-225 3000",
+      "website_url": "https://kpjjohor.com",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "typhoid",
+          "vaccine_name": "Typhoid",
+          "available": true,
+          "price_local": 70.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: ucaremedic.com"
+        },
+        {
+          "vaccine_slug": "flu",
+          "vaccine_name": "Influenza",
+          "available": true,
+          "price_local": 95.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: ucaremedic.com"
+        },
+        {
+          "vaccine_slug": "hepatitis-b",
+          "vaccine_name": "Hepatitis B",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        },
+        {
+          "vaccine_slug": "mmr",
+          "vaccine_name": "MMR",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        }
+      ],
+      "photo_path": "/images/clinics/my-kpj-johor.jpg",
+      "content": {
+        "services_summary": "Limited information available on the website. KPJ Johor Specialist Hospital is a general specialist care facility in Malaysia, but specific travel medicine or vaccination services are not detailed in the provided content.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": null,
+        "highlight": "General specialist hospital — contact for travel services"
+      }
+    },
+    {
+      "clinic_id": "my-gleneagles-medini",
+      "clinic_name": "Gleneagles Medini Hospital",
+      "parent_chain": "Gleneagles",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Iskandar Puteri",
+      "address": "Jalan Medini Utara 4, Medini, 79250 Iskandar Puteri",
+      "postal_code": "79250",
+      "latitude": 1.4265,
+      "longitude": 103.6367,
+      "phone": "+60 7-560 1000",
+      "website_url": "https://gleneagles.com.my/medini",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-18:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price — listed as available"
+        },
+        {
+          "vaccine_slug": "mmr",
+          "vaccine_name": "MMR",
+          "available": true,
+          "price_local": 65.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: mymeditravel.com"
+        },
+        {
+          "vaccine_slug": "flu",
+          "vaccine_name": "Influenza",
+          "available": true,
+          "price_local": 100.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: mymeditravel.com"
+        },
+        {
+          "vaccine_slug": "varicella",
+          "vaccine_name": "Varicella (Chickenpox)",
+          "available": true,
+          "price_local": 188.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: mymeditravel.com"
+        },
+        {
+          "vaccine_slug": "hepatitis-b",
+          "vaccine_name": "Hepatitis B",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        }
+      ],
+      "photo_path": "/images/clinics/my-gleneagles-medini.jpg",
+      "content": {
+        "services_summary": "The website does not explicitly mention travel medicine or vaccination services. Gleneagles Hospitals Malaysia operates multiple locations across Malaysia offering general medical specialties including Cardiology, Oncology, Orthopaedic Surgery, General Surgery, Paediatrics, and Gastroenterology, but no dedicated travel medicine clinic or pre-travel vaccination program is described in the available content.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "Malaysian Society for Quality in Health (MSQH) accredited"
+        ],
+        "consult_note": null,
+        "highlight": "General hospital network; no travel medicine identified"
+      }
+    },
+    {
+      "clinic_id": "my-bp-healthcare-jb",
+      "clinic_name": "BP Healthcare Johor Bahru",
+      "parent_chain": "BP Healthcare",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "Taman Century / Skudai (multiple branches)",
+      "postal_code": "80250",
+      "latitude": 1.4897,
+      "longitude": 103.7536,
+      "phone": "1-800-88-7171",
+      "website_url": "https://bphealthcare.com",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "TBC",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "hepatitis-a-b",
+          "vaccine_name": "Hepatitis A & B (combo)",
+          "available": true,
+          "price_local": 210.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Combo Hep A+B. Source: bphealthcare.com"
+        },
+        {
+          "vaccine_slug": "typhoid",
+          "vaccine_name": "Typhoid",
+          "available": true,
+          "price_local": 70.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: bphealthcare.com"
+        },
+        {
+          "vaccine_slug": "flu",
+          "vaccine_name": "Influenza",
+          "available": true,
+          "price_local": 95.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: bphealthcare.com"
+        },
+        {
+          "vaccine_slug": "hepatitis-a",
+          "vaccine_name": "Hepatitis A",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify separate Hep A price"
+        },
+        {
+          "vaccine_slug": "hepatitis-b",
+          "vaccine_name": "Hepatitis B",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify separate Hep B price"
+        }
+      ],
+      "photo_path": "/images/clinics/my-bp-healthcare-jb.jpg",
+      "content": {
+        "services_summary": "BP Healthcare Johor Bahru appears to be a general healthcare facility. Specific travel medicine and vaccination service details are not provided on their available website content.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": null,
+        "highlight": "General healthcare facility in Johor Bahru"
+      }
+    },
+    {
+      "clinic_id": "my-klinik-caring-impian",
+      "clinic_name": "Klinik Caring Impian Emas",
+      "parent_chain": "Caring Pharmacy / Klinik Caring",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "Impian Emas, Johor Bahru",
+      "postal_code": "81300",
+      "latitude": 1.52,
+      "longitude": 103.74,
+      "phone": "+60 7-550 0924",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "TBC",
+      "languages": [
+        "English",
+        "Malay"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "flu",
+          "vaccine_name": "Influenza",
+          "available": true,
+          "price_local": 69.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Promo price. Source: clinic data. Verify current price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-klinik-caring-impian.jpg",
+      "content": {
+        "services_summary": "Klinik Caring Impian Emas is a family-oriented general practice clinic in Taman Impian Emas, Skudai, offering adult and childhood vaccination programmes following Malaysian and international health guidelines. The clinic provides pre-travel vaccination services covering common travel vaccines as part of its preventive health focus. Part of the Klinik Caring network, it serves the Skudai community with affordable and accessible primary care.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": null,
+        "highlight": "Pre-travel vaccinations available, Skudai JB"
+      }
+    },
+    {
+      "clinic_id": "my-dr-najwa-jb",
+      "clinic_name": "Klinik Dr Najwa",
+      "parent_chain": "Independent",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "Johor Bahru (exact address TBC)",
+      "postal_code": "80000",
+      "latitude": 1.4655,
+      "longitude": 103.7578,
+      "phone": "+60 11-5505 4567",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "TBC",
+      "languages": [
+        "English",
+        "Malay"
+      ],
+      "status": "VERIFY",
+      "vaccines": [
+        {
+          "vaccine_slug": "hepatitis-b",
+          "vaccine_name": "Hepatitis B",
+          "available": true,
+          "price_local": 35.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: clinic data"
+        },
+        {
+          "vaccine_slug": "mmr",
+          "vaccine_name": "MMR",
+          "available": true,
+          "price_local": 72.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": "2026-04-28",
+          "notes": "Source: clinic data"
+        }
+      ],
+      "photo_path": "/images/clinics/my-dr-najwa-jb.jpg",
+      "content": {
+        "services_summary": "Klinik Dr Najwa is a general primary care clinic with branches in Putrajaya, Bangi, Kajang, Dengkil, Puchong, and Klang. The clinic offers typhoid and Menactra (meningococcal) vaccines. Note: no confirmed Johor Bahru branch has been identified — contact the clinic directly to verify JB location and vaccine availability.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": "Verify JB branch location before visiting",
+        "highlight": "GP clinic — verify JB branch before visiting"
+      }
+    },
+    {
+      "clinic_id": "my-kkm-mahmoodiah",
+      "clinic_name": "Klinik Kesihatan Mahmoodiah",
+      "parent_chain": "KKM (Gov)",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "Jalan Mahmoodiah, 80000 Johor Bahru",
+      "postal_code": "80000",
+      "latitude": 1.4635,
+      "longitude": 103.7627,
+      "phone": "+60 7-226 6166",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "Malay",
+        "English"
+      ],
+      "status": "GOV",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-kkm-mahmoodiah.jpg",
+      "content": {
+        "services_summary": "Klinik Kesihatan Mahmoodiah is a Malaysian Ministry of Health government health clinic on Jalan Mahmoodiah, Johor Bahru. It provides subsidised vaccination services under the national immunisation programme for citizens and residents, including hepatitis B, MMR, tetanus, and influenza. Consultations are heavily subsidised for Malaysian citizens, making it an affordable option for routine immunisation including travel vaccines.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "KKM — Kementerian Kesihatan Malaysia"
+        ],
+        "consult_note": "Subsidised fees for Malaysian citizens",
+        "highlight": "Government health clinic, subsidised vaccines"
+      }
+    },
+    {
+      "clinic_id": "my-kkm-larkin",
+      "clinic_name": "Klinik Kesihatan Larkin",
+      "parent_chain": "KKM (Gov)",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "PTD 4999, Jalan Sentosa, Larkin, 80350 Johor Bahru",
+      "postal_code": "80350",
+      "latitude": 1.4918,
+      "longitude": 103.7379,
+      "phone": "+60 7-223 3249",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "Malay",
+        "English"
+      ],
+      "status": "GOV",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-kkm-larkin.jpg",
+      "content": {
+        "services_summary": "Klinik Kesihatan Larkin is a Malaysian Ministry of Health government health clinic in the Larkin area of Johor Bahru. It delivers subsidised primary healthcare and national immunisation programme vaccines to citizens and residents, including hepatitis B, influenza, and tetanus. Government-subsidised fees make it one of the most affordable vaccination options in the Larkin catchment.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "KKM — Kementerian Kesihatan Malaysia"
+        ],
+        "consult_note": "Subsidised fees for Malaysian citizens",
+        "highlight": "Government health clinic, Larkin JB"
+      }
+    },
+    {
+      "clinic_id": "my-kkm-bukit-indah",
+      "clinic_name": "Klinik Kesihatan Bukit Indah",
+      "parent_chain": "KKM (Gov)",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "Jalan Indah 4/14, Taman Bukit Indah, 81200 Johor Bahru",
+      "postal_code": "81200",
+      "latitude": 1.5067,
+      "longitude": 103.6967,
+      "phone": "+60 7-244 1080",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "Malay",
+        "English"
+      ],
+      "status": "GOV",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-kkm-bukit-indah.jpg",
+      "content": {
+        "services_summary": "Klinik Kesihatan Bukit Indah is a Malaysian Ministry of Health government health clinic in Taman Bukit Indah, Johor Bahru. The clinic provides subsidised vaccinations under the national immunisation programme, covering hepatitis B, MMR, tetanus, pneumococcal, and influenza for eligible residents. It is a cost-effective first point of contact for residents seeking routine travel vaccinations.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "KKM — Kementerian Kesihatan Malaysia"
+        ],
+        "consult_note": "Subsidised fees for Malaysian citizens",
+        "highlight": "Government health clinic, Bukit Indah JB"
+      }
+    },
+    {
+      "clinic_id": "my-kkm-tebrau",
+      "clinic_name": "Klinik Kesihatan Tebrau",
+      "parent_chain": "KKM (Gov)",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "Jalan Kerambit, Taman Sri Tebrau, 80050 Johor Bahru",
+      "postal_code": "80050",
+      "latitude": 1.5102,
+      "longitude": 103.8102,
+      "phone": "+60 7-334 2305",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "Malay",
+        "English"
+      ],
+      "status": "GOV",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-kkm-tebrau.jpg",
+      "content": {
+        "services_summary": "Klinik Kesihatan Tebrau is a Malaysian Ministry of Health government primary care clinic serving the Tebrau district of Johor Bahru. Vaccination services follow the national immunisation schedule and include influenza, hepatitis B, MMR, and tetanus at subsidised rates. The clinic has been earmarked for facility upgrades as part of Johor's expanded public health investment.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "KKM — Kementerian Kesihatan Malaysia"
+        ],
+        "consult_note": "Subsidised fees for Malaysian citizens",
+        "highlight": "Government health clinic, Tebrau JB"
+      }
+    },
+    {
+      "clinic_id": "my-kkm-gelang-patah",
+      "clinic_name": "Klinik Kesihatan Gelang Patah",
+      "parent_chain": "KKM (Gov)",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Gelang Patah",
+      "address": "Jalan Besar Gelang Patah, 81550 Johor Bahru",
+      "postal_code": "81550",
+      "latitude": 1.3833,
+      "longitude": 103.64,
+      "phone": "+60 7-510 1252",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "Malay",
+        "English"
+      ],
+      "status": "GOV",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-kkm-gelang-patah.jpg",
+      "content": {
+        "services_summary": "Klinik Kesihatan Gelang Patah is a Malaysian Ministry of Health government health clinic on Jalan Besar Gelang Patah, serving the southwestern Johor Bahru area near the Second Link. The clinic provides subsidised national immunisation programme vaccines including hepatitis B, tetanus, MMR, and influenza. It is an accessible and affordable option for residents in Gelang Patah seeking routine or pre-travel vaccinations.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "KKM — Kementerian Kesihatan Malaysia"
+        ],
+        "consult_note": "Subsidised fees for Malaysian citizens",
+        "highlight": "Government health clinic, Gelang Patah JB"
+      }
+    },
+    {
+      "clinic_id": "my-kpj-puteri",
+      "clinic_name": "KPJ Puteri Specialist Hospital",
+      "parent_chain": "KPJ Healthcare",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "33, Jalan Tun Abdul Razak, 80000 Johor Bahru",
+      "postal_code": "80000",
+      "latitude": 1.4673,
+      "longitude": 103.756,
+      "phone": "+60 7-225 3222",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-kpj-puteri.jpg",
+      "content": {
+        "services_summary": "KPJ Puteri Specialist Hospital in Larkin, Johor Bahru, houses Dr Tuang Wei Xuan — a Consultant Internist and Infectious Disease Specialist holding MRCP (UK) and an Infectious Diseases Fellowship. Vaccination services including yellow fever are available through the KPJ network. While not a standalone travel clinic, the in-house infectious disease specialist provides authoritative travel medicine consultations and vaccinations not typically available at general GP clinics.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "KPJ Healthcare Group",
+          "MSQH Accredited",
+          "Infectious Disease Specialist on staff (MRCP UK)"
+        ],
+        "consult_note": "Infectious disease specialist consultation available — appointment required",
+        "highlight": "ID specialist on staff, yellow fever vaccination available"
+      }
+    },
+    {
+      "clinic_id": "my-columbia-tebrau",
+      "clinic_name": "Columbia Asia Hospital Tebrau",
+      "parent_chain": "Columbia Asia",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "Persiaran Southkey 1, Kota Southkey, 80150 Johor Bahru",
+      "postal_code": "80150",
+      "latitude": 1.5108,
+      "longitude": 103.7752,
+      "phone": "+60 7-272 9999",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-columbia-tebrau.jpg",
+      "content": {
+        "services_summary": "Columbia Asia Hospital Tebrau is the largest Columbia Asia hospital in Malaysia with 205 beds, situated in the modern Kota Southkey development in Johor Bahru. The hospital provides specialist medical care across multiple disciplines and served as a Ministry of Health-designated COVID-19 vaccination centre. Vaccination services including travel-relevant vaccines are available through their outpatient clinics — contact the hospital directly to confirm current travel vaccine menu.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "Columbia Asia Group",
+          "MOH Malaysia Licensed"
+        ],
+        "consult_note": "Contact hospital to confirm travel vaccine availability",
+        "highlight": "205-bed private hospital, Kota Southkey JB"
+      }
+    },
+    {
+      "clinic_id": "my-kensington-jb",
+      "clinic_name": "Kensington Hospital Johor",
+      "parent_chain": "Kensington",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Johor Bahru",
+      "address": "No. 2, Jalan Ceria 20, Taman Nusa Indah, Johor Bahru",
+      "postal_code": "81300",
+      "latitude": 1.4883,
+      "longitude": 103.7817,
+      "phone": "+60 7-213 3899",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-kensington-jb.jpg",
+      "content": {
+        "services_summary": "Kensington Hospital Johor is a modern multi-specialty private hospital opened in December 2019 in Iskandar Puteri. Core specialties include fertility/IVF, obstetrics, orthopaedics, paediatrics, and emergency care. Vaccination services are primarily paediatric routine immunisations. No dedicated travel clinic, travel medicine specialist, or yellow fever vaccination centre has been identified.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": "Contact hospital to confirm adult travel vaccine availability",
+        "highlight": "Specialist hospital — contact for travel vaccine availability"
+      }
+    },
+    {
+      "clinic_id": "my-regency-masai",
+      "clinic_name": "Regency Specialist Hospital",
+      "parent_chain": "Regency",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Masai",
+      "address": "No. 1 Jalan Suria, Bandar Seri Alam, 81750 Masai, Johor",
+      "postal_code": "81750",
+      "latitude": 1.4833,
+      "longitude": 103.8667,
+      "phone": "+60 7-381 7700",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-regency-masai.jpg",
+      "content": {
+        "services_summary": "Regency Specialist Hospital in Masai is an MSQH and Malaysian Healthcare Travel Council (MHTC)-accredited 218-bed private hospital founded in 2009, located approximately 15 minutes from the Singapore Woodlands checkpoint. The hospital offers dengue (Dengvaxia/Qdenga) and influenza vaccinations and serves over 200,000 patients annually. Vaccination services focus on endemic disease prevention rather than travel medicine, and no yellow fever centre designation has been identified.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "MSQH Accredited",
+          "Malaysian Healthcare Travel Council (MHTC)"
+        ],
+        "consult_note": "Contact hospital to confirm travel vaccine availability",
+        "highlight": "MHTC-accredited hospital near Singapore border, Masai"
+      }
+    },
+    {
+      "clinic_id": "my-gleneagles-penang",
+      "clinic_name": "Gleneagles Hospital Penang",
+      "parent_chain": "Gleneagles",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "George Town",
+      "address": "No.1 Jalan Pangkor, 10050 George Town",
+      "postal_code": "10050",
+      "latitude": 5.4164,
+      "longitude": 100.3261,
+      "phone": "+60 4-222 9103",
+      "website_url": "https://gleneagles.com.my/penang",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Georgetown (Komtar bus hub)",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Stamaril brand. MOH-approved. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-gleneagles-penang.jpg",
+      "content": {
+        "services_summary": "No travel medicine or vaccination services are mentioned on the website. The clinic offers 40+ medical specialities including internal medicine, cardiology, and oncology, but travel health services are not described.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": null,
+        "highlight": "General hospital; travel services not advertised"
+      }
+    },
+    {
+      "clinic_id": "my-hibari-penang",
+      "clinic_name": "Hibari Clinic Penang",
+      "parent_chain": "Independent",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "George Town",
+      "address": "No.6 Lorong Maktab, Pulau Tikus, 10250 George Town",
+      "postal_code": "10250",
+      "latitude": 5.4327,
+      "longitude": 100.318,
+      "phone": "+60 4-229 9111",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Pulau Tikus (bus)",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 9:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "MOH-approved YF centre. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-hibari-penang.jpg",
+      "content": {
+        "services_summary": "Hibari Clinic is a Japanese-friendly general practice clinic at Gurney Paragon Mall in George Town, Penang, offering consultations in both Japanese and English. The clinic provides group vaccination services for families and corporate clients, along with pre-travel health screening and vaccination consultations. Its multilingual capability makes it particularly well-suited to Japanese expatriates and international travellers based in Penang.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": "Pre-travel screening consultation available",
+        "highlight": "Japanese-friendly clinic with pre-travel screening"
+      }
+    },
+    {
+      "clinic_id": "my-menara-penang-airport",
+      "clinic_name": "Menara Medical Clinic Penang Airport",
+      "parent_chain": "Independent",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Bayan Lepas",
+      "address": "Penang International Airport, Bayan Lepas",
+      "postal_code": "11900",
+      "latitude": 5.2972,
+      "longitude": 100.2769,
+      "phone": "+60 4-644 7101",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Penang Airport",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 9:00-17:00 (appt only)",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Airport location — convenient for last-minute. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-menara-penang-airport.jpg",
+      "content": {
+        "services_summary": "Menara Medical Clinic at Penang International Airport (Level 1) is a Ministry of Health-approved yellow fever vaccination centre, one of very few in Penang where travellers can obtain the official ICVP (yellow card) certificate. Part of the Menara Clinic group operating since 2007, the airport location serves departing and arriving passengers with vaccination, health screening, ultrasound, and minor procedures. The MOH yellow fever approval is its key differentiator.",
+        "travel_specialist": false,
+        "yf_licensed": true,
+        "certifications": [
+          "MOH Yellow Fever Vaccination Centre"
+        ],
+        "consult_note": "Walk-in available at airport; confirm hours before travel",
+        "highlight": "MOH-licensed yellow fever centre at Penang Airport"
+      }
+    },
+    {
+      "clinic_id": "my-pulse-penang",
+      "clinic_name": "PULSE Clinic Penang",
+      "parent_chain": "PULSE Clinic",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "George Town",
+      "address": "Address TBC",
+      "postal_code": "10000",
+      "latitude": 5.4141,
+      "longitude": 100.3288,
+      "phone": "+60 4-TBC",
+      "website_url": "https://www.pulse-clinic.com.my/vaccination",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 9:00-19:00",
+      "languages": [
+        "English",
+        "Malay"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-pulse-penang.jpg",
+      "content": {
+        "services_summary": "PULSE Clinic Penang is part of Southeast Asia's leading sexual health and HIV/STI prevention network. The clinic offers general vaccines including shingles, dengue, hepatitis A/B, HPV, and influenza, but is not positioned as a travel medicine specialist. It is best known for discreet STI screening, HIV PrEP, and sexual health consultations in Penang.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "Pioneer HIV PrEP Provider (since 2015)"
+        ],
+        "consult_note": null,
+        "highlight": "Sexual health specialist; vaccines available, not travel-focused"
+      }
+    },
+    {
+      "clinic_id": "my-kpj-ipoh",
+      "clinic_name": "KPJ Ipoh Specialist Hospital",
+      "parent_chain": "KPJ Healthcare",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Ipoh",
+      "address": "26 Jalan Raja Dihilir, 30350 Ipoh",
+      "postal_code": "30350",
+      "latitude": 4.5975,
+      "longitude": 101.0901,
+      "phone": "+60 5-240 8777",
+      "website_url": "https://kpjhealth.com.my/ipoh",
+      "booking_url": null,
+      "email": "ish@ish.kpjhealth.com.my",
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "KPJ group offers YF chain-wide. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-kpj-ipoh.jpg",
+      "content": {
+        "services_summary": "KPJ Ipoh Specialist Hospital offers vaccination services through its online appointment platform, including a dedicated Haji and Umrah vaccination package covering the required meningococcal and recommended vaccines for pilgrims. General travel vaccines are available but a dedicated travel medicine clinic has not been identified. Contact the hospital directly to confirm current travel vaccine availability and yellow fever status.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "KPJ Healthcare Group",
+          "MSQH Accredited"
+        ],
+        "consult_note": "Contact hospital to confirm travel vaccine availability",
+        "highlight": "Specialist hospital with Haji/Umrah vaccination packages, Ipoh"
+      }
+    },
+    {
+      "clinic_id": "my-pantai-ipoh",
+      "clinic_name": "Pantai Hospital Ipoh",
+      "parent_chain": "Pantai Hospitals",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Ipoh",
+      "address": "126 Jalan Tambun, 31400 Ipoh",
+      "postal_code": "31400",
+      "latitude": 4.614,
+      "longitude": 101.133,
+      "phone": "+60 5-540 5555",
+      "website_url": "https://www.pantai.com.my/ipoh",
+      "booking_url": null,
+      "email": "my.phi.info@pantai.com.my",
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:30-17:30",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Pantai group offers YF. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-pantai-ipoh.jpg",
+      "content": {
+        "services_summary": "Pantai Hospital Ipoh offers walk-in vaccination services through its Health Screening Unit, including dengue (Qdenga) and HPV vaccines. While not a dedicated travel clinic, the hospital provides accessible vaccination services for residents in the Ipoh area. Contact the hospital to confirm availability of specific travel vaccines.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "Pantai Hospitals Group"
+        ],
+        "consult_note": "Walk-in vaccination available — confirm travel vaccine menu before visiting",
+        "highlight": "Walk-in vaccines including dengue & HPV, Ipoh"
+      }
+    },
+    {
+      "clinic_id": "my-gleneagles-kk",
+      "clinic_name": "Gleneagles Hospital Kota Kinabalu",
+      "parent_chain": "Gleneagles",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kota Kinabalu",
+      "address": "Riverson@Sembulan, Block A-1, Lorong Riverson@Sembulan, Off Coastal Highway, 88100 KK",
+      "postal_code": "88100",
+      "latitude": 5.9748,
+      "longitude": 116.0753,
+      "phone": "+60 88-518 888",
+      "website_url": "https://gleneagles.com.my/kota-kinabalu",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price."
+        },
+        {
+          "vaccine_slug": "rabies",
+          "vaccine_name": "Rabies",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "High rabies risk in Sabah — key vaccine. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-gleneagles-kk.jpg",
+      "content": {
+        "services_summary": "Gleneagles Hospital Kota Kinabalu is Sabah's first international tertiary care hospital, MSQH-accredited, with an Infectious Diseases specialty department. While no dedicated travel clinic has been identified, the infectious disease team can provide travel health consultations and vaccinations. As the premier private hospital in KK, it is the most credentialed option for travellers needing specialist-level travel medicine in Sabah.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "MSQH Accredited",
+          "Infectious Diseases Department",
+          "International Tertiary Hospital"
+        ],
+        "consult_note": "Contact hospital to confirm travel vaccine availability",
+        "highlight": "Sabah's top private hospital, infectious disease dept"
+      }
+    },
+    {
+      "clinic_id": "my-qeh-kk",
+      "clinic_name": "Queen Elizabeth Hospital KK",
+      "parent_chain": "MOH (Gov)",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kota Kinabalu",
+      "address": "Beg Berkunci 2026, 88586 Kota Kinabalu",
+      "postal_code": "88586",
+      "latitude": 5.9803,
+      "longitude": 116.0735,
+      "phone": "+60 88-218 166",
+      "website_url": "https://jknsabah.moh.gov.my/hqe1/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "Malay",
+        "English"
+      ],
+      "status": "GOV",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-qeh-kk.jpg",
+      "content": {
+        "services_summary": "No travel medicine or vaccination services are mentioned on the Queen Elizabeth Hospital KK website. The clinic lists general departments including emergency, surgery, respiratory, ophthalmology, pediatrics, psychiatry, dermatology, physiotherapy, and clinical support services, but travel medicine is not identified as an available service.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": null,
+        "highlight": "General hospital; no travel medicine advertised"
+      }
+    },
+    {
+      "clinic_id": "my-kpj-sabah",
+      "clinic_name": "KPJ Sabah Specialist Hospital",
+      "parent_chain": "KPJ Healthcare",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kota Kinabalu",
+      "address": "Address TBC",
+      "postal_code": "88000",
+      "latitude": 5.983,
+      "longitude": 116.0735,
+      "phone": "+60 88-TBC",
+      "website_url": "https://kpjhealth.com.my/sabah",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-kpj-sabah.jpg",
+      "content": {
+        "services_summary": "KPJ Sabah Specialist Hospital in Kota Kinabalu serves international patients from Indonesia, Brunei, and the Philippines with multilingual staff and direct billing. Specialties include oncology, orthopaedics, cardiology, and paediatrics. Vaccination services are available but no dedicated travel medicine clinic has been identified — contact the hospital directly for current travel vaccine availability.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "KPJ Healthcare Group",
+          "International Patient Services"
+        ],
+        "consult_note": "Contact hospital to confirm travel vaccine availability",
+        "highlight": "International-friendly specialist hospital, Kota Kinabalu"
+      }
+    },
+    {
+      "clinic_id": "my-permai-kk",
+      "clinic_name": "Permai Polyclinics Kota Kinabalu",
+      "parent_chain": "Permai Polyclinics",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kota Kinabalu",
+      "address": "4 Jalan Pantai, Pusat Bandar, 88000 Kota Kinabalu",
+      "postal_code": "88000",
+      "latitude": 5.9769,
+      "longitude": 116.0726,
+      "phone": "+60 88-232 100",
+      "website_url": "https://www.permaipolyclinics.com/locations/kota-kinabalu/",
+      "booking_url": null,
+      "email": "info@permaipolyclinics.com",
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Daily 24 hours",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "24hr clinic. Verify price."
+        },
+        {
+          "vaccine_slug": "rabies",
+          "vaccine_name": "Rabies",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Post-exposure rabies likely. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-permai-kk.jpg",
+      "content": {
+        "services_summary": "Permai Polyclinics offers travel vaccinations as part of their immunization services, administered by experienced physicians including those with tropical medicine and travel health credentials (DTHM, DSTD, DRM qualifications noted). The clinic provides routine vaccinations, travel immunizations, and booster shots, though specific pre-travel consultation protocols are not detailed.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "DTHM (Diploma in Travel Health Medicine)",
+          "DSTD (Diploma in Sexual and Travel Diseases)",
+          "DRM (Diploma in Respiratory Medicine)",
+          "LFOM (Licentiate Faculty of Occupational Medicine)",
+          "Doctor Shield Medical Indemnity Insurance"
+        ],
+        "consult_note": null,
+        "highlight": "Travel vaccinations available, tropical medicine trained doctors"
+      }
+    },
+    {
+      "clinic_id": "my-signal-hill-kk",
+      "clinic_name": "Signal Hill Clinic KK",
+      "parent_chain": "Independent",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kota Kinabalu",
+      "address": "The Peak Suites, Signal Hill, Kota Kinabalu",
+      "postal_code": "88000",
+      "latitude": 5.9843,
+      "longitude": 116.074,
+      "phone": "+60 88-224 177",
+      "website_url": "https://www.signalhillclinic.com/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "TBC",
+      "languages": [
+        "English",
+        "Malay"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-signal-hill-kk.jpg",
+      "content": {
+        "services_summary": "Signal Hill Clinic is a general neighbourhood family practice in Kota Kinabalu, established in 2018. The clinic offers walk-in services for general health, wound care, and basic vaccinations including influenza. It is not a travel medicine specialist and does not offer yellow fever vaccination. Suitable for minor health needs and routine vaccinations in the Signal Hill area.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": null,
+        "highlight": "General family clinic, walk-in, Signal Hill KK"
+      }
+    },
+    {
+      "clinic_id": "my-uni-clinic-kuching",
+      "clinic_name": "UNI Clinic Kota Samarahan",
+      "parent_chain": "UNI Clinic",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kota Samarahan",
+      "address": "Sublot 23, Unisquare Commercial Centre, 94300 Kota Samarahan",
+      "postal_code": "94300",
+      "latitude": 1.4836,
+      "longitude": 110.4588,
+      "phone": "+60 82-662 004",
+      "website_url": "https://uniclinic.com.my/yellow-fever-vaccination/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 9:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Confirmed YF vaccination centre. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-uni-clinic-kuching.jpg",
+      "content": {
+        "services_summary": "UNI Clinic offers travel medicine services including yellow fever vaccination (RM450/dose) with WHO-compliant guidance on timing and mandatory destinations. They are MOH-approved as a Yellow Vaccine Center and provide the yellow booklet free of charge. Services also include pre-travel health screening and general immunizations.",
+        "travel_specialist": false,
+        "yf_licensed": true,
+        "certifications": [
+          "MOH (Ministry of Health) Yellow Vaccine Center approval",
+          "DOSH registered Occupational Health Doctor"
+        ],
+        "consult_note": null,
+        "highlight": "MOH-licensed yellow fever vaccination centre, Kuching"
+      }
+    },
+    {
+      "clinic_id": "my-port-health-kuching",
+      "clinic_name": "Port Health Office Kuching (Gov)",
+      "parent_chain": "MOH (Gov)",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuching",
+      "address": "KM 6, Jalan Bako, 93050 Kuching",
+      "postal_code": "93050",
+      "latitude": 1.5537,
+      "longitude": 110.3928,
+      "phone": "+60 82-432 563",
+      "website_url": null,
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "Malay",
+        "English"
+      ],
+      "status": "GOV",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-port-health-kuching.jpg",
+      "content": {
+        "services_summary": "The Port Health Office Kuching is a Malaysian Ministry of Health government facility authorised to administer yellow fever vaccinations and issue the International Certificate of Vaccination and Prophylaxis (ICVP/yellow card) under International Health Regulations. It is a key vaccination point for travellers departing from Kuching and Sarawak to yellow fever-endemic regions in Africa and South America. As a government office, fees are subsidised for Malaysian citizens.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "MOH Yellow Fever Vaccination Centre",
+          "IHR Port Health — Kementerian Kesihatan Malaysia"
+        ],
+        "consult_note": "Government facility — subsidised fees for citizens",
+        "highlight": "Government yellow fever ICVP centre, Kuching"
+      }
+    },
+    {
+      "clinic_id": "my-sarawak-gh",
+      "clinic_name": "Sarawak General Hospital",
+      "parent_chain": "MOH (Gov)",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuching",
+      "address": "Jalan Hospital, 93586 Kuching",
+      "postal_code": "93586",
+      "latitude": 1.5509,
+      "longitude": 110.3474,
+      "phone": "+60 82-276 666",
+      "website_url": "https://www.sarawak.health.gov.my/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "Malay",
+        "English",
+        "Mandarin"
+      ],
+      "status": "GOV",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-sarawak-gh.jpg",
+      "content": {
+        "services_summary": "Sarawak General Hospital (Hospital Umum Sarawak) is the largest hospital in Sarawak and the primary tertiary referral centre for East Malaysia, located in central Kuching on Jalan Hospital. The hospital provides a comprehensive range of healthcare services including outpatient and specialist care across all major disciplines. Vaccination services are available through their outpatient departments, serving both locals and travellers requiring immunisation in Kuching.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "MOH Malaysia — Government Tertiary Hospital"
+        ],
+        "consult_note": "Subsidised fees for Malaysian citizens",
+        "highlight": "Largest referral hospital in Sarawak, Kuching"
+      }
+    },
+    {
+      "clinic_id": "my-columbia-seremban",
+      "clinic_name": "Columbia Asia Hospital Seremban",
+      "parent_chain": "Columbia Asia",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Seremban",
+      "address": "Jalan Toman 1, Kemayan Square, 70200 Seremban",
+      "postal_code": "70200",
+      "latitude": 2.7297,
+      "longitude": 101.9381,
+      "phone": "+60 6-601 9999",
+      "website_url": "https://www.columbiaasia.com/malaysia/seremban",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "YF vaccination promotion listed on website. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-columbia-seremban.jpg",
+      "content": {
+        "services_summary": "Columbia Asia Hospital Seremban is a modern multi-disciplinary private hospital in the Oakland Commercial Centre, Seremban, Negeri Sembilan. The hospital offers yellow fever vaccination as part of their travel health services, making it one of the accessible yellow fever vaccination points in Negeri Sembilan for travellers heading to endemic regions. As part of the Columbia Asia group, the hospital also served as a MOH-designated COVID-19 vaccination centre.",
+        "travel_specialist": false,
+        "yf_licensed": true,
+        "certifications": [
+          "Columbia Asia Group",
+          "MOH Malaysia Licensed"
+        ],
+        "consult_note": "Contact hospital for current vaccination packages",
+        "highlight": "Yellow fever vaccination available, Seremban"
+      }
+    },
+    {
+      "clinic_id": "my-kpj-seremban",
+      "clinic_name": "KPJ Seremban Specialist Hospital",
+      "parent_chain": "KPJ Healthcare",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Seremban",
+      "address": "Jalan Toman 1, Kemayan Square, 70200 Seremban",
+      "postal_code": "70200",
+      "latitude": 2.7297,
+      "longitude": 101.9381,
+      "phone": "+60 6-767 9999",
+      "website_url": "https://kpjhealth.com.my/seremban",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-kpj-seremban.jpg",
+      "content": {
+        "services_summary": "KPJ Seremban Specialist Hospital hosts an Immunise4Life-operated travel vaccination clinic (Suite 407, Kemayan Square), making it one of the most accessible dedicated travel vaccination services in Negeri Sembilan. The Immunise4Life clinic within KPJ Seremban offers yellow fever ICVP, typhoid, hepatitis, and other travel vaccines alongside professional pre-travel consultations. The combination of a specialist hospital setting with a dedicated travel vaccine operator provides a higher standard of care than general GP clinics.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "KPJ Healthcare Group",
+          "Immunise4Life Partner Clinic"
+        ],
+        "consult_note": "Immunise4Life travel clinic inside hospital — appointment recommended",
+        "highlight": "Immunise4Life travel clinic inside KPJ Seremban Hospital"
+      }
+    },
+    {
+      "clinic_id": "my-drprevents-damansara-jaya",
+      "clinic_name": "Dr Prevents Damansara Jaya",
+      "parent_chain": "Dr Prevents",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Petaling Jaya",
+      "address": "7 Jalan SS 22/19, Damansara Jaya, 47400 Petaling Jaya",
+      "postal_code": "47400",
+      "latitude": 3.1215,
+      "longitude": 101.6247,
+      "phone": "+60 10-218 1182",
+      "website_url": "https://drprevents.com/location/damansara-jaya/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Kelana Jaya LRT",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "24 hours daily",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price — YF offered"
+        },
+        {
+          "vaccine_slug": "rabies",
+          "vaccine_name": "Rabies",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Pre & post-exposure rabies offered"
+        },
+        {
+          "vaccine_slug": "hepatitis-a",
+          "vaccine_name": "Hepatitis A",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        },
+        {
+          "vaccine_slug": "japanese-encephalitis",
+          "vaccine_name": "Japanese Encephalitis",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        },
+        {
+          "vaccine_slug": "typhoid",
+          "vaccine_name": "Typhoid",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        }
+      ],
+      "photo_path": "/images/clinics/my-drprevents-damansara-jaya.jpg",
+      "content": {
+        "services_summary": "Dr Prevents offers adult and travel vaccines as part of their vaccination services at a 24-hour clinic. Specific travel vaccine types are not detailed on the website, but the clinic provides comprehensive health screening and vaccinations walk-in without appointment needed for most services.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": null,
+        "highlight": "Walk-in travel vaccines, 24-hour clinic available"
+      }
+    },
+    {
+      "clinic_id": "my-drprevents-pj-oldtown",
+      "clinic_name": "Dr Prevents PJ Oldtown",
+      "parent_chain": "Dr Prevents",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Petaling Jaya",
+      "address": "PJ Old Town, Petaling Jaya (exact address TBC)",
+      "postal_code": "46000",
+      "latitude": 3.1073,
+      "longitude": 101.6067,
+      "phone": "+60 16-848 5911",
+      "website_url": "https://drprevents.com/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Asia Jaya LRT",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "24 hours daily",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-drprevents-pj-oldtown.jpg",
+      "content": {
+        "services_summary": "Dr Prevents PJ Oldtown is part of Malaysia's dedicated 24-hour travel medicine clinic network. Offers the full Dr Prevents travel vaccination menu including yellow fever, dengue, typhoid, Japanese encephalitis, hepatitis, and meningococcal vaccines with pre-travel consultations. Conveniently located in Petaling Jaya for residents and travellers in the PJ area.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [],
+        "consult_note": "Pre-travel consultation included; walk-in 24 hours",
+        "highlight": "Dedicated 24/7 travel clinic, Petaling Jaya"
+      }
+    },
+    {
+      "clinic_id": "my-drprevents-ss15-subang",
+      "clinic_name": "Dr Prevents SS15 Subang Jaya",
+      "parent_chain": "Dr Prevents",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Subang Jaya",
+      "address": "SS15, Subang Jaya (exact address TBC)",
+      "postal_code": "47500",
+      "latitude": 3.0771,
+      "longitude": 101.5798,
+      "phone": "+60 16-848 5911",
+      "website_url": "https://drprevents.com/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Subang Jaya KTM",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "24 hours daily",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-drprevents-ss15-subang.jpg",
+      "content": {
+        "services_summary": "Dr Prevents SS15 Subang Jaya is part of Malaysia's dedicated 24-hour travel medicine clinic network. Full travel vaccine range available including yellow fever, dengue, typhoid, and hepatitis, with pre-travel health consultations. Serves the Subang Jaya and USJ corridor.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [],
+        "consult_note": "Pre-travel consultation included; walk-in 24 hours",
+        "highlight": "Dedicated 24/7 travel clinic, Subang Jaya"
+      }
+    },
+    {
+      "clinic_id": "my-drprevents-kepong",
+      "clinic_name": "Dr Prevents Kepong",
+      "parent_chain": "Dr Prevents",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Kepong, Kuala Lumpur (exact address TBC)",
+      "postal_code": "52100",
+      "latitude": 3.2105,
+      "longitude": 101.6367,
+      "phone": "+60 16-848 5911",
+      "website_url": "https://drprevents.com/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "24 hours daily",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-drprevents-kepong.jpg",
+      "content": {
+        "services_summary": "Dr Prevents Kepong is part of Malaysia's dedicated 24-hour travel medicine clinic network, serving the Kepong and northern KL corridor. Full travel vaccine menu including yellow fever, dengue, typhoid, Japanese encephalitis, and hepatitis, with pre-travel consultations available around the clock.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [],
+        "consult_note": "Pre-travel consultation included; walk-in 24 hours",
+        "highlight": "Dedicated 24/7 travel clinic, Kepong KL"
+      }
+    },
+    {
+      "clinic_id": "my-drprevents-jln-ipoh",
+      "clinic_name": "Dr Prevents Jalan Ipoh",
+      "parent_chain": "Dr Prevents",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Jalan Ipoh, Kuala Lumpur (exact address TBC)",
+      "postal_code": "51200",
+      "latitude": 3.18,
+      "longitude": 101.69,
+      "phone": "+60 16-848 5911",
+      "website_url": "https://drprevents.com/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Jalan Ipoh (bus)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "24 hours daily",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-drprevents-jln-ipoh.jpg",
+      "content": {
+        "services_summary": "Dr Prevents Jalan Ipoh is part of Malaysia's dedicated 24-hour travel medicine clinic network. Serves the Jalan Ipoh and Sentul corridor with the full Dr Prevents travel vaccination menu and pre-travel consultations available at any hour.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [],
+        "consult_note": "Pre-travel consultation included; walk-in 24 hours",
+        "highlight": "Dedicated 24/7 travel clinic, Jalan Ipoh KL"
+      }
+    },
+    {
+      "clinic_id": "my-drprevents-bdr-sri-damansara",
+      "clinic_name": "Dr Prevents Bandar Sri Damansara",
+      "parent_chain": "Dr Prevents",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Bandar Sri Damansara, KL (exact address TBC)",
+      "postal_code": "52200",
+      "latitude": 3.1975,
+      "longitude": 101.6219,
+      "phone": "+60 16-848 5911",
+      "website_url": "https://drprevents.com/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "24 hours daily",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-drprevents-bdr-sri-damansara.jpg",
+      "content": {
+        "services_summary": "Dr Prevents Bandar Sri Damansara is part of Malaysia's dedicated 24-hour travel medicine clinic network, serving the northern KL suburbs. Full travel vaccine range with pre-travel consultations available 24/7.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [],
+        "consult_note": "Pre-travel consultation included; walk-in 24 hours",
+        "highlight": "Dedicated 24/7 travel clinic, Bandar Sri Damansara"
+      }
+    },
+    {
+      "clinic_id": "my-drprevents-puchong",
+      "clinic_name": "Dr Prevents Bandar Puteri Puchong",
+      "parent_chain": "Dr Prevents",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Puchong",
+      "address": "Bandar Puteri Puchong (exact address TBC)",
+      "postal_code": "47100",
+      "latitude": 3.0288,
+      "longitude": 101.6199,
+      "phone": "+60 16-848 5911",
+      "website_url": "https://drprevents.com/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "24 hours daily",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-drprevents-puchong.jpg",
+      "content": {
+        "services_summary": "Dr Prevents Bandar Puteri Puchong is part of Malaysia's dedicated 24-hour travel medicine clinic network, serving Puchong and IOI City Mall corridor. Full travel vaccine menu with pre-travel consultations around the clock.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [],
+        "consult_note": "Pre-travel consultation included; walk-in 24 hours",
+        "highlight": "Dedicated 24/7 travel clinic, Puchong"
+      }
+    },
+    {
+      "clinic_id": "my-drprevents-segambut",
+      "clinic_name": "Dr Prevents Segambut",
+      "parent_chain": "Dr Prevents",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Segambut, Kuala Lumpur (exact address TBC)",
+      "postal_code": "51200",
+      "latitude": 3.1916,
+      "longitude": 101.6697,
+      "phone": "+60 16-848 5911",
+      "website_url": "https://drprevents.com/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Segambut KTM",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "24 hours daily",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-drprevents-segambut.jpg",
+      "content": {
+        "services_summary": "Dr Prevents Segambut is part of Malaysia's dedicated 24-hour travel medicine clinic network. Full travel vaccine range with pre-travel consultations available 24/7 for the Segambut and Mont Kiara corridor.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [],
+        "consult_note": "Pre-travel consultation included; walk-in 24 hours",
+        "highlight": "Dedicated 24/7 travel clinic, Segambut KL"
+      }
+    },
+    {
+      "clinic_id": "my-klinik-uzma-pj",
+      "clinic_name": "Klinik Uzma Petaling Jaya",
+      "parent_chain": "Klinik Uzma",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Petaling Jaya",
+      "address": "31M-01 & 31N-01, Kelana Mall, Jalan SS 6/12, 47301 Petaling Jaya",
+      "postal_code": "47301",
+      "latitude": 3.1067,
+      "longitude": 101.5918,
+      "phone": "+60 3-7886 0002",
+      "website_url": "https://www.klinikuzma.com/yellow-fever-vaccine/",
+      "booking_url": null,
+      "email": "uzma.group.plt@gmail.com",
+      "nearest_transit": "Kelana Jaya LRT (LRT)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Daily 23 hours (closed PH)",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": 560.0,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": true,
+          "price_last_updated": "2026-04-28",
+          "notes": "RM560 incl consultation. Open 23hrs. Call ahead to confirm stock. Source: klinikuzma.com"
+        }
+      ],
+      "photo_path": "/images/clinics/my-klinik-uzma-pj.jpg",
+      "content": {
+        "services_summary": "Klinik Uzma offers comprehensive travel medicine services including yellow fever vaccination (Stamaril), pre-travel consultations, advice on disease prevention, insect bite avoidance, DVT risk reduction, motion sickness medication, and altitude sickness guidance. As an approved private yellow fever vaccination centre, they provide personalised vaccination recommendations based on travel destination and medical history.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "Approved private yellow fever vaccination centre (Malaysia)"
+        ],
+        "consult_note": "Consultation fee included in yellow fever vaccination price (RM 560). Pre-travel consultations recommended 6-8 weeks before departure.",
+        "highlight": "MOH-approved yellow fever vaccination centre, Petaling Jaya"
+      }
+    },
+    {
+      "clinic_id": "my-bp-taman-megah",
+      "clinic_name": "BP Specialist Centre Taman Megah",
+      "parent_chain": "BP Healthcare",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Petaling Jaya",
+      "address": "No. 79, Jalan SS 23/15, Taman SEA, 47400 Petaling Jaya",
+      "postal_code": "47400",
+      "latitude": 3.1197,
+      "longitude": 101.6155,
+      "phone": "+60 3-7803 0992",
+      "website_url": "https://bpgroup.bphealthcare.com/vaccination-services/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "MOH-accredited YF centre. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-bp-taman-megah.jpg",
+      "content": {
+        "services_summary": "BP Healthcare offers comprehensive travel vaccination services including pre-travel health evaluations, tailored vaccine recommendations based on destination, and post-travel illness screening. Services cover routine travel vaccines, malaria prophylaxis, altitude sickness prevention, and treatment for travel-related infections. Pre-travel consultations are available to assess individual health conditions and current medications.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "BP Yellow Fever Vaccination Centre"
+        ],
+        "consult_note": "Pre-travel consultation with doctors recommended before vaccination appointment. Patients advised to bring vaccination records, health conditions history, and current medications for tailored advice.",
+        "highlight": "Yellow fever centre with comprehensive travel health services"
+      }
+    },
+    {
+      "clinic_id": "my-bp-shah-alam",
+      "clinic_name": "BP Diagnostic Centre Shah Alam",
+      "parent_chain": "BP Healthcare",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Shah Alam",
+      "address": "Lot 2, Jalan Pendaftar U1/54, Seksyen U1, Temasya@Glenmarie, 40150 Shah Alam",
+      "postal_code": "40150",
+      "latitude": 3.11,
+      "longitude": 101.57,
+      "phone": "+60 3-5569 9996",
+      "website_url": "https://bpgroup.bphealthcare.com/vaccination-services/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "MOH-accredited YF centre. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-bp-shah-alam.jpg",
+      "content": {
+        "services_summary": "BP Healthcare offers comprehensive travel vaccination services including pre-travel health consultations, country-specific vaccine recommendations, and post-travel illness screening. Services include vaccines for travel-related diseases, malaria and altitude sickness prophylaxis, and treatment for travel-related infections. Consultations recommended 4-6 weeks before departure to allow vaccines to take effect.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "BP Yellow Fever Vaccination Centres",
+          "Recognized as top contributor to national vaccination effort"
+        ],
+        "consult_note": "Pre-travel consultation included with vaccination services; doctors tailor advice based on destination, activities, and individual health records.",
+        "highlight": "Yellow fever licensed travel vaccination centre nationwide"
+      }
+    },
+    {
+      "clinic_id": "my-klinikhq-desa-petaling",
+      "clinic_name": "Klinik HealthQuarters Desa Petaling",
+      "parent_chain": "Klinik HealthQuarters",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Desa Petaling, Kuala Lumpur (exact address TBC)",
+      "postal_code": "57100",
+      "latitude": 3.08,
+      "longitude": 101.71,
+      "phone": "TBC",
+      "website_url": "https://www.klinikhq.my/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "TBC",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [
+        {
+          "vaccine_slug": "rabies",
+          "vaccine_name": "Rabies",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Pre-exposure & post-exposure. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-klinikhq-desa-petaling.jpg",
+      "content": {
+        "services_summary": "Klinik HealthQuarters Desa Petaling is a 4.9-star family and preventive health clinic offering a strong vaccination range including typhoid, hepatitis A/B, dengue, rabies, meningococcal, and pneumococcal vaccines. While focused on family and preventive care rather than travel medicine, the comprehensive vaccine menu makes it a practical option for travellers needing standard travel jabs. Not a yellow fever centre.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": null,
+        "highlight": "Comprehensive vaccine range, 4.9-star family clinic KL"
+      }
+    },
+    {
+      "clinic_id": "my-klinikhq-bukit-oug",
+      "clinic_name": "Klinik HealthQuarters Bukit OUG",
+      "parent_chain": "Klinik HealthQuarters",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Bukit OUG, Kuala Lumpur (exact address TBC)",
+      "postal_code": "58200",
+      "latitude": 3.086,
+      "longitude": 101.687,
+      "phone": "TBC",
+      "website_url": "https://www.klinikhq.my/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "TBC",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [
+        {
+          "vaccine_slug": "rabies",
+          "vaccine_name": "Rabies",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Pre-exposure & post-exposure. Verify price."
+        }
+      ],
+      "photo_path": "/images/clinics/my-klinikhq-bukit-oug.jpg",
+      "content": {
+        "services_summary": "Klinik HealthQuarters Bukit OUG is a family and preventive health clinic offering a comprehensive vaccination range including typhoid, hepatitis A/B, dengue, rabies, and meningococcal vaccines. Part of the HealthQuarters network known for its preventive health focus and strong patient satisfaction ratings. Not a travel medicine specialist but offers a good menu of standard travel vaccines.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [],
+        "consult_note": null,
+        "highlight": "Comprehensive vaccine range, Bukit OUG KL"
+      }
+    },
+    {
+      "clinic_id": "my-kmi-kelana-jaya",
+      "clinic_name": "KMI Healthcare Kelana Jaya",
+      "parent_chain": "KMI Healthcare",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Petaling Jaya",
+      "address": "No.1 FAS Business Avenue, Jalan Perbandaran SS 7, Kelana Jaya, 47301 Petaling Jaya",
+      "postal_code": "47301",
+      "latitude": 3.11,
+      "longitude": 101.593,
+      "phone": "TBC",
+      "website_url": "https://kmihealthcare.com/services/support-ancillary-services/vaccination-packages/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Kelana Jaya LRT",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-kmi-kelana-jaya.jpg",
+      "content": {
+        "services_summary": "KMI Healthcare in Kelana Jaya is a private medical centre established in 1999, offering 15+ vaccine types for adults and children. Travel-relevant vaccines include typhoid, dengue (Qdenga), hepatitis A/B, influenza, and meningococcal. Not a travel medicine specialist and yellow fever ICVP is not offered, but the wide vaccine range makes it a practical one-stop option for standard travel immunisations in Petaling Jaya.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "ISO Certified",
+          "Established 1999"
+        ],
+        "consult_note": null,
+        "highlight": "15+ travel vaccines available, Kelana Jaya PJ"
+      }
+    },
+    {
+      "clinic_id": "my-sentosa-pj",
+      "clinic_name": "Sentosa Healthcare Petaling Jaya",
+      "parent_chain": "Sentosa Healthcare",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Petaling Jaya",
+      "address": "Petaling Jaya (exact address TBC)",
+      "postal_code": "46000",
+      "latitude": 3.1073,
+      "longitude": 101.6067,
+      "phone": "TBC",
+      "website_url": "https://sentosagoc.com/vaccination-klinic-petaling-jaya/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "TBC",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-sentosa-pj.jpg",
+      "content": {
+        "services_summary": "Sentosa Healthcare in Petaling Jaya is part of an established general family medical chain with 12 locations and 30 years of operation across the Klang Valley. The clinic offers standard vaccination services including typhoid, hepatitis, dengue, and influenza. Not positioned as a travel medicine specialist, but accessible for routine travel vaccines in the PJ area.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "Established 1995",
+          "12 locations — Klang Valley"
+        ],
+        "consult_note": null,
+        "highlight": "Established family clinic chain, standard vaccines available"
+      }
+    },
+    {
+      "clinic_id": "my-pulse-damansara",
+      "clinic_name": "PULSE Clinic Damansara",
+      "parent_chain": "PULSE Clinic",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Petaling Jaya",
+      "address": "Damansara, Petaling Jaya (exact address TBC)",
+      "postal_code": "47400",
+      "latitude": 3.1215,
+      "longitude": 101.6247,
+      "phone": "+60 3-2110 3397",
+      "website_url": "https://www.pulse-clinic.com.my/vaccination",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "TBC",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 9:00-19:00, Sat 9:00-14:00",
+      "languages": [
+        "English",
+        "Malay",
+        "Mandarin"
+      ],
+      "status": "VERIFY",
+      "vaccines": [],
+      "photo_path": "/images/clinics/my-pulse-damansara.jpg",
+      "content": {
+        "services_summary": "PULSE Clinic Damansara is part of Southeast Asia's leading sexual health network. Offers general vaccines (hepatitis A/B, HPV, dengue, influenza) but travel medicine is not its specialty. Known primarily for HIV PrEP, STI screening, and sexual health care in the Damansara area.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "Pioneer HIV PrEP Provider (since 2015)"
+        ],
+        "consult_note": null,
+        "highlight": "Sexual health & STI specialist; general vaccines available"
+      }
+    },
+    {
+      "clinic_id": "my-umsc-kl",
+      "clinic_name": "UM Specialist Centre (UMSC)",
+      "parent_chain": "Independent",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Kuala Lumpur",
+      "address": "Lot 28, Lorong Universiti, Lembah Pantai, 50603 Kuala Lumpur",
+      "postal_code": "50603",
+      "latitude": 3.1185,
+      "longitude": 101.6549,
+      "phone": "+603 7841 4000",
+      "website_url": "https://umsc.my/umsc_specialty/travel-medicine/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Universiti LRT (KJ10)",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon–Fri 8am–5pm",
+      "languages": [
+        "English",
+        "Malay"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": "Contact clinic",
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": null
+        },
+        {
+          "vaccine_slug": "typhoid",
+          "vaccine_name": "Typhoid",
+          "available": true,
+          "price_local": null,
+          "price_note": "Contact clinic",
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": null
+        },
+        {
+          "vaccine_slug": "rabies",
+          "vaccine_name": "Rabies",
+          "available": true,
+          "price_local": null,
+          "price_note": "Contact clinic",
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": null
+        },
+        {
+          "vaccine_slug": "hepatitis-a",
+          "vaccine_name": "Hepatitis A",
+          "available": true,
+          "price_local": null,
+          "price_note": "Contact clinic",
+          "price_currency": "MYR",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": null
+        }
+      ],
+      "photo_path": null,
+      "content": {
+        "services_summary": "UM Specialist Centre (UMSC) is a leading academic specialist hospital established in 1998, affiliated with Universiti Malaya. Its dedicated Travel Medicine specialty — run through the Infectious Diseases division — offers comprehensive pre-travel consultations, vaccinations, pre-exposure prophylaxis, and altitude sickness medication for international travellers. Post-travel care including fever evaluation in returning travellers is also available. With 270+ consultants across 40 specialties, UMSC provides specialist-level travel medicine advice beyond what general clinics offer.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "Universiti Malaya Academic Hospital",
+          "MOH Malaysia Licensed"
+        ],
+        "consult_note": "Appointment required — specialist travel medicine consultation",
+        "highlight": "Dedicated travel medicine specialty, academic hospital KL"
+      }
+    }
+  ]
+}

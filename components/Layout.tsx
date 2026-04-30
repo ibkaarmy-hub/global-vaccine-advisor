@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import styles from "./Layout.module.css";
 
-type NavKey = "destinations" | "vaccines" | "alerts" | "about" | null;
+type NavKey = "destinations" | "vaccines" | "alerts" | "about" | "clinics" | null;
 
 type Props = {
   children: ReactNode;
@@ -12,6 +12,7 @@ type Props = {
 const NAV_LINKS: { key: Exclude<NavKey, null>; label: string; href: string }[] = [
   { key: "destinations", label: "Destinations", href: "/#destinations" },
   { key: "vaccines", label: "Vaccines", href: "/#vaccines" },
+  { key: "clinics", label: "Find a Clinic", href: "/clinics/" },
   { key: "alerts", label: "Alerts", href: "/alerts" },
   { key: "about", label: "About", href: "/about" },
 ];
@@ -58,7 +59,7 @@ export default function Layout({ children, active = null }: Props) {
             <Link href="/about">About</Link>
             <Link href="/disclaimer">Disclaimer</Link>
             <Link href="/about#sources">Data Sources</Link>
-            <Link href="/about#clinics">Find a Clinic</Link>
+            <Link href="/clinics/">Find a Clinic</Link>
             <Link href="/privacy">Privacy</Link>
           </div>
         </div>
