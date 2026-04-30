@@ -1,0 +1,51 @@
+name: Sync clinic data (fortnightly)
+
+# Pulls clinic + vaccine data from the published Google Sheet and commits
+# data/clinics-sg.json + data/clinics-my.json to main. The deploy workflow
+# then rebuilds the static site. No API key needed — the Sheet is published
+# read-only via "File → Share → Publish to web → Entire Document".
+
+on:
+  schedule:
+    # 06:00 UTC on the 1st and 15th of every month. Offset from the
+    # health-alerts cron (which runs alternate Mondays).
+    - cron: "0 6 1,15 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-clinics
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sync from Google Sheet
+        # Override the default Sheet ID by setting CLINIC_SHEET_PUB_ID as a
+        # repository variable (Settings → Secrets and variables → Variables).
+        env:
+          CLINIC_SHEET_PUB_ID: ${{ vars.CLINIC_SHEET_PUB_ID }}
+        run: node scripts/sync-clinics.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/clinics-sg.json data/clinics-my.json; then
+            echo "No clinic data changes."
+            exit 0
+          fi
+          git add data/clinics-sg.json data/clinics-my.json
+          git commit -m "chore(clinics): refresh from Sheet $(date -u +%Y-%m-%d)"
+          git push origin HEAD:main

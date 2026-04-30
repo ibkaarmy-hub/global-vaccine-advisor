@@ -1,5 +1,329 @@
 {
+  "$schema_version": "1.0",
+  "$generated": "2026-04-30T15:11:54.374Z",
+  "$source": "Auto-managed by scripts/sync-clinics.mjs from Google Sheet 2PACX-1vR5bTdxYWXA0dW1f16Mc3FkOpT8kJH4nQT_WJLOwB3fuqGow8ICNuj1T6ZVAzJ9k_jC5h8AEWoCGXV7. DO NOT EDIT BY HAND — manual edits will be overwritten by the next fortnightly run.",
+  "$country": "SG",
+  "$errors": [],
+  "$warnings": [
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-charazi-lavender",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-ang-mo-kio",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-ang-mo-kio",
+      "vaccine_slug": "rabies",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-ang-mo-kio",
+      "vaccine_slug": "typhoid",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-bedok",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-bedok",
+      "vaccine_slug": "rabies",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-bedok",
+      "vaccine_slug": "typhoid",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-clementi",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-clementi",
+      "vaccine_slug": "rabies",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-clementi",
+      "vaccine_slug": "typhoid",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-esplanade",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-harbourfront",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-punggol-oasis",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-punggol-oasis",
+      "vaccine_slug": "rabies",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-punggol-oasis",
+      "vaccine_slug": "typhoid",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-tembeling",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-tembeling",
+      "vaccine_slug": "rabies",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-tembeling",
+      "vaccine_slug": "typhoid",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-parkway-marine-parade",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-swc-camden",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-swc-camden",
+      "vaccine_slug": "rabies",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-swc-camden",
+      "vaccine_slug": "typhoid",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-ttsh-travel",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-ttsh-travel",
+      "vaccine_slug": "rabies",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-ttsh-travel",
+      "vaccine_slug": "typhoid",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-unihealth-jurong",
+      "vaccine_slug": "typhoid",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-unihealth-punggol",
+      "vaccine_slug": "typhoid",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-ucc-kitchener",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-ucc-kitchener",
+      "vaccine_slug": "rabies",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinic_vaccines",
+      "clinic_id": "sg-wh-woodlands",
+      "vaccine_slug": "yellow-fever",
+      "msg": "price_local set but price_last_updated missing (Hard Rule #4)"
+    },
+    {
+      "scope": "clinics",
+      "clinic_id": "sg-raffles-anson",
+      "msg": "no rows in clinic_vaccines for this clinic"
+    },
+    {
+      "scope": "clinics",
+      "clinic_id": "sg-cgh-travel",
+      "msg": "no rows in clinic_vaccines for this clinic"
+    },
+    {
+      "scope": "clinics",
+      "clinic_id": "sg-osler-raffles",
+      "msg": "no rows in clinic_vaccines for this clinic"
+    }
+  ],
   "clinics": [
+    {
+      "clinic_id": "sg-ata-camden",
+      "clinic_name": "ATA Medical Camden",
+      "parent_chain": "ATA Medical",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "1 Orchard Blvd, #05-09 Camden Medical Centre",
+      "postal_code": "248649",
+      "latitude": 1.3048,
+      "longitude": 103.8198,
+      "phone": "+65 6223 0682",
+      "website_url": "https://atamed.sg/travel-vaccination-singapore",
+      "booking_url": null,
+      "email": "hi@atamed.sg",
+      "nearest_transit": "Orchard MRT (NS22/TE14)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:30-17:30",
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": 233.26,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": true,
+          "price_last_updated": "2026-03-25",
+          "notes": "NETT when booked via app/portal"
+        },
+        {
+          "vaccine_slug": "rabies",
+          "vaccine_name": "Rabies",
+          "available": true,
+          "price_local": 263.78,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": true,
+          "price_last_updated": "2026-03-25",
+          "notes": "NETT incl GST"
+        }
+      ],
+      "photo_path": "/images/clinics/sg-ata-camden.jpg",
+      "content": {
+        "services_summary": "ATA Medical Camden offers comprehensive travel vaccinations with same-day appointments across 3 Singapore locations (Tanjong Pagar, Orchard, Jurong East). They are MOH-licensed to administer Yellow Fever vaccines and provide Hajj/Umrah vaccinations, Meningitis ACWY, and 20+ other travel vaccines including Hepatitis A/B, Typhoid, Japanese Encephalitis, and Rabies. They also offer doctor-curated Travel Medicine Kits and instant booking confirmation.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "Ministry of Health (MOH) licensed for Yellow Fever vaccination",
+          "National Immunisation Registry (NIR) accredited"
+        ],
+        "consult_note": null,
+        "highlight": "MOH-licensed yellow fever centre, same-day travel vaccinations"
+      }
+    },
+    {
+      "clinic_id": "sg-ata-jurong-east",
+      "clinic_name": "ATA Medical Clinic Jurong East",
+      "parent_chain": "ATA Medical",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "21 Jurong Gateway Rd, #02-08 CPF Jurong Building",
+      "postal_code": "608546",
+      "latitude": 1.335,
+      "longitude": 103.7398,
+      "phone": "+65 6348 6292",
+      "website_url": "https://atamed.sg/jurong-clinic",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Jurong East MRT (EW24/NS1)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:30-17:30",
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": 233.26,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": true,
+          "price_last_updated": "2026-03-25",
+          "notes": "NETT when booked via app/portal"
+        },
+        {
+          "vaccine_slug": "rabies",
+          "vaccine_name": "Rabies",
+          "available": true,
+          "price_local": 263.78,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": true,
+          "price_last_updated": "2026-03-25",
+          "notes": "NETT incl GST"
+        }
+      ],
+      "photo_path": "/images/clinics/sg-ata-jurong-east.jpg",
+      "content": {
+        "services_summary": "ATA Medical Clinic offers comprehensive vaccination services for routine and travel needs. Travel vaccinations are available alongside routine immunizations, though specific vaccine types and pre-travel consultation details are not detailed on the website.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "MOH Licensed",
+          "Ministry of Health Singapore accredited"
+        ],
+        "consult_note": null,
+        "highlight": "MOH-licensed clinic with travel vaccinations available"
+      }
+    },
     {
       "clinic_id": "sg-ata-tanjong-pagar",
       "clinic_name": "ATA Medical Tanjong Pagar",
@@ -106,263 +430,92 @@
       }
     },
     {
-      "clinic_id": "sg-ata-camden",
-      "clinic_name": "ATA Medical Camden",
-      "parent_chain": "ATA Medical",
+      "clinic_id": "sg-cgh-travel",
+      "clinic_name": "CGH Medical Centre for Travellers",
+      "parent_chain": "Changi General Hospital",
       "country": "Singapore",
       "country_code": "SG",
       "city": "Singapore",
-      "address": "1 Orchard Blvd, #05-09 Camden Medical Centre",
-      "postal_code": "248649",
-      "latitude": 1.3048,
-      "longitude": 103.8198,
-      "phone": "+65 6223 0682",
-      "website_url": "https://atamed.sg/travel-vaccination-singapore",
+      "address": "2 Simei Street 3",
+      "postal_code": "529889",
+      "latitude": 1.3406,
+      "longitude": 103.9497,
+      "phone": "+65 6850 3333",
+      "website_url": "https://www.cgh.com.sg/our-specialties/medical-centre-for-travellers",
       "booking_url": null,
-      "email": "hi@atamed.sg",
-      "nearest_transit": "Orchard MRT (NS22/TE14)",
+      "email": null,
+      "nearest_transit": "Simei MRT (EW3)",
       "walk_in": true,
       "appt_required": false,
       "hours_summary": "Mon-Fri 8:30-17:30",
       "languages": [
         "English",
-        "Mandarin"
-      ],
-      "status": "LIVE",
-      "vaccines": [
-        {
-          "vaccine_slug": "yellow-fever",
-          "vaccine_name": "Yellow Fever",
-          "available": true,
-          "price_local": 233.26,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": true,
-          "price_last_updated": "2026-03-25",
-          "notes": "NETT when booked via app/portal"
-        },
-        {
-          "vaccine_slug": "rabies",
-          "vaccine_name": "Rabies",
-          "available": true,
-          "price_local": 263.78,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": true,
-          "price_last_updated": "2026-03-25",
-          "notes": "NETT incl GST"
-        }
-      ],
-      "photo_path": "/images/clinics/sg-ata-camden.jpg",
-      "content": {
-        "services_summary": "ATA Medical Camden offers comprehensive travel vaccinations with same-day appointments across 3 Singapore locations (Tanjong Pagar, Orchard, Jurong East). They are MOH-licensed to administer Yellow Fever vaccines and provide Hajj/Umrah vaccinations, Meningitis ACWY, and 20+ other travel vaccines including Hepatitis A/B, Typhoid, Japanese Encephalitis, and Rabies. They also offer doctor-curated Travel Medicine Kits and instant booking confirmation.",
-        "travel_specialist": true,
-        "yf_licensed": true,
-        "certifications": [
-          "Ministry of Health (MOH) licensed for Yellow Fever vaccination",
-          "National Immunisation Registry (NIR) accredited"
-        ],
-        "consult_note": null,
-        "highlight": "MOH-licensed yellow fever centre, same-day travel vaccinations"
-      }
-    },
-    {
-      "clinic_id": "sg-minmed-paragon",
-      "clinic_name": "Minmed Paragon",
-      "parent_chain": "Minmed Group",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "290 Orchard Rd, Paragon Tower 1, #16-04",
-      "postal_code": "238863",
-      "latitude": 1.3044,
-      "longitude": 103.8335,
-      "phone": "+65 8750 0123",
-      "website_url": "https://minmed.sg/travel-vaccination/",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Orchard MRT (NS22/TE14)",
-      "walk_in": true,
-      "appt_required": false,
-      "hours_summary": "Mon-Fri 8:00-17:00",
-      "languages": [
-        "English",
-        "Mandarin"
-      ],
-      "status": "LIVE",
-      "vaccines": [
-        {
-          "vaccine_slug": "yellow-fever",
-          "vaccine_name": "Yellow Fever",
-          "available": true,
-          "price_local": 270.0,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": true,
-          "price_last_updated": "2026-04-28",
-          "notes": "Incl GST. Nett when booked via Minmed app"
-        }
-      ],
-      "photo_path": "/images/clinics/sg-minmed-paragon.jpg",
-      "content": {
-        "services_summary": "Minmed Paragon offers comprehensive travel vaccination services including Yellow Fever (with ICVP), Hepatitis A/B, Typhoid, Japanese Encephalitis, Rabies, Meningococcal, and routine travel vaccines. Pre-travel health assessments are conducted by experienced travel health specialists to create personalized vaccination plans based on destination, duration, and activities. Services are available across multiple Singapore locations with flexible hours and soft/physical immunisation certificates provided.",
-        "travel_specialist": true,
-        "yf_licensed": true,
-        "certifications": [
-          "International Certificate of Vaccination or Prophylaxis (ICVP)"
-        ],
-        "consult_note": "Pre-travel consultation included — healthcare professionals assess individual needs based on destination, duration, activities, and vaccination status to create personalized vaccination plans.",
-        "highlight": "Yellow Fever & travel vaccinations with ICVP certificates"
-      }
-    },
-    {
-      "clinic_id": "sg-raffles-mbfc",
-      "clinic_name": "Raffles Medical MBFC",
-      "parent_chain": "Raffles Medical Group",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "12 Marina Blvd, #17-05 Tower 3, MBFC",
-      "postal_code": "018982",
-      "latitude": 1.2811,
-      "longitude": 103.8564,
-      "phone": "+65 6311 1111",
-      "website_url": "https://www.rafflesmedicalgroup.com/",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Downtown MRT (CE1/DT17)",
-      "walk_in": false,
-      "appt_required": true,
-      "hours_summary": "Mon-Fri 8:00-17:30 (appt required)",
-      "languages": [
-        "English",
         "Mandarin",
+        "Malay",
         "Tamil"
       ],
       "status": "LIVE",
-      "vaccines": [
-        {
-          "vaccine_slug": "yellow-fever",
-          "vaccine_name": "Yellow Fever",
-          "available": true,
-          "price_local": null,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Yellow fever at selected locations only"
-        },
-        {
-          "vaccine_slug": "hepatitis-a",
-          "vaccine_name": "Hepatitis A",
-          "available": true,
-          "price_local": null,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Available all 72 locations"
-        }
-      ],
-      "photo_path": "/images/clinics/sg-raffles-mbfc.jpg",
-      "content": {
-        "services_summary": "No specific travel medicine or vaccination services are mentioned on the website. Raffles Medical MBFC offers general primary care and family medicine services, but travel-specific offerings such as pre-travel vaccinations, yellow fever immunization, or travel health consultations are not detailed in the available content.",
-        "travel_specialist": false,
-        "yf_licensed": false,
-        "certifications": [
-          "MOH certified (Raffles Hospital for acute trauma care)"
-        ],
-        "consult_note": null,
-        "highlight": "General healthcare provider; travel services not specified"
-      }
-    },
-    {
-      "clinic_id": "sg-raffles-anson",
-      "clinic_name": "Raffles Medical Anson Centre",
-      "parent_chain": "Raffles Medical Group",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "51 Anson Rd, #01-51 Anson Centre",
-      "postal_code": "079904",
-      "latitude": 1.2756,
-      "longitude": 103.8453,
-      "phone": "+65 6311 1111",
-      "website_url": "https://www.rafflesmedicalgroup.com/",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Tanjong Pagar MRT (EW15)",
-      "walk_in": false,
-      "appt_required": true,
-      "hours_summary": "Mon-Fri 8:30-17:30, Sat 8:30-13:00 (appt required)",
-      "languages": [
-        "English",
-        "Mandarin"
-      ],
-      "status": "LIVE",
       "vaccines": [],
-      "photo_path": "/images/clinics/sg-raffles-anson.jpg",
+      "photo_path": "/images/clinics/sg-cgh-travel.jpg",
       "content": {
-        "services_summary": "Raffles Medical offers primary care services including teleconsultation and health screening through its network of over 100 clinics and a hospital in Singapore. While travel medicine is not explicitly detailed on the homepage, primary care and family medicine services are available that typically include pre-travel health assessments.",
-        "travel_specialist": false,
-        "yf_licensed": false,
-        "certifications": [
-          "MOH certified (Raffles Hospital for acute trauma care)",
-          "50-year-old private healthcare provider"
-        ],
-        "consult_note": null,
-        "highlight": "Large private healthcare network with primary care services"
-      }
-    },
-    {
-      "clinic_id": "sg-nuffield-siglap",
-      "clinic_name": "Nuffield Medical Siglap",
-      "parent_chain": "Nuffield Medical",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "914 East Coast Rd, The Domain #01-03",
-      "postal_code": "459108",
-      "latitude": 1.314,
-      "longitude": 103.9294,
-      "phone": "+65 6636 3083",
-      "website_url": "https://www.nuffieldmedical.com.sg/travel-vaccinations-clinic",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Bus 12, 14, 32 (East Coast Rd stop)",
-      "walk_in": false,
-      "appt_required": true,
-      "hours_summary": "Mon-Fri 8:30-17:30, Sat 8:30-12:30",
-      "languages": [
-        "English",
-        "Mandarin"
-      ],
-      "status": "LIVE",
-      "vaccines": [
-        {
-          "vaccine_slug": "yellow-fever",
-          "vaccine_name": "Yellow Fever",
-          "available": true,
-          "price_local": null,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Verify price"
-        }
-      ],
-      "photo_path": "/images/clinics/sg-nuffield-siglap.jpg",
-      "content": {
-        "services_summary": "Nuffield Medical Siglap offers comprehensive travel vaccination services including hepatitis A/B, typhoid, yellow fever, Japanese encephalitis, meningitis, malaria prophylaxis, and routine immunisations. They provide pre-travel health counselling, same-day vaccinations, and issue WHO-recognised International Certificates of Vaccination. The clinic recommends consultation 4-6 weeks before departure to assess individual vaccination requirements.",
+        "services_summary": "CGH's Medical Centre for Travellers (MCT) is a dedicated travel medicine service at Changi General Hospital, staffed by infectious disease specialists experienced in travel health. Pre-travel services include hepatitis A/B, typhoid, meningococcal ACWY, influenza, tetanus/diphtheria, rabies, Japanese encephalitis, and yellow fever vaccinations, with nurse or doctor consultations available. Post-travel services cover fever assessment, tropical disease screening, rashes, diarrhoea, jaundice, STI screening, and long-term returnee medicals — making it one of Singapore's most complete travel medicine centres.",
         "travel_specialist": true,
         "yf_licensed": true,
         "certifications": [
-          "Yellow Fever Vaccination Centre",
-          "Singapore Ministry of Health approved",
-          "WHO International Certificate of Vaccination issuer"
+          "Department of Infectious Diseases — CGH",
+          "MOH Yellow Fever Vaccination Centre"
         ],
-        "consult_note": "Pre-travel counselling is included; doctors recommend consultation at least 4-6 weeks before departure",
-        "highlight": "MOH-licensed yellow fever vaccination centre"
+        "consult_note": "Nurse or doctor consultation available — appointment basis",
+        "highlight": "Full-service travel & tropical medicine, Changi Hospital"
+      }
+    },
+    {
+      "clinic_id": "sg-charazi-lavender",
+      "clinic_name": "Charazi Lavender",
+      "parent_chain": "Charazi",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "161 Lavender Street, #01-10",
+      "postal_code": "338750",
+      "latitude": 1.3127,
+      "longitude": 103.8609,
+      "phone": null,
+      "website_url": "https://www.charazoi.com/travel-vaccinations/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Lavender MRT (EW11)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "TBC",
+      "languages": [
+        "English"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": 240,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Walk-in price"
+        }
+      ],
+      "photo_path": "/images/clinics/sg-charazi-lavender.jpg",
+      "content": {
+        "services_summary": "MOH-licensed travel clinic offering comprehensive vaccination services including yellow fever with official certification, malaria prophylaxis, and vaccines for hepatitis A/B, typhoid, meningococcal, MMR, varicella, and more. Pre-travel consultations available to customize vaccination plans based on destination, trip duration, and health history.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "MOH-licensed clinic",
+          "Yellow Fever vaccination with official certification"
+        ],
+        "consult_note": "Customised vaccination plan available by appointment; consultation required to discuss vaccine combinations and timing based on individual travel details.",
+        "highlight": "MOH-licensed travel clinic, yellow fever certified"
       }
     },
     {
@@ -436,368 +589,6 @@
       }
     },
     {
-      "clinic_id": "sg-sgh-travel",
-      "clinic_name": "SGH Travel Clinic",
-      "parent_chain": "Singapore General Hospital",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "Outram Rd, Block 6 Level 1",
-      "postal_code": "169608",
-      "latitude": 1.2799,
-      "longitude": 103.8347,
-      "phone": "+65 6321 4377",
-      "website_url": "https://www.sgh.com.sg/our-specialties/travel-clinic",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Outram Park MRT (EW16/NE3/TE17)",
-      "walk_in": true,
-      "appt_required": false,
-      "hours_summary": "Mon-Fri 8:00-13:00 & 14:00-17:30 (walk-in last reg 12:30 & 16:30)",
-      "languages": [
-        "English",
-        "Mandarin",
-        "Malay",
-        "Tamil"
-      ],
-      "status": "LIVE",
-      "vaccines": [
-        {
-          "vaccine_slug": "yellow-fever",
-          "vaccine_name": "Yellow Fever",
-          "available": true,
-          "price_local": null,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Public hospital — subsidised rates available"
-        }
-      ],
-      "photo_path": "/images/clinics/sg-sgh-travel.jpg",
-      "content": {
-        "services_summary": "SGH Travel Clinic is a dedicated travel medicine service at Singapore General Hospital, operated by infectious disease and travel medicine specialists. The clinic offers comprehensive pre-travel health assessments, the full range of travel vaccinations including yellow fever (ICVP), and post-travel consultations for returning patients with illness. As one of Singapore's oldest public hospital travel clinics, SGH serves both individual travellers and occupational health referrals requiring specialist-level travel medicine advice.",
-        "travel_specialist": true,
-        "yf_licensed": true,
-        "certifications": [
-          "Department of Infectious Diseases — SGH",
-          "MOH Yellow Fever Vaccination Centre"
-        ],
-        "consult_note": "Specialist travel medicine consultation — appointment recommended",
-        "highlight": "Specialist ID-run travel clinic, Singapore General Hospital"
-      }
-    },
-    {
-      "clinic_id": "sg-cgh-travel",
-      "clinic_name": "CGH Medical Centre for Travellers",
-      "parent_chain": "Changi General Hospital",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "2 Simei Street 3",
-      "postal_code": "529889",
-      "latitude": 1.3406,
-      "longitude": 103.9497,
-      "phone": "+65 6850 3333",
-      "website_url": "https://www.cgh.com.sg/our-specialties/medical-centre-for-travellers",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Simei MRT (EW3)",
-      "walk_in": false,
-      "appt_required": true,
-      "hours_summary": "Mon-Fri 8:30-17:30 (appt required)",
-      "languages": [
-        "English",
-        "Mandarin",
-        "Malay",
-        "Tamil"
-      ],
-      "status": "LIVE",
-      "vaccines": [],
-      "photo_path": "/images/clinics/sg-cgh-travel.jpg",
-      "content": {
-        "services_summary": "CGH's Medical Centre for Travellers (MCT) is a dedicated travel medicine service at Changi General Hospital, staffed by infectious disease specialists experienced in travel health. Pre-travel services include hepatitis A/B, typhoid, meningococcal ACWY, influenza, tetanus/diphtheria, rabies, Japanese encephalitis, and yellow fever vaccinations, with nurse or doctor consultations available. Post-travel services cover fever assessment, tropical disease screening, rashes, diarrhoea, jaundice, STI screening, and long-term returnee medicals — making it one of Singapore's most complete travel medicine centres.",
-        "travel_specialist": true,
-        "yf_licensed": true,
-        "certifications": [
-          "Department of Infectious Diseases — CGH",
-          "MOH Yellow Fever Vaccination Centre"
-        ],
-        "consult_note": "Nurse or doctor consultation available — appointment basis",
-        "highlight": "Full-service travel & tropical medicine, Changi Hospital"
-      }
-    },
-    {
-      "clinic_id": "sg-osler-raffles",
-      "clinic_name": "Osler Health Raffles Arcade",
-      "parent_chain": "Osler Health",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "328 North Bridge Rd, #02-27 Raffles Hotel Arcade",
-      "postal_code": "188719",
-      "latitude": 1.2947,
-      "longitude": 103.8529,
-      "phone": "TBC",
-      "website_url": "https://osler-health.com/services/travel-medicine",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "City Hall MRT (EW13/NS25)",
-      "walk_in": false,
-      "appt_required": true,
-      "hours_summary": "Mon-Fri 9:00-17:30",
-      "languages": [
-        "English"
-      ],
-      "status": "LIVE",
-      "vaccines": [],
-      "photo_path": "/images/clinics/sg-osler-raffles.jpg",
-      "content": {
-        "services_summary": "Osler Health offers comprehensive travel medicine services including pre-travel health consultations, all major travel vaccinations (yellow fever, typhoid, Japanese encephalitis, rabies, hepatitis A/B, malaria prophylaxis, and others), and curated travel medicine packs for common ailments. Appointments are recommended six weeks before departure, with all vaccination records available via the myOslerHealth app. They are a designated MOH testing clinic providing COVID-19 pre-departure testing.",
-        "travel_specialist": true,
-        "yf_licensed": true,
-        "certifications": [
-          "Designated MOH testing clinic",
-          "COVID-19 Pre-Departure Testing provider"
-        ],
-        "consult_note": "Pre-travel consultation recommended six weeks before departure; consultation required to obtain travel medicine pack",
-        "highlight": "MOH-designated travel clinic with full vaccination suite"
-      }
-    },
-    {
-      "clinic_id": "sg-parkway-marine-parade",
-      "clinic_name": "Parkway Shenton Marine Parade",
-      "parent_chain": "Parkway Shenton",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "80 Marine Parade Rd, #14-03 Parkway Parade",
-      "postal_code": "449269",
-      "latitude": 1.3027,
-      "longitude": 103.9054,
-      "phone": "+65 6346 9963",
-      "website_url": "https://www.parkwayshenton.com.sg/services/vaccinations/travel-vaccinations",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Bus 10, 14, 16 (Marine Parade Rd)",
-      "walk_in": true,
-      "appt_required": false,
-      "hours_summary": "Mon-Fri 8:30-17:30, Sat 8:30-13:00",
-      "languages": [
-        "English",
-        "Mandarin"
-      ],
-      "status": "LIVE",
-      "vaccines": [
-        {
-          "vaccine_slug": "yellow-fever",
-          "vaccine_name": "Yellow Fever",
-          "available": true,
-          "price_local": 258.0,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Walk-in price (chain-wide pricing)"
-        }
-      ],
-      "photo_path": "/images/clinics/sg-parkway-marine-parade.jpg",
-      "content": {
-        "services_summary": "Parkway Shenton offers a comprehensive range of travel vaccinations at subsidized rates for Singaporeans and Permanent Residents under the National Adult Immunisation Schedule. They provide common travel vaccines including COVID-19, Hepatitis A & B, Japanese encephalitis, Meningococcal, Rabies, Typhoid, Yellow fever, and Tetanus at multiple vaccination clinics across Singapore.",
-        "travel_specialist": false,
-        "yf_licensed": true,
-        "certifications": [
-          "National Adult Immunisation Schedule (NAIS)"
-        ],
-        "consult_note": null,
-        "highlight": "Travel vaccinations at subsidised rates, walk-in clinics"
-      }
-    },
-    {
-      "clinic_id": "sg-ttsh-travel",
-      "clinic_name": "TTSH Travellers Health & Vaccination",
-      "parent_chain": "Tan Tock Seng Hospital",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "11 Jalan Tan Tock Seng",
-      "postal_code": "308433",
-      "latitude": 1.3215,
-      "longitude": 103.8474,
-      "phone": "+65 6357 7000",
-      "website_url": "https://www.ttsh.com.sg",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Novena MRT (NS20)",
-      "walk_in": false,
-      "appt_required": true,
-      "hours_summary": "Mon-Fri 8:00-17:30",
-      "languages": [
-        "English",
-        "Mandarin",
-        "Malay",
-        "Tamil"
-      ],
-      "status": "LIVE",
-      "vaccines": [
-        {
-          "vaccine_slug": "yellow-fever",
-          "vaccine_name": "Yellow Fever",
-          "available": true,
-          "price_local": 250.0,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Public hospital rate. Source: Supabase admin-edited"
-        },
-        {
-          "vaccine_slug": "rabies",
-          "vaccine_name": "Rabies",
-          "available": true,
-          "price_local": 250.0,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Public hospital rate"
-        },
-        {
-          "vaccine_slug": "typhoid",
-          "vaccine_name": "Typhoid",
-          "available": true,
-          "price_local": 40.0,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Public hospital rate — subsidised available"
-        }
-      ],
-      "photo_path": "/images/clinics/sg-ttsh-travel.jpg",
-      "content": {
-        "services_summary": "TTSH's Travellers' Health and Vaccination Clinic (THVC) is run by the Department of Infectious Diseases — Singapore's foremost authority on travel medicine. Specialist infectious disease doctors and nurses provide personalised pre-travel consultations covering destination-specific risk assessment, vaccination history review, immunity blood testing, and anti-malarial prophylaxis. Vaccines include yellow fever, typhoid, Japanese encephalitis, hepatitis A/B, meningococcal, and rabies. Post-travel fever and tropical illness care also available.",
-        "travel_specialist": true,
-        "yf_licensed": true,
-        "certifications": [
-          "Department of Infectious Diseases — TTSH",
-          "MOH Yellow Fever Vaccination Centre"
-        ],
-        "consult_note": "Appointment required — Mon–Fri 8am–5:30pm, last appt 5pm",
-        "highlight": "Infectious Disease-led travel clinic, Tan Tock Seng Hospital"
-      }
-    },
-    {
-      "clinic_id": "sg-ata-jurong-east",
-      "clinic_name": "ATA Medical Clinic Jurong East",
-      "parent_chain": "ATA Medical",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "21 Jurong Gateway Rd, #02-08 CPF Jurong Building",
-      "postal_code": "608546",
-      "latitude": 1.335,
-      "longitude": 103.7398,
-      "phone": "+65 6348 6292",
-      "website_url": "https://atamed.sg/jurong-clinic",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Jurong East MRT (EW24/NS1)",
-      "walk_in": true,
-      "appt_required": false,
-      "hours_summary": "Mon-Fri 8:30-17:30",
-      "languages": [
-        "English",
-        "Mandarin"
-      ],
-      "status": "LIVE",
-      "vaccines": [
-        {
-          "vaccine_slug": "yellow-fever",
-          "vaccine_name": "Yellow Fever",
-          "available": true,
-          "price_local": 233.26,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": true,
-          "price_last_updated": "2026-03-25",
-          "notes": "NETT when booked via app/portal"
-        },
-        {
-          "vaccine_slug": "rabies",
-          "vaccine_name": "Rabies",
-          "available": true,
-          "price_local": 263.78,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": true,
-          "price_last_updated": "2026-03-25",
-          "notes": "NETT incl GST"
-        }
-      ],
-      "photo_path": "/images/clinics/sg-ata-jurong-east.jpg",
-      "content": {
-        "services_summary": "ATA Medical Clinic offers comprehensive vaccination services for routine and travel needs. Travel vaccinations are available alongside routine immunizations, though specific vaccine types and pre-travel consultation details are not detailed on the website.",
-        "travel_specialist": false,
-        "yf_licensed": false,
-        "certifications": [
-          "MOH Licensed",
-          "Ministry of Health Singapore accredited"
-        ],
-        "consult_note": null,
-        "highlight": "MOH-licensed clinic with travel vaccinations available"
-      }
-    },
-    {
-      "clinic_id": "sg-charazi-lavender",
-      "clinic_name": "Charazi Lavender",
-      "parent_chain": "Charazi",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "161 Lavender Street, #01-10",
-      "postal_code": "338750",
-      "latitude": 1.3127,
-      "longitude": 103.8609,
-      "phone": null,
-      "website_url": "https://www.charazoi.com/travel-vaccinations/",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Lavender MRT (EW11)",
-      "walk_in": true,
-      "appt_required": false,
-      "hours_summary": "TBC",
-      "languages": [
-        "English"
-      ],
-      "status": "LIVE",
-      "vaccines": [
-        {
-          "vaccine_slug": "yellow-fever",
-          "vaccine_name": "Yellow Fever",
-          "available": true,
-          "price_local": 240.0,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Walk-in price"
-        }
-      ],
-      "photo_path": "/images/clinics/sg-charazi-lavender.jpg",
-      "content": {
-        "services_summary": "MOH-licensed travel clinic offering comprehensive vaccination services including yellow fever with official certification, malaria prophylaxis, and vaccines for hepatitis A/B, typhoid, meningococcal, MMR, varicella, and more. Pre-travel consultations available to customize vaccination plans based on destination, trip duration, and health history.",
-        "travel_specialist": true,
-        "yf_licensed": true,
-        "certifications": [
-          "MOH-licensed clinic",
-          "Yellow Fever vaccination with official certification"
-        ],
-        "consult_note": "Customised vaccination plan available by appointment; consultation required to discuss vaccine combinations and timing based on individual travel details.",
-        "highlight": "MOH-licensed travel clinic, yellow fever certified"
-      }
-    },
-    {
       "clinic_id": "sg-minmed-jurong-east",
       "clinic_name": "Minmed Clinic Jurong East",
       "parent_chain": "Minmed Group",
@@ -826,7 +617,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 270.0,
+          "price_local": 270,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": true,
@@ -842,6 +633,55 @@
         "certifications": [],
         "consult_note": null,
         "highlight": "Travel vaccinations including Yellow Fever available"
+      }
+    },
+    {
+      "clinic_id": "sg-minmed-paragon",
+      "clinic_name": "Minmed Paragon",
+      "parent_chain": "Minmed Group",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "290 Orchard Rd, Paragon Tower 1, #16-04",
+      "postal_code": "238863",
+      "latitude": 1.3044,
+      "longitude": 103.8335,
+      "phone": "+65 8750 0123",
+      "website_url": "https://minmed.sg/travel-vaccination/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Orchard MRT (NS22/TE14)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-17:00",
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": 270,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": true,
+          "price_last_updated": "2026-04-28",
+          "notes": "Incl GST. Nett when booked via Minmed app"
+        }
+      ],
+      "photo_path": "/images/clinics/sg-minmed-paragon.jpg",
+      "content": {
+        "services_summary": "Minmed Paragon offers comprehensive travel vaccination services including Yellow Fever (with ICVP), Hepatitis A/B, Typhoid, Japanese Encephalitis, Rabies, Meningococcal, and routine travel vaccines. Pre-travel health assessments are conducted by experienced travel health specialists to create personalized vaccination plans based on destination, duration, and activities. Services are available across multiple Singapore locations with flexible hours and soft/physical immunisation certificates provided.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "International Certificate of Vaccination or Prophylaxis (ICVP)"
+        ],
+        "consult_note": "Pre-travel consultation included — healthcare professionals assess individual needs based on destination, duration, activities, and vaccination status to create personalized vaccination plans.",
+        "highlight": "Yellow Fever & travel vaccinations with ICVP certificates"
       }
     },
     {
@@ -873,7 +713,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 270.0,
+          "price_local": 270,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": true,
@@ -920,7 +760,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 270.0,
+          "price_local": 270,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": true,
@@ -971,7 +811,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 270.0,
+          "price_local": 270,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": true,
@@ -987,6 +827,94 @@
         "certifications": [],
         "consult_note": null,
         "highlight": "Travel vaccinations including yellow fever at multiple locations"
+      }
+    },
+    {
+      "clinic_id": "sg-nuffield-siglap",
+      "clinic_name": "Nuffield Medical Siglap",
+      "parent_chain": "Nuffield Medical",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "914 East Coast Rd, The Domain #01-03",
+      "postal_code": "459108",
+      "latitude": 1.314,
+      "longitude": 103.9294,
+      "phone": "+65 6636 3083",
+      "website_url": "https://www.nuffieldmedical.com.sg/travel-vaccinations-clinic",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Bus 12, 14, 32 (East Coast Rd stop)",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 8:30-17:30, Sat 8:30-12:30",
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Verify price"
+        }
+      ],
+      "photo_path": "/images/clinics/sg-nuffield-siglap.jpg",
+      "content": {
+        "services_summary": "Nuffield Medical Siglap offers comprehensive travel vaccination services including hepatitis A/B, typhoid, yellow fever, Japanese encephalitis, meningitis, malaria prophylaxis, and routine immunisations. They provide pre-travel health counselling, same-day vaccinations, and issue WHO-recognised International Certificates of Vaccination. The clinic recommends consultation 4-6 weeks before departure to assess individual vaccination requirements.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "Yellow Fever Vaccination Centre",
+          "Singapore Ministry of Health approved",
+          "WHO International Certificate of Vaccination issuer"
+        ],
+        "consult_note": "Pre-travel counselling is included; doctors recommend consultation at least 4-6 weeks before departure",
+        "highlight": "MOH-licensed yellow fever vaccination centre"
+      }
+    },
+    {
+      "clinic_id": "sg-osler-raffles",
+      "clinic_name": "Osler Health Raffles Arcade",
+      "parent_chain": "Osler Health",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "328 North Bridge Rd, #02-27 Raffles Hotel Arcade",
+      "postal_code": "188719",
+      "latitude": 1.2947,
+      "longitude": 103.8529,
+      "phone": "TBC",
+      "website_url": "https://osler-health.com/services/travel-medicine",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "City Hall MRT (EW13/NS25)",
+      "walk_in": false,
+      "appt_required": true,
+      "hours_summary": "Mon-Fri 9:00-17:30",
+      "languages": [
+        "English"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/sg-osler-raffles.jpg",
+      "content": {
+        "services_summary": "Osler Health offers comprehensive travel medicine services including pre-travel health consultations, all major travel vaccinations (yellow fever, typhoid, Japanese encephalitis, rabies, hepatitis A/B, malaria prophylaxis, and others), and curated travel medicine packs for common ailments. Appointments are recommended six weeks before departure, with all vaccination records available via the myOslerHealth app. They are a designated MOH testing clinic providing COVID-19 pre-departure testing.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "Designated MOH testing clinic",
+          "COVID-19 Pre-Departure Testing provider"
+        ],
+        "consult_note": "Pre-travel consultation recommended six weeks before departure; consultation required to obtain travel medicine pack",
+        "highlight": "MOH-designated travel clinic with full vaccination suite"
       }
     },
     {
@@ -1018,7 +946,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 258.0,
+          "price_local": 258,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1029,7 +957,7 @@
           "vaccine_slug": "rabies",
           "vaccine_name": "Rabies",
           "available": true,
-          "price_local": 298.0,
+          "price_local": 298,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1040,7 +968,7 @@
           "vaccine_slug": "typhoid",
           "vaccine_name": "Typhoid",
           "available": true,
-          "price_local": 50.0,
+          "price_local": 50,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1087,7 +1015,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 258.0,
+          "price_local": 258,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1098,7 +1026,7 @@
           "vaccine_slug": "rabies",
           "vaccine_name": "Rabies",
           "available": true,
-          "price_local": 298.0,
+          "price_local": 298,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1109,7 +1037,7 @@
           "vaccine_slug": "typhoid",
           "vaccine_name": "Typhoid",
           "available": true,
-          "price_local": 50.0,
+          "price_local": 50,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1156,7 +1084,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 258.0,
+          "price_local": 258,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1167,7 +1095,7 @@
           "vaccine_slug": "rabies",
           "vaccine_name": "Rabies",
           "available": true,
-          "price_local": 298.0,
+          "price_local": 298,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1178,7 +1106,7 @@
           "vaccine_slug": "typhoid",
           "vaccine_name": "Typhoid",
           "available": true,
-          "price_local": 50.0,
+          "price_local": 50,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1225,7 +1153,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 258.0,
+          "price_local": 258,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1272,7 +1200,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 258.0,
+          "price_local": 258,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1288,6 +1216,55 @@
         "certifications": [],
         "consult_note": null,
         "highlight": "Travel vaccinations at subsidised rates islandwide"
+      }
+    },
+    {
+      "clinic_id": "sg-parkway-marine-parade",
+      "clinic_name": "Parkway Shenton Marine Parade",
+      "parent_chain": "Parkway Shenton",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "80 Marine Parade Rd, #14-03 Parkway Parade",
+      "postal_code": "449269",
+      "latitude": 1.3027,
+      "longitude": 103.9054,
+      "phone": "+65 6346 9963",
+      "website_url": "https://www.parkwayshenton.com.sg/services/vaccinations/travel-vaccinations",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Bus 10, 14, 16 (Marine Parade Rd)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:30-17:30, Sat 8:30-13:00",
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": 258,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Walk-in price (chain-wide pricing)"
+        }
+      ],
+      "photo_path": "/images/clinics/sg-parkway-marine-parade.jpg",
+      "content": {
+        "services_summary": "Parkway Shenton offers a comprehensive range of travel vaccinations at subsidized rates for Singaporeans and Permanent Residents under the National Adult Immunisation Schedule. They provide common travel vaccines including COVID-19, Hepatitis A & B, Japanese encephalitis, Meningococcal, Rabies, Typhoid, Yellow fever, and Tetanus at multiple vaccination clinics across Singapore.",
+        "travel_specialist": false,
+        "yf_licensed": true,
+        "certifications": [
+          "National Adult Immunisation Schedule (NAIS)"
+        ],
+        "consult_note": null,
+        "highlight": "Travel vaccinations at subsidised rates, walk-in clinics"
       }
     },
     {
@@ -1319,7 +1296,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 258.0,
+          "price_local": 258,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1330,7 +1307,7 @@
           "vaccine_slug": "rabies",
           "vaccine_name": "Rabies",
           "available": true,
-          "price_local": 298.0,
+          "price_local": 298,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1341,7 +1318,7 @@
           "vaccine_slug": "typhoid",
           "vaccine_name": "Typhoid",
           "available": true,
-          "price_local": 50.0,
+          "price_local": 50,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1388,7 +1365,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 258.0,
+          "price_local": 258,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1399,7 +1376,7 @@
           "vaccine_slug": "rabies",
           "vaccine_name": "Rabies",
           "available": true,
-          "price_local": 298.0,
+          "price_local": 298,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1410,7 +1387,7 @@
           "vaccine_slug": "typhoid",
           "vaccine_name": "Typhoid",
           "available": true,
-          "price_local": 50.0,
+          "price_local": 50,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1426,6 +1403,157 @@
         "certifications": [],
         "consult_note": null,
         "highlight": "Travel vaccinations at subsidised rates across 38 clinics"
+      }
+    },
+    {
+      "clinic_id": "sg-raffles-anson",
+      "clinic_name": "Raffles Medical Anson Centre",
+      "parent_chain": "Raffles Medical Group",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "51 Anson Rd, #01-51 Anson Centre",
+      "postal_code": "079904",
+      "latitude": 1.2756,
+      "longitude": 103.8453,
+      "phone": "+65 6311 1111",
+      "website_url": "https://www.rafflesmedicalgroup.com/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Tanjong Pagar MRT (EW15)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:30-17:30, Sat 8:30-13:00",
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "status": "LIVE",
+      "vaccines": [],
+      "photo_path": "/images/clinics/sg-raffles-anson.jpg",
+      "content": {
+        "services_summary": "Raffles Medical offers primary care services including teleconsultation and health screening through its network of over 100 clinics and a hospital in Singapore. While travel medicine is not explicitly detailed on the homepage, primary care and family medicine services are available that typically include pre-travel health assessments.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "MOH certified (Raffles Hospital for acute trauma care)",
+          "50-year-old private healthcare provider"
+        ],
+        "consult_note": null,
+        "highlight": "Large private healthcare network with primary care services"
+      }
+    },
+    {
+      "clinic_id": "sg-raffles-mbfc",
+      "clinic_name": "Raffles Medical MBFC",
+      "parent_chain": "Raffles Medical Group",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "12 Marina Blvd, #17-05 Tower 3, MBFC",
+      "postal_code": "018982",
+      "latitude": 1.2811,
+      "longitude": 103.8564,
+      "phone": "+65 6311 1111",
+      "website_url": "https://www.rafflesmedicalgroup.com/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Downtown MRT (CE1/DT17)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-17:30",
+      "languages": [
+        "English",
+        "Mandarin",
+        "Tamil"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Yellow fever at selected locations only"
+        },
+        {
+          "vaccine_slug": "hepatitis-a",
+          "vaccine_name": "Hepatitis A",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Available all 72 locations"
+        }
+      ],
+      "photo_path": "/images/clinics/sg-raffles-mbfc.jpg",
+      "content": {
+        "services_summary": "No specific travel medicine or vaccination services are mentioned on the website. Raffles Medical MBFC offers general primary care and family medicine services, but travel-specific offerings such as pre-travel vaccinations, yellow fever immunization, or travel health consultations are not detailed in the available content.",
+        "travel_specialist": false,
+        "yf_licensed": false,
+        "certifications": [
+          "MOH certified (Raffles Hospital for acute trauma care)"
+        ],
+        "consult_note": null,
+        "highlight": "General healthcare provider; travel services not specified"
+      }
+    },
+    {
+      "clinic_id": "sg-sgh-travel",
+      "clinic_name": "SGH Travel Clinic",
+      "parent_chain": "Singapore General Hospital",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "Outram Rd, Block 6 Level 1",
+      "postal_code": "169608",
+      "latitude": 1.2799,
+      "longitude": 103.8347,
+      "phone": "+65 6321 4377",
+      "website_url": "https://www.sgh.com.sg/our-specialties/travel-clinic",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Outram Park MRT (EW16/NE3/TE17)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-13:00 & 14:00-17:30 (walk-in last reg 12:30 & 16:30)",
+      "languages": [
+        "English",
+        "Mandarin",
+        "Malay",
+        "Tamil"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": null,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Public hospital — subsidised rates available"
+        }
+      ],
+      "photo_path": "/images/clinics/sg-sgh-travel.jpg",
+      "content": {
+        "services_summary": "SGH Travel Clinic is a dedicated travel medicine service at Singapore General Hospital, operated by infectious disease and travel medicine specialists. The clinic offers comprehensive pre-travel health assessments, the full range of travel vaccinations including yellow fever (ICVP), and post-travel consultations for returning patients with illness. As one of Singapore's oldest public hospital travel clinics, SGH serves both individual travellers and occupational health referrals requiring specialist-level travel medicine advice.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "Department of Infectious Diseases — SGH",
+          "MOH Yellow Fever Vaccination Centre"
+        ],
+        "consult_note": "Specialist travel medicine consultation — appointment recommended",
+        "highlight": "Specialist ID-run travel clinic, Singapore General Hospital"
       }
     },
     {
@@ -1505,6 +1633,140 @@
       }
     },
     {
+      "clinic_id": "sg-ttsh-travel",
+      "clinic_name": "TTSH Travellers Health & Vaccination",
+      "parent_chain": "Tan Tock Seng Hospital",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "11 Jalan Tan Tock Seng",
+      "postal_code": "308433",
+      "latitude": 1.3215,
+      "longitude": 103.8474,
+      "phone": "+65 6357 7000",
+      "website_url": "https://www.ttsh.com.sg",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Novena MRT (NS20)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "Mon-Fri 8:00-17:30",
+      "languages": [
+        "English",
+        "Mandarin",
+        "Malay",
+        "Tamil"
+      ],
+      "status": "VERIFY",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever",
+          "available": true,
+          "price_local": 250,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Public hospital rate. Source: Supabase admin-edited"
+        },
+        {
+          "vaccine_slug": "rabies",
+          "vaccine_name": "Rabies",
+          "available": true,
+          "price_local": 250,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Public hospital rate"
+        },
+        {
+          "vaccine_slug": "typhoid",
+          "vaccine_name": "Typhoid",
+          "available": true,
+          "price_local": 40,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Public hospital rate — subsidised available"
+        }
+      ],
+      "photo_path": "/images/clinics/sg-ttsh-travel.jpg",
+      "content": {
+        "services_summary": "TTSH's Travellers' Health and Vaccination Clinic (THVC) is run by the Department of Infectious Diseases — Singapore's foremost authority on travel medicine. Specialist infectious disease doctors and nurses provide personalised pre-travel consultations covering destination-specific risk assessment, vaccination history review, immunity blood testing, and anti-malarial prophylaxis. Vaccines include yellow fever, typhoid, Japanese encephalitis, hepatitis A/B, meningococcal, and rabies. Post-travel fever and tropical illness care also available.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "Department of Infectious Diseases — TTSH",
+          "MOH Yellow Fever Vaccination Centre"
+        ],
+        "consult_note": "Appointment required — Mon–Fri 8am–5:30pm, last appt 5pm",
+        "highlight": "Infectious Disease-led travel clinic, Tan Tock Seng Hospital"
+      }
+    },
+    {
+      "clinic_id": "sg-ucc-kitchener",
+      "clinic_name": "Urgent Care Clinic International",
+      "parent_chain": "Independent",
+      "country": "Singapore",
+      "country_code": "SG",
+      "city": "Singapore",
+      "address": "181 Kitchener Rd, #01-01 Novotel Singapore",
+      "postal_code": "208533",
+      "latitude": 1.3097,
+      "longitude": 103.8568,
+      "phone": "+65 6910 5388",
+      "website_url": "https://www.urgentcareclinic.sg/",
+      "booking_url": null,
+      "email": null,
+      "nearest_transit": "Farrer Park MRT (NE8)",
+      "walk_in": true,
+      "appt_required": false,
+      "hours_summary": "TBC",
+      "languages": [
+        "English"
+      ],
+      "status": "LIVE",
+      "vaccines": [
+        {
+          "vaccine_slug": "yellow-fever",
+          "vaccine_name": "Yellow Fever (Stamaril)",
+          "available": true,
+          "price_local": 250,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Admin-edited"
+        },
+        {
+          "vaccine_slug": "rabies",
+          "vaccine_name": "Rabies (Rabipur)",
+          "available": true,
+          "price_local": 300,
+          "price_note": null,
+          "price_currency": "SGD",
+          "price_incl_consult": null,
+          "price_last_updated": null,
+          "notes": "Admin-edited"
+        }
+      ],
+      "photo_path": "/images/clinics/sg-ucc-kitchener.jpg",
+      "content": {
+        "services_summary": "Urgent Care Clinic International is an ISTM (International Society of Travel Medicine) member clinic located at the Novotel Singapore on Kitchener Road. The clinic offers walk-in yellow fever vaccinations (Stamaril) and rabies vaccinations (Rabipur), alongside urgent care consultations, specialist referrals, and on-site diagnostics. Its hotel location and walk-in policy make it a convenient option for travellers requiring travel vaccinations with no prior appointment.",
+        "travel_specialist": true,
+        "yf_licensed": true,
+        "certifications": [
+          "ISTM Member Clinic",
+          "MOH Yellow Fever Vaccination Centre"
+        ],
+        "consult_note": "Walk-in accepted, no appointment needed",
+        "highlight": "ISTM-certified travel clinic, walk-in yellow fever & rabies"
+      }
+    },
+    {
       "clinic_id": "sg-unihealth-jurong",
       "clinic_name": "Unihealth 24-HR Clinic Jurong East",
       "parent_chain": "Unihealth",
@@ -1580,7 +1842,7 @@
           "vaccine_slug": "typhoid",
           "vaccine_name": "Typhoid (Typhim Vi)",
           "available": true,
-          "price_local": 42.0,
+          "price_local": 42,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
@@ -1599,66 +1861,6 @@
         ],
         "consult_note": null,
         "highlight": "24/7 clinic with preventive medicine services"
-      }
-    },
-    {
-      "clinic_id": "sg-ucc-kitchener",
-      "clinic_name": "Urgent Care Clinic International",
-      "parent_chain": "Independent",
-      "country": "Singapore",
-      "country_code": "SG",
-      "city": "Singapore",
-      "address": "181 Kitchener Rd, #01-01 Novotel Singapore",
-      "postal_code": "208533",
-      "latitude": 1.3097,
-      "longitude": 103.8568,
-      "phone": "+65 6910 5388",
-      "website_url": "https://www.urgentcareclinic.sg/",
-      "booking_url": null,
-      "email": null,
-      "nearest_transit": "Farrer Park MRT (NE8)",
-      "walk_in": true,
-      "appt_required": false,
-      "hours_summary": "TBC",
-      "languages": [
-        "English"
-      ],
-      "status": "LIVE",
-      "vaccines": [
-        {
-          "vaccine_slug": "yellow-fever",
-          "vaccine_name": "Yellow Fever (Stamaril)",
-          "available": true,
-          "price_local": 250.0,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Admin-edited"
-        },
-        {
-          "vaccine_slug": "rabies",
-          "vaccine_name": "Rabies (Rabipur)",
-          "available": true,
-          "price_local": 300.0,
-          "price_note": null,
-          "price_currency": "SGD",
-          "price_incl_consult": null,
-          "price_last_updated": null,
-          "notes": "Admin-edited"
-        }
-      ],
-      "photo_path": "/images/clinics/sg-ucc-kitchener.jpg",
-      "content": {
-        "services_summary": "Urgent Care Clinic International is an ISTM (International Society of Travel Medicine) member clinic located at the Novotel Singapore on Kitchener Road. The clinic offers walk-in yellow fever vaccinations (Stamaril) and rabies vaccinations (Rabipur), alongside urgent care consultations, specialist referrals, and on-site diagnostics. Its hotel location and walk-in policy make it a convenient option for travellers requiring travel vaccinations with no prior appointment.",
-        "travel_specialist": true,
-        "yf_licensed": true,
-        "certifications": [
-          "ISTM Member Clinic",
-          "MOH Yellow Fever Vaccination Centre"
-        ],
-        "consult_note": "Walk-in accepted, no appointment needed",
-        "highlight": "ISTM-certified travel clinic, walk-in yellow fever & rabies"
       }
     },
     {
@@ -1692,7 +1894,7 @@
           "vaccine_slug": "yellow-fever",
           "vaccine_name": "Yellow Fever",
           "available": true,
-          "price_local": 235.0,
+          "price_local": 235,
           "price_note": null,
           "price_currency": "SGD",
           "price_incl_consult": null,
